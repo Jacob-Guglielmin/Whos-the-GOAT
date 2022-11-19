@@ -1,0 +1,27 @@
+{
+  "name": "dendron-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@dendronhq/dendron-11ty-legacy": "^0.64.2",
+    "@dendronhq/dendron-cli": "^0.85.0"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacob-Guglielmin/Whos-the-GOAT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Jacob-Guglielmin/Whos-the-GOAT/issues"
+  },
+  "homepage": "https://github.com/Jacob-Guglielmin/Whos-the-GOAT#readme",
+  "description": ""
+}
