@@ -84,7 +84,14 @@ body {
     grid-template-columns: 0 7vw 82vw 7vw 0;
     row-gap: 3vh;
     column-gap: 1vw;
-    margin-bottom: 16vh;
+    margin-bottom: 23vh;
+}
+
+#mainContainer > h1 {
+    width: 100%;
+    text-align: center;
+    font: 5vh Rubik-Medium;
+    grid-column: 3;
 }
 
 .rank {
@@ -154,6 +161,59 @@ body {
 .leaderboardWinrate {
     font-family: Rubik-Medium;
     grid-column: 4;
+}
+
+.recentIndicatorContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 4;
+}
+
+.recentIndicator {
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 12vh;
+    height: 12vh;
+}
+
+.upArrow {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48' width='48'%3E%3Cpath d='M14.15 30.75 12 28.6l12-12 12 11.95-2.15 2.15L24 20.85Z'/%3E%3C/svg%3E");
+    filter: brightness(0) invert() brightness(0.5) sepia(1) saturate(10000%) hue-rotate(120deg) brightness(1.8);
+}
+
+.downArrow {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48' width='48'%3E%3Cpath d='m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z'/%3E%3C/svg%3E");
+    filter: brightness(0) invert() brightness(0.5) sepia(1) saturate(10000%);
+}
+
+.noChange {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48' width='48'%3E%3Cpath d='M10 25.5v-3h28v3Z'/%3E%3C/svg%3E");
+    filter: brightness(0) invert() brightness(0.5) sepia(1) saturate(10000%) hue-rotate(5deg) brightness(100);
+    width: 6vh;
+}
+
+#bottomBar {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+#showMore {
+    background: #262626;
+    font: 3vh Rubik-Light;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    padding: 1.5vh 3vh;
+    cursor: pointer;
+}
+
+#showMore:hover {
+    border-color: #bbbbbb;
+    color: #bbbbbb;
 }
 
 @font-face {

@@ -51,6 +51,10 @@ body {
     grid-template-rows: 6% 88% 6%;
 }
 
+#errorMessage {
+    grid-column: 2;
+}
+
 #choiceLeft {
     grid-column: 2;
 }
