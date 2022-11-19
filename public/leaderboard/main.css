@@ -158,15 +158,15 @@ body {
 
 @font-face {
     font-family: "BowlbyOne";
-    src: url("BowlbyOne.ttf");
+    src: url("assets/BowlbyOne.ttf");
 }
 
 @font-face {
     font-family: "Rubik-Light";
-    src: url("Rubik-Light.ttf");
+    src: url("assets/Rubik-Light.ttf");
 }
 
 @font-face {
     font-family: "Rubik-Medium";
-    src: url("Rubik-Medium.ttf");
+    src: url("assets/Rubik-Medium.ttf");
 }
