@@ -8,7 +8,7 @@ body {
     position: fixed;
     display: grid;
     width: 100vw;
-    grid-template-columns: 20% 60% 10% 10%;
+    grid-template-columns: 20% 60% 20%;
     border-bottom: 2px solid #ffffff;
 }
 
@@ -23,14 +23,13 @@ body {
 }
 
 #topButtons {
-    width: 10vw;
-    grid-column: 4;
+    width: 20vw;
+    grid-column: 3;
 }
 
-#leaderboardButton {
+#topButtons > a {
     display: block;
     float: right;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48' width='48'%3E%3Cpath d='M8 40V18h7v22Zm12.5 0V8h7v32ZM33 40V26h7v14Z' /%3E%3C/svg%3E");
     background-repeat: no-repeat no-repeat;
     background-position: center center;
     background-size: cover;
@@ -38,6 +37,14 @@ body {
     width: 6vh;
     height: 6vh;
     filter: brightness(0) invert();
+}
+
+#leaderboardButton {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48' width='48'%3E%3Cpath d='M8 40V18h7v22Zm12.5 0V8h7v32ZM33 40V26h7v14Z' /%3E%3C/svg%3E");
+}
+
+#submissionsButton {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48' width='48'%3E%3Cpath d='M24 25.6 7 14.45v22.5h19.7v3.9H7q-1.55 0-2.7-1.175Q3.15 38.5 3.15 36.95v-25.9q0-1.55 1.15-2.725T7 7.15h34q1.55 0 2.7 1.175 1.15 1.175 1.15 2.725V27.2H41V14.45Zm0-3.65 17-10.9H7ZM39.2 46.7l-2.55-2.5L40 40.85H29.7V37.2H40l-3.4-3.4 2.6-2.55L46.95 39ZM7 14.45v25.3V27.2 27.35v-16.3Z'/%3E%3C/svg%3E");
 }
 
 #mainContainer {
