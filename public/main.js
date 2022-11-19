@@ -93,7 +93,7 @@ function displayMatchup() {
 }
 
 function clickLeft() {
-    //Don't do anything if the website is broken
+    // Don't do anything if the website is broken
     if (currentMatchup == null) {
         return;
     }
@@ -126,7 +126,7 @@ function clickLeft() {
 }
 
 function clickRight() {
-    //Don't do anything if the website is broken
+    // Don't do anything if the website is broken
     if (currentMatchup == null) {
         return;
     }
@@ -158,7 +158,7 @@ function clickRight() {
     newMatchup();
 }
 
+// Event listeners and functions to run on page load
 document.getElementById("choiceLeft").addEventListener("click", clickLeft);
 document.getElementById("choiceRight").addEventListener("click", clickRight);
-
 newMatchup();
