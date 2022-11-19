@@ -2,11 +2,39 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Who is the GOAT</title>
         <link rel="stylesheet" href="main.css" />
+        <script src="database.js" type="module" defer></script>
         <script src="main.js" defer></script>
     </head>
     <body>
-        <h1>Who is the GOAT</h1>
+        <div id="topBar">
+            <div id="title">WHO IS THE GOAT</div>
+            <div id="topButtons">
+                <a id="leaderboardButton" href="./leaderboard"></a>
+            </div>
+        </div>
+        <div id="mainContainer">
+            <div id="choiceLeft" class="choice">
+                <div class="imageCenterer">
+                    <div id="imageContainerLeft" class="choiceImageContainer">
+                        <img id="imageLeft" class="choiceImage" />
+                    </div>
+                </div>
+                <div id="nameLeft" class="choiceName"></div>
+                <div id="blurbLeft" class="choiceBlurb"></div>
+            </div>
+            <div id="choiceRight" class="choice">
+                <div class="imageCenterer">
+                    <div id="imageContainerRight" class="choiceImageContainer">
+                        <img id="imageRight" class="choiceImage" />
+                    </div>
+                </div>
+                <div id="nameRight" class="choiceName"></div>
+                <div id="blurbRight" class="choiceBlurb"></div>
+            </div>
+        </div>
     </body>
 </html>

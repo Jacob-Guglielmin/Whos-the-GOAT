@@ -9,11 +9,7 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
+    "trailingSlash": false,
+    "cleanUrls": true
   }
 }
