@@ -29,9 +29,8 @@ function createLeaderboardEntry(name, data, rank) {
     entry.querySelector(".leaderboardElo").innerText = Math.round(data.Elo);
     entry.querySelector(".leaderboardWinrate").innerText = ((data.Wins / (data.Wins + data.Losses || 1)) * 100).toFixed(2) + "%";
     entry.querySelector(".leaderboardImage").src = data.Image;
-    let recentWins = data.Recent.toString()
-        .split("")
-        .map((x) => parseInt(x))
+    let recentWins = data.Recent.split("")
+        .map((x) => (x == "W" ? 1 : 0))
         .reduce((a, b) => a + b, 0);
     entry.querySelector(".recentIndicator").classList.add(recentWins > data.Recent.toString().length / 2 ? "upArrow" : recentWins < data.Recent.toString().length / 2 ? "downArrow" : "noChange");
     return entry;
