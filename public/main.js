@@ -103,12 +103,12 @@ function displayMatchup() {
     }
 }
 
-function floatGoat(num) {
+function floatGoat(e, num) {
     // make num amount of floatGoats
     for (let i = 0; i < num; i++) {
         // let goat = goat.png
         let goat = document.createElement("img");
-        goat.src = "assets/goat.png";
+        goat.src = Math.random() < 0.5 ? "assets/goat.png" : "assets/goat2.png";
 
         // randomize dimensions of goat
         let goatSize = Math.floor(Math.random() * 60) + 10;
@@ -117,45 +117,45 @@ function floatGoat(num) {
 
         // set goat position to position of cursor
         goat.style.position = "absolute";
-        let startX = event.clientX
-        let startY = event.clientY
+        let startX = e.clientX;
+        let startY = e.clientY;
         let randomFactorX = Math.floor(Math.random() * 50) - 25;
         let randomFactorY = Math.floor(Math.random() * 50) - 25;
-        goat.style.left = (startX - (goatSize / 2)) + randomFactorX + "px";
+        goat.style.left = startX - goatSize / 2 + randomFactorX + "px";
         goat.style.top = startY + randomFactorY + "px";
 
-        // randomize rotation of goat 
-        let goatRotation = Math.floor(Math.random() * 40) - 20;
+        // randomize rotation of goat
+        let goatRotation = Math.floor(Math.random() * 60) - 30;
         goat.style.transform = "rotate(" + goatRotation + "deg)";
 
         // append goat to body and set opacity
         goat.style.opacity = "1";
-        goat.style.transition = "opacity 2s";
+        goat.style.transition = "opacity 1s";
         goat.style.zIndex = "100";
         document.body.appendChild(goat);
 
         // FLOAT GOAT
         setInterval(() => {
-            goat.style.top = parseInt(goat.style.top) - 1 + "px";
+            goat.style.top = parseFloat(goat.style.top) - 1.3 + "px";
             if (randomFactorX <= -17) {
-                goat.style.left = parseInt(goat.style.left) - 0.3 + "px";
+                goat.style.left = parseFloat(goat.style.left) - 0.3 + "px";
             } else if (randomFactorX <= -8 && randomFactorX > -17) {
-                goat.style.left = parseInt(goat.style.left) - 0.15 + "px";
+                goat.style.left = parseFloat(goat.style.left) - 0.15 + "px";
             } else if (randomFactorX < 0 && randomFactorX > -8) {
-                goat.style.left = parseInt(goat.style.left) - 0.05 + "px";
+                goat.style.left = parseFloat(goat.style.left) - 0.05 + "px";
             } else if (randomFactorX >= 0 && randomFactorX < 8) {
-                goat.style.left = parseInt(goat.style.left) + 0.05 + "px";
+                goat.style.left = parseFloat(goat.style.left) + 0.05 + "px";
             } else if (randomFactorX >= 8 && randomFactorX < 17) {
-                goat.style.left = parseInt(goat.style.left) + 0.15 + "px";
+                goat.style.left = parseFloat(goat.style.left) + 0.15 + "px";
             } else if (randomFactorX >= 17) {
-                goat.style.left = parseInt(goat.style.left) + 0.3 + "px";
+                goat.style.left = parseFloat(goat.style.left) + 0.3 + "px";
             }
         }, 10);
 
         // BLOAT GOAT
         setInterval(() => {
-            goat.style.width = parseInt(goat.style.width) + 0.3 + "px";
-            goat.style.height = parseInt(goat.style.height) + 0.3 + "px";
+            goat.style.width = parseFloat(goat.style.width) + 0.3 + "px";
+            goat.style.height = parseFloat(goat.style.height) + 0.3 + "px";
         }, 10);
 
         // delete goat after 2 seconds
@@ -163,19 +163,42 @@ function floatGoat(num) {
             goat.style.opacity = "0";
             setTimeout(() => {
                 goat.remove();
-            }, 2000);
-        }, 300);
+            }, 1000);
+        }, 100);
     }
 
     // load goat.mp3 and play it
-    let goatSound = new Audio("assets/goat.mp3");
+    let track = Math.random() < 0.01 ? 0 : randomBetween(1, 9);
+    let goatSound = new Audio("assets/bleat" + track + ".mp3");
     goatSound.play();
 }
 
-// shh
-function secretEvent(){let e=document.createElement("img");e.src="assets/goat2.png",e.style.height="50%",e.style.width=parseInt(e.style.height),e.style.position="absolute",e.style.left="-100px",e.style.top="53%",e.style.zIndex="100",topBar.appendChild(e);let t=setInterval(()=>{e.style.left=parseInt(e.style.left)+1+"px"},20);setTimeout(()=>{clearInterval(t),e.remove()},35e3)}setInterval(()=>{10>Math.floor(100*Math.random())&&secretEvent()},6e4);
+function secretEvent() {
+    let goat = document.createElement("img");
+    goat.src = "assets/goat2.png";
+    goat.classList.add("walkingGoat");
+    goat.style.left = Math.floor(-window.innerHeight * 0.05) + "px";
+    topBar.appendChild(goat);
 
-function clickLeft() {
+    let goatWalk = setInterval(() => {
+        goat.style.left = parseInt(goat.style.left) + 1 + "px";
+
+        if (parseInt(goat.style.left) > window.innerWidth) {
+            console.log("GOAT HAS LEFT THE BUILDING");
+            clearInterval(goatWalk);
+            goat.remove();
+        }
+    }, 20);
+}
+
+setInterval(() => {
+    let random = Math.floor(Math.random() * 100);
+    if (random < 50) {
+        secretEvent();
+    }
+}, 60000);
+
+function clickLeft(e) {
     // Don't do anything if the website is broken
     if (currentMatchup == null) {
         return;
@@ -209,13 +232,13 @@ function clickLeft() {
         Recent: right.Recent
     });
 
-    floatGoat(7);
+    floatGoat(e, randomBetween(4, 9));
 
     // Display new matchup
     newMatchup();
 }
 
-function clickRight() {
+function clickRight(e) {
     // Don't do anything if the website is broken
     if (currentMatchup == null) {
         return;
@@ -249,10 +272,15 @@ function clickRight() {
         Recent: right.Recent
     });
 
-    floatGoat(7);
+    floatGoat(e, randomBetween(4, 9));
 
     // Display new matchup
     newMatchup();
+}
+
+//Generate a random number between min and max (inclusive)
+function randomBetween(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
 // Event listeners and functions to run on page load

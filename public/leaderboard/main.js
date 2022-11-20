@@ -14,7 +14,7 @@ function createLeaderboardEntry(name, data, rank) {
     if (rank <= 3) {
         rankImage = document.createElement("img");
         if (rank == 1) {
-            rankImage.src = "assets/goat.png";
+            rankImage.src = "../assets/goat.png";
             entry.querySelector(".rank").classList.add("shakeOnHover");
         } else if (rank == 2) {
             rankImage.src = "assets/silverMedal.png";
