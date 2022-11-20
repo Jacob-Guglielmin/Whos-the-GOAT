@@ -92,19 +92,45 @@ function updateDisplay() {
     } else {
         imageDisplay.style.display = "none";
     }
+
+    nameInput.style.borderColor = nameValid() ? "#ffffff" : "#ff0000";
+    dateInput.style.borderColor = dateValid() ? "#ffffff" : "#ff0000";
+    blurbInput.style.borderColor = blurbValid() ? "#ffffff" : "#ff0000";
 }
 
 function updateFields() {
     personName = nameInput.value;
     date = dateInput.value;
     blurb = blurbInput.value;
-    imageURL = imageURLInput.value;
+
+    if (imageURLInput.value !== imageURL) {
+        imageURL = imageURLInput.value;
+
+        imageURLInput.style.borderColor = "#ffff00";
+        submitButton.disabled = true;
+    }
 
     validateImageLink();
 }
 
 function validateInput() {
-    return personName !== "" && date !== "" && blurb !== "" && imageURL !== "" && blurb.length <= 250 && imageURL.length <= 500 && mostRecentImageValidated === mostRecentImage && personName.match(/^[a-zA-Z0-9 \.\-\(\)]+$/) != null && date.match(/^\((born |\d{1,4}( BC)?-)\d{1,4}(( BC)|( AD))?\)$/) != null && blurb.match(/^[\x00-\x7F]+$/) != null;
+    return nameValid() && dateValid() && blurbValid() && imageURLValid();
+}
+
+function nameValid() {
+    return personName !== "" && personName.match(/^[a-zA-Z0-9 \.\-\(\)]+$/) != null;
+}
+
+function dateValid() {
+    return date !== "" && date.match(/^\((born |\d{1,4}( BC)?-)\d{1,4}(( BC)|( AD))?\)$/) != null;
+}
+
+function blurbValid() {
+    return blurb !== "" && blurb.length <= 250 && blurb.match(/^[\x00-\x7F]+$/) != null;
+}
+
+function imageURLValid() {
+    return imageURL !== "" && imageURL.length <= 500 && mostRecentImageValidated === mostRecentImage;
 }
 
 function validateImageLink() {
@@ -112,6 +138,7 @@ function validateImageLink() {
         mostRecentImageChecked = ++mostRecentImage;
         mostRecentImageChecked = mostRecentImage;
         mostRecentValidImageURL = "";
+        imageURLInput.style.borderColor = "#ff0000";
         submitButton.disabled = true;
     } else {
         let thisImageId = ++mostRecentImage;
@@ -123,6 +150,7 @@ function validateImageLink() {
                 mostRecentValidImageURL = thisImageURL;
                 mostRecentImageValidated = thisImageId;
                 submitButton.disabled = !validateInput();
+                imageURLInput.style.borderColor = "#ffffff";
                 updateDisplay();
             }
         };
@@ -131,10 +159,12 @@ function validateImageLink() {
                 mostRecentImageChecked = thisImageId;
                 mostRecentValidImageURL = "";
                 submitButton.disabled = true;
+                imageURLInput.style.borderColor = "#ff0000";
                 updateDisplay();
             }
         };
         img.src = thisImageURL;
+        updateDisplay();
     }
 }
 
