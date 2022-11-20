@@ -10,6 +10,8 @@ body {
     width: 100vw;
     grid-template-columns: 20% 60% 20%;
     border-bottom: 2px solid #ffffff;
+    background-color: #262626;
+    z-index: 10;
 }
 
 #title {
@@ -135,4 +137,12 @@ body {
 @font-face {
     font-family: "Rubik-Medium";
     src: url("assets/Rubik-Medium.ttf");
+}
+
+.walkingGoat {
+    height: 5vh;
+    width: 5vh;
+    position: absolute;
+    top: 5vh;
+    z-index: 100;
 }
