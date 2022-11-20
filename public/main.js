@@ -11,6 +11,17 @@ const keys = ["Adele", "Adolf Hitler", "Albert Einstein", "Barack Obama", "Beeth
 
 let currentMatchup = null;
 
+// Consumes string of up to 10 Ws and Ls, appends outcome
+function updateRecent(past, outcome) {
+    if (past == "") {
+        return outcome;
+    } else if (past.length >= 10) {
+        return past.substring(1) + outcome;
+    } else {
+        return past + outcome;
+    }
+}
+
 // Consumes winner rating and loser rating, produces change to be applied
 function elo(winner, loser) {
     // Determines kfactor for matchup (essentially volatility) based on average skill of players
@@ -109,6 +120,9 @@ function clickLeft() {
     left.Wins += 1;
     right.Losses += 1;
 
+    left.Recent = updateRecent(left.Recent, "W");
+    right.Recent = updateRecent(right.Recent, "L");
+
     // Update database
     updatePerson(currentMatchup.left.name, {
         Elo: left.Elo,
@@ -141,6 +155,9 @@ function clickRight() {
 
     right.Wins += 1;
     left.Losses += 1;
+
+    right.Recent = updateRecent(right.Recent, "W");
+    left.Recent = updateRecent(left.Recent, "L");
 
     // Update database
     updatePerson(currentMatchup.left.name, {
