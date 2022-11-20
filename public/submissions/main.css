@@ -86,18 +86,25 @@ body {
     padding: 3vh;
 }
 
+#formBottom {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 15vh 1fr;
+}
+
 #submitButton {
     background: #262626;
-    font: 2vh Rubik-Light;
+    font: 2.5vh Rubik-Light;
     color: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 10px;
     padding: 1vh 2vh;
     cursor: pointer;
-    text-align: center;
-    margin: 1vh;
     box-sizing: border-box;
-    margin-top: 20px;
+    grid-column: 2;
+    width: 15vh;
+    height: 6vh;
+    margin: 2vh 0;
 }
 #submitButton:hover {
     border-color: #bbbbbb;
@@ -107,6 +114,20 @@ body {
     border-color: #666666;
     color: #666666;
     cursor: default;
+}
+
+#submissionInfo {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 2vh;
+    font: 3vh Rubik-Light;
+    text-align: right;
+    grid-column: 3;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 2s;
 }
 
 input:focus,
@@ -146,6 +167,7 @@ select:focus {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: none;
 }
 
 .choiceName {

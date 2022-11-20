@@ -5,6 +5,7 @@ const nameInput = document.getElementById("nameInput"),
     blurbInput = document.getElementById("blurbInput"),
     imageURLInput = document.getElementById("imageURLInput"),
     submitButton = document.getElementById("submitButton"),
+    submissionInfo = document.getElementById("submissionInfo"),
     nameDisplay = document.getElementById("nameDisplay"),
     blurbDisplay = document.getElementById("blurbDisplay"),
     imageDisplay = document.getElementById("imageDisplay");
@@ -21,6 +22,58 @@ let mostRecentImage = 0,
 
 function submit() {
     if (validateInput()) {
+        let submission = {};
+        submission[personName] = {
+            Blurb: blurb,
+            Date: date,
+            Elo: 1000,
+            Image: mostRecentValidImageURL,
+            Losses: 0,
+            Recent: "",
+            Wins: 0
+        };
+
+        createSubmission(submission)
+            .then(() => {
+                nameInput.value = "";
+                dateInput.value = "";
+                blurbInput.value = "";
+                imageURLInput.value = "";
+                update();
+
+                submissionInfo.style.color = "#ffffff";
+
+                submissionInfo.textContent = "Submission successful";
+
+                //This is a hack to force the browser to re-render the element with opacity 1 instantly
+                submissionInfo.style.transition = "none";
+                submissionInfo.style.opacity = 1;
+                submissionInfo.offsetHeight;
+                submissionInfo.style.transition = "";
+
+                //Hide the element again
+                setTimeout(() => {
+                    submissionInfo.style.opacity = 0;
+                }, 3000);
+            })
+            .catch((error) => {
+                console.error(error);
+
+                submissionInfo.style.color = "#ff0000";
+
+                submissionInfo.textContent = "Submission failed";
+
+                //This is a hack to force the browser to re-render the element with opacity 1 instantly
+                submissionInfo.style.transition = "none";
+                submissionInfo.style.opacity = 1;
+                submissionInfo.offsetHeight;
+                submissionInfo.style.transition = "";
+
+                //Hide the element again
+                setTimeout(() => {
+                    submissionInfo.style.opacity = 0;
+                }, 3000);
+            });
     }
 }
 
@@ -34,7 +87,7 @@ function updateDisplay() {
     blurbDisplay.textContent = blurb;
 
     if (mostRecentValidImageURL != "") {
-        imageDisplay.src = imageURL;
+        imageDisplay.src = mostRecentValidImageURL;
         imageDisplay.style.display = "block";
     } else {
         imageDisplay.style.display = "none";
