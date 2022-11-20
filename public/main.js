@@ -7,7 +7,7 @@ const nameLeft = document.getElementById("nameLeft"),
     blurbLeft = document.getElementById("blurbLeft"),
     blurbRight = document.getElementById("blurbRight");
 
-const keys = ["Adele", "Adolf Hitler", "Albert Einstein", "Barack Obama", "Beethoven", "Beyonce", "Cristiano Ronaldo", "Donald Trump", "Dream", "Ed Sheeran", "Elton John", "Elvis Presley", "Eminem", "Isaac Newton", "Jake Paul", "Johannes Gutenberg", "Justin Bieber", "Justin Trudeau", "KSI", "Kanye West", "Lebron James", "Leonardo da Vinci", "Logan Paul", "Madonna", "Mahatma Gandhi", "Michael Jackson", "Michael Jordan", "Michael Phelps", "Mozart", "MrBeast", "PewDiePie", "Rihanna", "Usain Bolt", "William Shakespeare"];
+const keys = ["Adele", "Adolf Hitler", "Albert Einstein", "Barack Obama", "Beethoven", "Beyonce", "Cristiano Ronaldo", "Donald Trump", "Dream", "Ed Sheeran", "Elton John", "Elvis Presley", "Eminem", "Isaac Newton", "Jake Paul", "Johannes Gutenberg", "Justin Bieber", "Justin Trudeau", "KSI", "Kanye West", "Lebron James", "Leonardo da Vinci", "Logan Paul", "Madonna", "Mahatma Gandhi", "Michael Jackson", "Michael Jordan", "Michael Phelps", "Mozart", "MrBeast", "PewDiePie", "Rihanna", "Usain Bolt", "William Shakespeare", "Sal Khan"];
 
 let currentMatchup = null;
 
