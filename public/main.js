@@ -103,6 +103,80 @@ function displayMatchup() {
     }
 }
 
+function floatGoat(num) {
+    // make num amount of floatGoats
+    for (let i = 0; i < num; i++) {
+        // let goat = goat.png
+        let goat = document.createElement("img");
+        goat.src = "assets/goat.png";
+
+        // randomize dimensions of goat
+        let goatSize = Math.floor(Math.random() * 60) + 10;
+        goat.style.width = goatSize + "px";
+        goat.style.height = goatSize + "px";
+
+        // set goat position to position of cursor
+        goat.style.position = "absolute";
+        let startX = event.clientX
+        let startY = event.clientY
+        let randomFactorX = Math.floor(Math.random() * 50) - 25;
+        let randomFactorY = Math.floor(Math.random() * 50) - 25;
+        goat.style.left = (startX - (goatSize / 2)) + randomFactorX + "px";
+        goat.style.top = startY + randomFactorY + "px";
+
+        // randomize rotation of goat 
+        let goatRotation = Math.floor(Math.random() * 40) - 20;
+        goat.style.transform = "rotate(" + goatRotation + "deg)";
+
+        // append goat to body and set opacity
+        goat.style.opacity = "1";
+        goat.style.transition = "opacity 2s";
+        goat.style.zIndex = "100";
+        document.body.appendChild(goat);
+
+        // FLOAT GOAT
+        setInterval(() => {
+            goat.style.top = parseInt(goat.style.top) - 1 + "px";
+        }, 7);
+        setInterval(() => {
+            if (randomFactorX <= -17) {
+                goat.style.left = parseInt(goat.style.left) - 1.5 + "px";
+            } else if (randomFactorX <= -8 && randomFactorX > -17) {
+                goat.style.left = parseInt(goat.style.left) - 1 + "px";
+            } else if (randomFactorX < 0 && randomFactorX > -8) {
+                goat.style.left = parseInt(goat.style.left) - 0.25 + "px";
+            } else if (randomFactorX >= 0 && randomFactorX < 8) {
+                goat.style.left = parseInt(goat.style.left) + 0.25 + "px";
+            } else if (randomFactorX >= 8 && randomFactorX < 17) {
+                goat.style.left = parseInt(goat.style.left) + 1 + "px";
+            } else if (randomFactorX >= 17) {
+                goat.style.left = parseInt(goat.style.left) + 1.5 + "px";
+            }
+        }, 50);
+
+        // BLOAT GOAT
+        setInterval(() => {
+            goat.style.width = parseInt(goat.style.width) + 1 + "px";
+            goat.style.height = parseInt(goat.style.height) + 1 + "px";
+        }, 30);
+
+        // delete goat after 2 seconds
+        setTimeout(() => {
+            goat.style.opacity = "0";
+            setTimeout(() => {
+                goat.remove();
+            }, 2000);
+        }, 300);
+    }
+
+    // load goat.mp3 and play it
+    let goatSound = new Audio("assets/goat.mp3");
+    goatSound.play();
+}
+
+// shh
+function secretEvent(){let e=document.createElement("img");e.src="assets/goat2.png",e.style.height="50%",e.style.width=parseInt(e.style.height),e.style.position="absolute",e.style.left="-100px",e.style.top="53%",e.style.zIndex="100",topBar.appendChild(e);let t=setInterval(()=>{e.style.left=parseInt(e.style.left)+1+"px"},20);setTimeout(()=>{clearInterval(t),e.remove()},35e3)}setInterval(()=>{10>Math.floor(100*Math.random())&&secretEvent()},6e4);
+
 function clickLeft() {
     // Don't do anything if the website is broken
     if (currentMatchup == null) {
@@ -136,6 +210,8 @@ function clickLeft() {
         Losses: right.Losses,
         Recent: right.Recent
     });
+
+    floatGoat(7);
 
     // Display new matchup
     newMatchup();
@@ -174,6 +250,8 @@ function clickRight() {
         Losses: right.Losses,
         Recent: right.Recent
     });
+
+    floatGoat(7);
 
     // Display new matchup
     newMatchup();
