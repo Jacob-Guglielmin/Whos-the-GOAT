@@ -58,7 +58,7 @@ body {
 
 .shortForm {
     height: 7vh;
-    width: calc((50vw - 2vh - 4px) / 2);  
+    width: calc((50vw - 2vh - 4px) / 2);
     border: 1px solid #ffffff;
     background-color: #262626;
     color: #ffffff;
@@ -99,21 +99,23 @@ body {
     color: #bbbbbb;
 }
 
-input:focus, textarea:focus, select:focus {
+input:focus,
+textarea:focus,
+select:focus {
     outline: none;
 }
 
 @font-face {
     font-family: "BowlbyOne";
-    src: url("BowlbyOne.ttf");
+    src: url("assets/BowlbyOne.ttf");
 }
 
 @font-face {
     font-family: "Rubik-Light";
-    src: url("Rubik-Light.ttf");
+    src: url("assets/Rubik-Light.ttf");
 }
 
 @font-face {
     font-family: "Rubik-Medium";
-    src: url("Rubik-Medium.ttf");
+    src: url("assets/Rubik-Medium.ttf");
 }
