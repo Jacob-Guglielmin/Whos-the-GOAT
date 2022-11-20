@@ -127,12 +127,14 @@ function clickLeft() {
     updatePerson(currentMatchup.left.name, {
         Elo: left.Elo,
         Wins: left.Wins,
-        Losses: left.Losses
+        Losses: left.Losses,
+        Recent: left.Recent
     });
     updatePerson(currentMatchup.right.name, {
         Elo: right.Elo,
         Wins: right.Wins,
-        Losses: right.Losses
+        Losses: right.Losses,
+        Recent: right.Recent
     });
 
     // Display new matchup
@@ -163,12 +165,14 @@ function clickRight() {
     updatePerson(currentMatchup.left.name, {
         Elo: left.Elo,
         Wins: left.Wins,
-        Losses: left.Losses
+        Losses: left.Losses,
+        Recent: left.Recent
     });
     updatePerson(currentMatchup.right.name, {
         Elo: right.Elo,
         Wins: right.Wins,
-        Losses: right.Losses
+        Losses: right.Losses,
+        Recent: right.Recent
     });
 
     // Display new matchup
