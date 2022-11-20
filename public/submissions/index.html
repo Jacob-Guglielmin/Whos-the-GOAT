@@ -16,14 +16,24 @@
             </div>
         </div>
         <div id="mainContainer">
-            <img id="preview" src="" />
-            <div>
-                <input class="shortForm" maxlength="50" placeholder="Name"></input>
-                <input class="shortForm" maxlength="50" placeholder="(1735-1792) or (born 2001) or (14 BC-27 AD)"></input>
+            <div id="form">
+                <div>
+                    <input id="nameInput" class="shortForm" maxlength="50" placeholder="Name"></input>
+                    <input id="dateInput" class="shortForm" maxlength="50" placeholder="(1735-1792) or (born 2001) or (14 BC-27 AD)"></input>
+                </div>
+                <textarea id="blurbInput" class="longForm" maxlength="250" placeholder="A short, unbiased (don't use 'greatest', 'influential', etc) description of the person and what they're known for."></textarea>
+                <textarea id="imageURLInput" class="longForm" maxlength="500" placeholder="A direct image address. (e.g. https://ian.umces.edu/site/assets/files/2378/isaac-newton.jpg)"></textarea>
+                <button id="submitButton" class="submitButton">SUBMIT</button>
             </div>
-            <input class="longForm" maxlength="250" placeholder="A short, unbiased (don't use 'greatest', 'influential', etc) description of the person and what they're known for."></input>
-            <input class="longForm" maxlength="500" placeholder="A direct image address. (e.g. https://ian.umces.edu/site/assets/files/2378/isaac-newton.jpg)"></input>
-            <button class="submitButton" id="submitButton">SUBMIT</button>
+            <div id="submissionPreview" class="choice">
+                <div class="imageCenterer">
+                    <div id="imageContainerDisplay" class="choiceImageContainer">
+                        <img id="imageDisplay" class="choiceImage" />
+                    </div>
+                </div>
+                <div id="nameDisplay" class="choiceName"></div>
+                <div id="blurbDisplay" class="choiceBlurb"></div>
+            </div>
         </div>
     </body>
 </html>
