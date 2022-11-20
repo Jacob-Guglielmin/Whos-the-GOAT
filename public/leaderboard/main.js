@@ -10,16 +10,30 @@ let people = {};
 
 function createLeaderboardEntry(name, data, rank) {
     let entry = leaderboardEntryTemplate.content.cloneNode(true);
-    entry.querySelector(".rank").innerText = rank;
+    let rankImage;
+    if (rank <= 3) {
+        rankImage = document.createElement("img");
+        if (rank == 1) {
+            rankImage.src = "assets/goat.png";
+        } else if (rank == 2) {
+            rankImage.src = "assets/silverMedal.png";
+        } else if (rank == 3) {
+            rankImage.src = "assets/bronzeMedal.png";
+        }
+        entry.querySelector(".rank").appendChild(rankImage);
+    } else {
+        entry.querySelector(".rank").innerText = "#" + rank;
+    }
     entry.querySelector(".leaderboardName").innerText = name;
     entry.querySelector(".leaderboardDate").innerText = data.Date;
     entry.querySelector(".leaderboardElo").innerText = Math.round(data.Elo);
     entry.querySelector(".leaderboardWinrate").innerText = ((data.Wins / (data.Wins + data.Losses || 1)) * 100).toFixed(2) + "%";
     entry.querySelector(".leaderboardImage").src = data.Image;
-    /* let recentWins = data.Recent.split("")
+    let recentWins = data.Recent.toString()
+        .split("")
         .map((x) => parseInt(x))
         .reduce((a, b) => a + b, 0);
-    entry.querySelector(".recentIndicator").classList.add(recentWins > 5 ? "upArrow" : recentWins < 5 ? "downArrow" : "noChange"); */
+    entry.querySelector(".recentIndicator").classList.add(recentWins > data.Recent.toString().length / 2 ? "upArrow" : recentWins < data.Recent.toString().length / 2 ? "downArrow" : "noChange");
     return entry;
 }
 
@@ -34,7 +48,7 @@ function displayMore() {
         }
         let name = sortedPeople[currentlyDisplayed];
         let data = people[name];
-        mainContainer.appendChild(createLeaderboardEntry(name, data, "#" + (currentlyDisplayed + 1)));
+        mainContainer.appendChild(createLeaderboardEntry(name, data, currentlyDisplayed + 1));
         currentlyDisplayed++;
     }
 }

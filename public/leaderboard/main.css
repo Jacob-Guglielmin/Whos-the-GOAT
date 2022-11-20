@@ -103,6 +103,11 @@ body {
     grid-column: 2;
 }
 
+.rank > img {
+    width: 15vh;
+    height: 15vh;
+}
+
 .leaderboardEntry {
     display: grid;
     border: 2px solid #ffffff;
