@@ -98,3 +98,52 @@ getSortedPeople()
         mainContainer.appendChild(errorElement);
         midBar.style.display = "none";
     });
+
+function secretEvent() {
+    let goat = document.createElement("img");
+    goat.src = "../assets/goat2.png";
+    goat.classList.add("walkingGoat");
+    goat.style.left = Math.floor(-window.innerHeight * 0.05) + "px";
+    goat.style.top = Math.floor(window.innerHeight * 0.05) + "px";
+    goat.walkStep = 0;
+    topBar.appendChild(goat);
+
+    const baselineTop = Math.floor(window.innerHeight * 0.05),
+        distUp = Math.floor(window.innerHeight * 0.008),
+        distRight = Math.floor(window.innerHeight * 0.03),
+        stopTime = 12,
+        speedRight = 1.5;
+    let stopping = { accumulated: randomBetween(0, distRight), stoppedTime: 0 };
+
+    let goatWalk = setInterval(() => {
+        if (stopping.accumulated > distRight) {
+            stopping.accumulated = 0;
+            stopping.stoppedTime = stopTime;
+            goat.style.top = baselineTop + "px";
+        } else if (stopping.stoppedTime != 0) {
+            stopping.stoppedTime--;
+        } else {
+            stopping.accumulated += speedRight;
+            goat.style.left = parseFloat(goat.style.left) + speedRight + "px";
+            goat.style.top = baselineTop - distUp * Math.sin((Math.PI * stopping.accumulated) / distRight) + "px";
+        }
+
+        if (parseInt(goat.style.left) > window.innerWidth) {
+            console.log("GOAT HAS LEFT THE BUILDING");
+            clearInterval(goatWalk);
+            goat.remove();
+        }
+    }, 20);
+}
+
+setInterval(() => {
+    let random = Math.floor(Math.random() * 100);
+    if (random < 50) {
+        secretEvent();
+    }
+}, 60000);
+
+//Generate a random number between min and max (inclusive)
+function randomBetween(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}

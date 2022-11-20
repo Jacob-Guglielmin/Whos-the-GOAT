@@ -205,6 +205,13 @@ select:focus {
     src: url("../assets/Rubik-Medium.ttf");
 }
 
+.walkingGoat {
+    height: 5vh;
+    width: 5vh;
+    position: absolute;
+    z-index: 100;
+}
+
 @media all and (max-width: 700px) {
     #form {
         display: flex;

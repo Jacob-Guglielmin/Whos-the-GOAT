@@ -178,10 +178,29 @@ function secretEvent() {
     goat.src = "assets/goat2.png";
     goat.classList.add("walkingGoat");
     goat.style.left = Math.floor(-window.innerHeight * 0.05) + "px";
+    goat.style.top = Math.floor(window.innerHeight * 0.05) + "px";
+    goat.walkStep = 0;
     topBar.appendChild(goat);
 
+    const baselineTop = Math.floor(window.innerHeight * 0.05),
+        distUp = Math.floor(window.innerHeight * 0.008),
+        distRight = Math.floor(window.innerHeight * 0.03),
+        stopTime = 12,
+        speedRight = 1.5;
+    let stopping = { accumulated: randomBetween(0, distRight), stoppedTime: 0 };
+
     let goatWalk = setInterval(() => {
-        goat.style.left = parseInt(goat.style.left) + 1 + "px";
+        if (stopping.accumulated > distRight) {
+            stopping.accumulated = 0;
+            stopping.stoppedTime = stopTime;
+            goat.style.top = baselineTop + "px";
+        } else if (stopping.stoppedTime != 0) {
+            stopping.stoppedTime--;
+        } else {
+            stopping.accumulated += speedRight;
+            goat.style.left = parseFloat(goat.style.left) + speedRight + "px";
+            goat.style.top = baselineTop - distUp * Math.sin((Math.PI * stopping.accumulated) / distRight) + "px";
+        }
 
         if (parseInt(goat.style.left) > window.innerWidth) {
             console.log("GOAT HAS LEFT THE BUILDING");
