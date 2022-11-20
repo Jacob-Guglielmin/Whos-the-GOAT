@@ -204,3 +204,22 @@ select:focus {
     font-family: "Rubik-Medium";
     src: url("assets/Rubik-Medium.ttf");
 }
+
+@media all and (max-width: 700px) {
+    #form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .choice {
+        display: grid;
+        border-radius: 12px;
+        border: 2px solid #ffffff;
+        cursor: pointer;
+        grid-template-rows: 10% 50% 1% 11% 28%;
+        grid-template-columns: 10% 80% 10%;
+        width: 40vw;
+        height: 60vh;
+        margin: 0 auto;
+    }
+}

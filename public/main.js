@@ -137,28 +137,26 @@ function floatGoat(num) {
         // FLOAT GOAT
         setInterval(() => {
             goat.style.top = parseInt(goat.style.top) - 1 + "px";
-        }, 7);
-        setInterval(() => {
             if (randomFactorX <= -17) {
-                goat.style.left = parseInt(goat.style.left) - 1.5 + "px";
+                goat.style.left = parseInt(goat.style.left) - 0.3 + "px";
             } else if (randomFactorX <= -8 && randomFactorX > -17) {
-                goat.style.left = parseInt(goat.style.left) - 1 + "px";
+                goat.style.left = parseInt(goat.style.left) - 0.15 + "px";
             } else if (randomFactorX < 0 && randomFactorX > -8) {
-                goat.style.left = parseInt(goat.style.left) - 0.25 + "px";
+                goat.style.left = parseInt(goat.style.left) - 0.05 + "px";
             } else if (randomFactorX >= 0 && randomFactorX < 8) {
-                goat.style.left = parseInt(goat.style.left) + 0.25 + "px";
+                goat.style.left = parseInt(goat.style.left) + 0.05 + "px";
             } else if (randomFactorX >= 8 && randomFactorX < 17) {
-                goat.style.left = parseInt(goat.style.left) + 1 + "px";
+                goat.style.left = parseInt(goat.style.left) + 0.15 + "px";
             } else if (randomFactorX >= 17) {
-                goat.style.left = parseInt(goat.style.left) + 1.5 + "px";
+                goat.style.left = parseInt(goat.style.left) + 0.3 + "px";
             }
-        }, 50);
+        }, 10);
 
         // BLOAT GOAT
         setInterval(() => {
-            goat.style.width = parseInt(goat.style.width) + 1 + "px";
-            goat.style.height = parseInt(goat.style.height) + 1 + "px";
-        }, 30);
+            goat.style.width = parseInt(goat.style.width) + 0.3 + "px";
+            goat.style.height = parseInt(goat.style.height) + 0.3 + "px";
+        }, 10);
 
         // delete goat after 2 seconds
         setTimeout(() => {
