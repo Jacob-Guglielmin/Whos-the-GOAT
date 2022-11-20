@@ -32,42 +32,21 @@
             <div id="message">How've you goatten here?<br />Click <a id="homeLink" href="https://whos-the-goat.web.app">here</a> to go back.</div>
         </div>
         <script>
-            const bigGoat = document.getElementById("bigGoat");
-            let hoverShaking = false;
-            let screamShaking = true;
+            const bigGoat = document.getElementById("bigGoat"),
+                goatSound = new Audio("assets/bleat0.mp3");
 
-            function shake(e) {
-                if (e.target.id == "") {
-                    bigGoat.classList.add("shaking");
-                    hoverShaking = true;
-                } else {
-                    if (!screamShaking) {
+            let curPlayID = 0;
+
+            bigGoat.addEventListener("click", () => {
+                let thisID = ++curPlayID;
+                goatSound.play();
+                bigGoat.classList.add("shaking");
+                setTimeout(() => {
+                    if (thisID == curPlayID) {
                         bigGoat.classList.remove("shaking");
                     }
-                    hoverShaking = false;
-                }
-            }
-            function unshake(e) {
-                if (e.target.id == "" && !bigGoat.matches(":hover")) {
-                    if (!screamShaking) {
-                        bigGoat.classList.remove("shaking");
-                    }
-                    hoverShaking = false;
-                }
-            }
-
-            bigGoat.addEventListener("mouseover", shake);
-            bigGoat.addEventListener("mouseout", unshake);
-
-            let goatSound = new Audio("assets/bleat0.mp3");
-            bigGoat.classList.add("shaking");
-            goatSound.play();
-            setTimeout(() => {
-                if (!hoverShaking) {
-                    bigGoat.classList.remove("shaking");
-                }
-                screamShaking = false;
-            }, 1730);
+                }, 1730);
+            });
         </script>
     </body>
 </html>

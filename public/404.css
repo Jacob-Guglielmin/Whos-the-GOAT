@@ -15,6 +15,7 @@ body {
     transform: scaleX(-1);
     width: 80vh;
     height: 80vh;
+    cursor: pointer;
 }
 
 #errorContainer {
