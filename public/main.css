@@ -157,11 +157,11 @@ body {
         gap: 10px;
     }
     #title {
-        font: 5vw BowlbyOne;
+        font: 7vw BowlbyOne;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 60vw;
+        width: calc(100vw - 10vh);
         grid-column: 2;
         height: 10vh;
     }
@@ -169,7 +169,7 @@ body {
         display: flex;
     }
     #topButtons {
-        width: 40vw;
+        width: 10vh;
     }
     #topButtons > a {
         display: block;
@@ -181,6 +181,10 @@ body {
         width: 6vh;
         height: 6vh;
         filter: brightness(0) invert();
+    }
+    #topButtons > a:last-child {
+        display: none;
+        visibility: hidden;
     }
     #choiceLeft {
         display: flex;
