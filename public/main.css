@@ -186,28 +186,24 @@ body {
         display: none;
         visibility: hidden;
     }
-    #choiceLeft {
-        display: flex;
-    }
-    #choiceRight {
-        display: flex;
-    }
     .choice {
-        display: flex;
+        display: grid;
         width: 90vw;
-        height: 30vh;
+        height: 37vh;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas:
             "image name"
-            "image blurb";
+            "blurb blurb";
+        padding: 3vw;
     }
     .imageCenterer {
         display: flex;
+        grid-area: image;
     }
     .choiceImageContainer {
-        width: min(calc(90vh * 0.88 * 0.5), calc(28vw * 0.8));
-        height: min(calc(90vh * 0.88 * 0.5), calc(28vw * 0.8));
+        width: min(calc(84vw / 2), calc((37vh - 6vw) / 2));
+        height: min(calc(84vw / 2), calc((37vh - 6vw) / 2));
     }
     .choiceImage {
         width: 100%;
@@ -221,9 +217,8 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        grid-row: 4;
-        grid-column: 2;
-        font: 3vh Rubik-Medium;
+        grid-area: name;
+        font: 6vw Rubik-Medium;
     }
     .choiceBlurb {
         grid-area: blurb;
@@ -231,8 +226,8 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        grid-row: 5;
-        grid-column: 2;
-        font: 2.5vh Rubik-Light;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        font: 4vw Rubik-Light;
     }
 }

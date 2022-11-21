@@ -212,6 +212,9 @@ select:focus {
     z-index: 100;
 }
 
+.mobileOnly {
+    display: none;
+}
 @media all and (max-width: 700px) {
     #title {
         font: 7vw BowlbyOne;
@@ -243,6 +246,7 @@ select:focus {
         display: none;
     }
     .mobileOnly {
+        display: block;
         position: absolute;
         height: 90vh;
         left: 0;
