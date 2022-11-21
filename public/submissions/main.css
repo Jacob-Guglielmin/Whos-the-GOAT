@@ -224,20 +224,16 @@ select:focus {
     }
     #mainContainer {
         display: none;
-    }   
+    }
     .mobileOnly {
         position: absolute;
         height: 90vh;
         left: 0;
         top: 10vh;
         width: 100vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
     }
     .mobileOnlyText {
-        display: flex;
-        font: 3vw Rubik-Light;
+        font: 3vh Rubik-Light;
+        text-align: center;
     }
 }
