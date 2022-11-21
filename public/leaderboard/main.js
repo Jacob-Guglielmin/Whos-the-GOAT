@@ -43,10 +43,12 @@ function createLeaderboardEntry(name, data, rank) {
 }
 
 function slideUp() {
-    this.querySelector(".leaderboardNameDateContainer").style.transform = "translateY(-20vh)";
-    this.querySelector(".leaderboardBlurb").style.transform = "translateY(-20vh)";
-    if (this.parentElement.previousElementSibling.classList.contains("shakeOnHover")) {
-        this.parentElement.previousElementSibling.classList.add("shaking");
+    if (window.innerWidth > 700) {
+        this.querySelector(".leaderboardNameDateContainer").style.transform = "translateY(-20vh)";
+        this.querySelector(".leaderboardBlurb").style.transform = "translateY(-20vh)";
+        if (this.parentElement.previousElementSibling.classList.contains("shakeOnHover")) {
+            this.parentElement.previousElementSibling.classList.add("shaking");
+        }
     }
 }
 
