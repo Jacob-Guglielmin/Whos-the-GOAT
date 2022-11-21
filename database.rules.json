@@ -1,6 +1,13 @@
 {
-  "rules": {
-    ".read": true,
-    ".write": true
-  }
+    "rules": {
+        "people": {
+            ".read": true,
+            ".write": true,
+            ".indexOn": "Elo"
+        },
+        "submissions": {
+            ".read": false,
+            ".write": true
+        }
+    }
 }

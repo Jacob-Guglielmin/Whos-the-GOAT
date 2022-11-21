@@ -100,7 +100,7 @@
       "Wins": 0
     },
     "Andrew Tate": {
-      "Blurb": "American-British Internet personality and former professional kickboxer. Following his kickboxing career, Tate began offering paid courses and memberships through his website and later rose to fame as an online influencer",
+      "Blurb": "American-British Internet personality and former professional kickboxer. Following his kickboxing career, he later rose to fame as an online influencer, where his misogynistic has resulted in his bans from several platforms.",
       "Date": "(born 1986)",
       "Elo": 1000,
       "Image": "https://cdn.siasat.com/wp-content/uploads/2022/08/aNDREW-tATE.png",
@@ -252,7 +252,7 @@
       "Recent": "",
       "Wins": 0
     },
-    "Charli DAmelio": {
+    "Charli D'Amelio": {
       "Blurb": "American social media personality. She was a competitive dancer for over 10 years before starting her social media career in 2019, when she started posting dance videos on the video-sharing platform TikTok.",
       "Date": "(born 2004)",
       "Elo": 1000,
@@ -387,7 +387,7 @@
       "Recent": "",
       "Wins": 0
     },
-    "Dr Seuss": {
+    "Dr~ Seuss": {
       "Blurb": "American children's author and cartoonist. He is known for his work writing and illustrating more than 60 books. His work includes many of the most popular children's books of all time, selling over 600 million copies.",
       "Date": "(1904-1991)",
       "Elo": 1000,
@@ -409,7 +409,7 @@
       "Blurb": "American Minecraft YouTuber and Twitch streamer, best known for speedrunning, Minecraft Manhunt, and Dream SMP.",
       "Date": "(born 1999)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Dream_icon.svg/500px-Dream_icon.svg.png",
+      "Image": "https://api.time.com/wp-content/uploads/2022/10/dream-youtube-minecraft-gamer.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
@@ -423,8 +423,8 @@
       "Recent": "",
       "Wins": 0
     },
-    "Dwayne Johnson": {
-      "Blurb": "Also known by his ring name The Rock, Dwayne is an American actor and former professional wrestler. His films have grossed over $3.5 billion in North America and over $10.5 billion worldwide, making him one of the world's highest-grossing actors.",
+    "Dwayne 'The Rock' Johnson": {
+      "Blurb": "American actor and former professional wrestler. His films have grossed over $3.5 billion in North America and over $10.5 billion worldwide, making him one of the world's highest-grossing actors.",
       "Date": "(born 1972)",
       "Elo": 1000,
       "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Dwayne_Johnson_2014_%28cropped%29.jpg/440px-Dwayne_Johnson_2014_%28cropped%29.jpg",
@@ -1530,7 +1530,7 @@
       "Recent": "",
       "Wins": 0
     },
-    "Shaquille ONeal": {
+    "Shaquille O'Neal": {
       "Blurb": "American former professional basketball player who is a sports analyst on the television program Inside the NBA. He is a 7-foot-1 and 325-pound center who played for six teams over his 19-year career in the NBA, and is a 4-time champion.",
       "Date": "(born 1972)",
       "Elo": 1000,
