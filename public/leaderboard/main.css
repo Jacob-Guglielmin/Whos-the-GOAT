@@ -68,6 +68,9 @@ body {
     border: none;
     color:#ffffff;
 }
+.midButton:hover {
+    cursor: pointer;
+}
 
 #personLabel {
     grid-column: 2;
@@ -363,8 +366,12 @@ body {
     }
     .midButton {
         font: 3vw Rubik-Medium;
-        background-color: #262626;
-        color:#ffffff
+        background: transparent;
+        border: none;
+        color:#ffffff;
+    }
+    .midButton:hover {
+        cursor: pointer;
     }
     .leaderboardBlurb {
         display: none;
