@@ -23,7 +23,7 @@ let mostRecentImage = 0,
 function submit() {
     if (validateInput()) {
         let submission = {};
-        submission[personName] = {
+        submission[personName.replace(/\./g, "~")] = {
             Blurb: blurb,
             Date: date,
             Elo: 1000,

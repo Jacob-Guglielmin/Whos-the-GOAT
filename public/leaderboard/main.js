@@ -25,7 +25,7 @@ function createLeaderboardEntry(name, data, rank) {
     } else {
         entry.querySelector(".rank").innerText = "#" + rank;
     }
-    entry.querySelector(".leaderboardName").innerText = name;
+    entry.querySelector(".leaderboardName").innerText = name.replace(/~/g, ".");
     entry.querySelector(".leaderboardDate").innerText = data.Date;
     entry.querySelector(".leaderboardBlurb").innerText = data.Blurb;
     entry.querySelector(".leaderboardElo").innerText = Math.round(data.Elo);

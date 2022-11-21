@@ -89,8 +89,8 @@ function displayMatchup() {
         imageLeft.style.display = "none";
         imageRight.style.display = "none";
     } else {
-        nameLeft.innerText = currentMatchup.left.name + " " + currentMatchup.left.data.Date;
-        nameRight.innerText = currentMatchup.right.name + " " + currentMatchup.right.data.Date;
+        nameLeft.innerText = currentMatchup.left.name.replace(/~/g, ".") + " " + currentMatchup.left.data.Date;
+        nameRight.innerText = currentMatchup.right.name.replace(/~/g, ".") + " " + currentMatchup.right.data.Date;
 
         blurbLeft.innerText = currentMatchup.left.data.Blurb;
         blurbRight.innerText = currentMatchup.right.data.Blurb;
