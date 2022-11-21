@@ -315,7 +315,7 @@ body {
     z-index: 100;
 }
 
-@media all and (width < 600px) {
+@media all and (max-width: 700px) {
     #midBar {
         position: fixed;
         display: grid;
