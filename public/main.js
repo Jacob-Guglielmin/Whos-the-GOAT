@@ -46,7 +46,7 @@ function elo(winner, loser) {
 
     // Calculates change (bigger difference = bigger change)
     // Change should then be added to winner and subtracted from loser
-    let expected = 1 / (1 + Math.pow(10, (winner - loser) / 400));
+    let expected = 1 / (1 + Math.pow(10, (loser - winner) / 400));
     return kfactor * (1 - expected);
 }
 
