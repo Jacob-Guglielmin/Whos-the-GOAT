@@ -160,8 +160,6 @@ winrateFlip.addEventListener("click", () => {
     }
 });
 
-
-
 function secretEvent() {
     let goat = document.createElement("img");
     goat.src = "../assets/goat2.png";

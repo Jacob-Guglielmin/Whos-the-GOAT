@@ -62,6 +62,13 @@ body {
     text-align: center;
 }
 
+.midButton {
+    font: 3vh Rubik-Medium;
+    background: transparent;
+    border: none;
+    color:#ffffff;
+}
+
 #personLabel {
     grid-column: 2;
 }
@@ -353,6 +360,11 @@ body {
         z-index: 10;
         font: 3vw Rubik-Medium;
         grid-template-columns: calc(9vw + 2px) calc(20vh + ((82vw - 20vh - 4px) / 4 * 2)) calc((82vw - 20vh - 4px) / 4) calc((82vw - 20vh - 4px) / 4) calc(9vw + 2px);
+    }
+    .midButton {
+        font: 3vw Rubik-Medium;
+        background-color: #262626;
+        color:#ffffff
     }
     .leaderboardBlurb {
         display: none;
