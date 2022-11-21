@@ -315,7 +315,16 @@ body {
     z-index: 100;
 }
 
-@media all and (width < 600px) {
+@media all and (max-width: 700px) {
+    #title {
+        font: 7vw BowlbyOne;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60vw;
+        grid-column: 2;
+        height: 10vh;
+    }
     #midBar {
         position: fixed;
         display: grid;
