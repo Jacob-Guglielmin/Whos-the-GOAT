@@ -1,0 +1,328 @@
+{
+  "people": {
+    "Adele": {
+      "Blurb": "English singer and songwriter achieving widespread commercial success.",
+      "Date": "(born 1988)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Adele_for_Vogue_in_2021.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Adolf Hitler": {
+      "Blurb": "Austrian-born German politician who was dictator of Germany from 1933 until his death in 1945.",
+      "Date": "(1889-1945)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Hitler_portrait_crop.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Albert Einstein": {
+      "Blurb": "German-born theoretical physicist, best known for his theory of relativity and mass-energy equivalence.",
+      "Date": "(1879-1955)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/440px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Barack Obama": {
+      "Blurb": "American politician who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, he was the first African-American president of the United States.",
+      "Date": "(born 1961)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/440px-President_Barack_Obama.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Beethoven": {
+      "Blurb": "German composer and pianist, his works rank amongst the most performed of the classical music repertoire and span the transition from the Classical period to the Romantic era in classical music.",
+      "Date": "(1770-1827)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/440px-Beethoven.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Beyonce": {
+      "Blurb": "American singer, songwriter, and actress, known for boundary-pushing artistry and vocals.",
+      "Date": "(born 1981)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Beyonc%C3%A9_at_The_Lion_King_European_Premiere_2019.png/440px-Beyonc%C3%A9_at_The_Lion_King_European_Premiere_2019.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Cristiano Ronaldo": {
+      "Blurb": "Portuguese professional footballer who plays as a forward for Premier League club Manchester United and captains the Portugal national team.",
+      "Date": "(born 1985)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/440px-Cristiano_Ronaldo_2018.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Donald Trump": {
+      "Blurb": "American politician, media personality, and businessman who served as the 45th president of the United States from 2017 to 2021.",
+      "Date": "(born 1946)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/440px-Donald_Trump_official_portrait.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Dream": {
+      "Blurb": "American Minecraft YouTuber and Twitch streamer, best known for speedrunning, Minecraft Manhunt, and Dream SMP.",
+      "Date": "(born 1999)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Dream_icon.svg/500px-Dream_icon.svg.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Ed Sheeran": {
+      "Blurb": "English singer-songwriter, best known for his folk-pop sound.",
+      "Date": "(born 1991)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/440px-Ed_Sheeran-6886_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Elton John": {
+      "Blurb": "English singer, pianist and composer.",
+      "Date": "(born 1947)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Elton_John_2011_Shankbone_2_%28cropped%29.JPG/440px-Elton_John_2011_Shankbone_2_%28cropped%29.JPG",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Elvis Presley": {
+      "Blurb": "American singer and actor, well known for his influence on Rock and Roll.",
+      "Date": "(1935-1977)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/440px-Elvis_Presley_promoting_Jailhouse_Rock.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Eminem": {
+      "Blurb": "American rapper and record producer, credited with popularizing hip hop in middle America.",
+      "Date": "(born 1972)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Eminem_-_Concert_for_Valor_in_Washington%2C_D.C._Nov._11%2C_2014_%282%29_%28Cropped%29.jpg/440px-Eminem_-_Concert_for_Valor_in_Washington%2C_D.C._Nov._11%2C_2014_%282%29_%28Cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Isaac Newton": {
+      "Blurb": "English mathematician, physicist, astronomer, alchemist, theologian, and author, key figure in the Enlightenment, established classical mechanics, shares credit for developing infinitesimal calculus.",
+      "Date": "(1642-1727)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/440px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Jake Paul": {
+      "Blurb": "American social media personality and professional boxer who initially rose to fame on Vine.",
+      "Date": "(born 1997)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Jake_Paul_2019.jpg/440px-Jake_Paul_2019.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Johannes Gutenberg": {
+      "Blurb": " German inventor, printer, publisher, and goldsmith who introduced printing to Europe with his mechanical movable-type printing press.",
+      "Date": "(1400-1468)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Gutenberg.jpg/440px-Gutenberg.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Justin Bieber": {
+      "Blurb": "Canadian singer, recognized for his genre-melding musicianship.",
+      "Date": "(born 1994)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Justin_Bieber_in_2015.jpg/440px-Justin_Bieber_in_2015.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Justin Trudeau": {
+      "Blurb": "Canadian politician who is the 23rd and current prime minister of Canada. He has served as the prime minister of Canada since 2015 and as the leader of the Liberal Party since 2013",
+      "Date": "(born 1971)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Justin_Trudeau_March_2022.jpg/440px-Justin_Trudeau_March_2022.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "KSI": {
+      "Blurb": "English YouTuber and rapper, co-founder and member of the British YouTube group known as the Sidemen.",
+      "Date": "(born 1993)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/9/94/JJ_Olatunji_%28KSI%29_6.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Kanye West": {
+      "Blurb": "American rapper, songwriter, record producer, and fashion designer.",
+      "Date": "(born 1977)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Kanye_West_at_the_Met_Gala_in_2019_2.png/440px-Kanye_West_at_the_Met_Gala_in_2019_2.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Lebron James": {
+      "Blurb": "American professional basketball player for the Los Angeles Lakers of the National Basketball Association (NBA).",
+      "Date": "(born 1984)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/LeBron_James_-_51959723161_%28cropped%29.jpg/440px-LeBron_James_-_51959723161_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Leonardo da Vinci": {
+      "Blurb": "Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect.",
+      "Date": "(1452-1519)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Francesco_Melzi_-_Portrait_of_Leonardo.png/440px-Francesco_Melzi_-_Portrait_of_Leonardo.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Lionel Messi": {
+      "Blurb": "Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the Argentina national team.",
+      "Date": "(born 1987)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Lionel_Messi_20180626.jpg/440px-Lionel_Messi_20180626.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Logan Paul": {
+      "Blurb": "American media personality, podcaster, actor, and professional wrestler, signed to WWE and running a podcast network.",
+      "Date": "(born 1995)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Logan_Paul_%2848086619418%29.jpg/440px-Logan_Paul_%2848086619418%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Madonna": {
+      "Blurb": "American singer, songwriter, and actress, noted for her continual reinvention and versatility in music production, songwriting, and visual presentation.",
+      "Date": "(born 1958)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Madonna_Rebel_Heart_Tour_2015_-_Stockholm_%2823051472299%29_%28cropped%29.jpg/440px-Madonna_Rebel_Heart_Tour_2015_-_Stockholm_%2823051472299%29_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Mahatma Gandhi": {
+      "Blurb": "Indian lawyer, anti-colonial nationalist, and political ethicist who inspired movements for civil rights and freedom across the world.",
+      "Date": "(1869-1948)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/440px-Mahatma-Gandhi%2C_studio%2C_1931.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Michael Jackson": {
+      "Blurb": "American singer, songwriter, dancer, and philanthropist, well known for his influence on the Pop genre.",
+      "Date": "(1958-2009)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Michael_Jackson_in_1988.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Michael Jordan": {
+      "Blurb": "American businessman and former professional basketball player, integral in popularizing the NBA around the world in the 1980s and 1990s.",
+      "Date": "(born 1963)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Michael_Jordan_in_2014.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Michael Phelps": {
+      "Blurb": "American former competitive swimmer, holds the all-time records for Olympic gold medals (23).",
+      "Date": "(born 1985)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg/440px-Michael_Phelps_Rio_Olympics_2016.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Mozart": {
+      "Blurb": "A prolific and influential composer of the Classical period, explored a wide variety of genres in his time.",
+      "Date": "(1756-1791)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Croce-Mozart-Detail.jpg/440px-Croce-Mozart-Detail.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "MrBeast": {
+      "Blurb": "American YouTube personality, credited with pioneering a genre of YouTube videos that centers on expensive stunts.",
+      "Date": "(born 1998)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/MrBeast_frontface_2021.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "PewDiePie": {
+      "Blurb": "Swedish YouTuber known for his Let's Play videos and comedic formatted videos and shows.",
+      "Date": "(born 1989)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pewdiepie_head_shot.jpg/440px-Pewdiepie_head_shot.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Rihanna": {
+      "Blurb": "Barbadian singer, actress, and businesswoman, known for her distinctive musical style and fashion sense.",
+      "Date": "(born 1988)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rihanna_Fenty_2018.png/440px-Rihanna_Fenty_2018.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Sal Khan": {
+      "Blurb": "American educator and the founder of Khan Academy, a free online non-profit educational platform.",
+      "Date": "(born 1976)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Salman_Khan_TED_2011.jpg/440px-Salman_Khan_TED_2011.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Usain Bolt": {
+      "Blurb": "Jamaican sprinter, world record holder in the 100 metres, 200 metres, and 4 x 100 metres relay.",
+      "Date": "(born 1986)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Usain_Bolt_after_4_%C3%97_100_m_Rio_2016.jpg/440px-Usain_Bolt_after_4_%C3%97_100_m_Rio_2016.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "William Shakespeare": {
+      "Blurb": "English playwright, poet and actor, renowned for his plays exploring comedy, tragedy, history, and romance.",
+      "Date": "(1564-1616)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/440px-Shakespeare.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    }
+  }
+}
