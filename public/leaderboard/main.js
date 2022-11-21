@@ -42,6 +42,7 @@ function createLeaderboardEntry(name, data, rank) {
     return entry;
 }
 
+
 function slideUp() {
     if (window.innerWidth > 700) {
         this.querySelector(".leaderboardNameDateContainer").style.transform = "translateY(-20vh)";
@@ -100,6 +101,66 @@ getSortedPeople()
         mainContainer.appendChild(errorElement);
         midBar.style.display = "none";
     });
+
+function sortElo() {
+    sortedPeople.sort((a, b) => people[b].Elo - people[a].Elo);
+    mainContainer.innerHTML = "";
+    currentlyDisplayed = 0;
+    displayMore();
+}
+
+function sortInverseElo() {
+    sortedPeople.reverse();
+    mainContainer.innerHTML = "";
+    currentlyDisplayed = 0;
+    displayMore();
+}
+
+function sortWinrate() {
+    sortedPeople.sort((a, b) => {
+        let aWinrate = people[a].Wins / (people[a].Wins + people[a].Losses || 1);
+        let bWinrate = people[b].Wins / (people[b].Wins + people[b].Losses || 1);
+        return bWinrate - aWinrate;
+    }
+    );
+    mainContainer.innerHTML = "";
+    currentlyDisplayed = 0;
+    displayMore();
+}
+
+function sortInverseWinrate() {
+    sortedPeople.sort((a, b) => {
+        let aWinrate = people[a].Wins / (people[a].Wins + people[a].Losses || 1);
+        let bWinrate = people[b].Wins / (people[b].Wins + people[b].Losses || 1);
+        return aWinrate - bWinrate;
+    }
+    );
+    mainContainer.innerHTML = "";
+    currentlyDisplayed = 0;
+    displayMore();
+}
+
+eloFlip.addEventListener("click", () => {
+    if (eloFlip.classList.contains("flipped")) {
+        eloFlip.classList.remove("flipped");
+        sortElo();
+    } else {
+        eloFlip.classList.add("flipped");
+        sortInverseElo();
+    }
+});
+
+winrateFlip.addEventListener("click", () => {
+    if (winrateFlip.classList.contains("flipped")) {
+        winrateFlip.classList.remove("flipped");
+        sortWinrate();
+    } else {
+        winrateFlip.classList.add("flipped");
+        sortInverseWinrate();
+    }
+});
+
+
 
 function secretEvent() {
     let goat = document.createElement("img");
