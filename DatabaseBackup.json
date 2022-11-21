@@ -1,10 +1,55 @@
 {
   "people": {
+    "'Weird Al' Yankovic": {
+      "Blurb": "American singer, musician, songwriter, record producer, actor, and author. He is best known for creating comedy songs that make light of pop culture and often parody specific songs by contemporary musicians.",
+      "Date": "(born 1959)",
+      "Elo": 1000,
+      "Image": "https://static01.nyt.com/images/2020/04/11/magazine/11mag-weirdal-01/11mag-weirdal-01-videoSixteenByNineJumbo1600-v3.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Abraham Lincoln": {
+      "Blurb": "American lawyer and statesman who served as the 16th president of the United States from 1861 until his assassination in 1865, leading the country during the American Civil War.",
+      "Date": "(1809-1865)",
+      "Elo": 1000,
+      "Image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/16_abraham_lincoln.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Ada Lovelace": {
+      "Blurb": "English mathematician and writer, chiefly known for her work creating the first algorithm intended to be carried out by such a machine. Often regarded as the first computer programmer.",
+      "Date": "(1815-1852)",
+      "Elo": 1000,
+      "Image": "https://images.newscientist.com/wp-content/uploads/2021/05/11162637/ada-lovelace-htkrgb_web.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Adam Smith": {
+      "Blurb": "Scottish economist and philosopher who was a pioneer in the thinking of political economy and key figure during the Scottish Enlightenment. Commonly seen as \"The Father of Economics\" or \"The Father of Capitalism\".",
+      "Date": "(1723-1790)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Adam_Smith_The_Muir_portrait.jpg/440px-Adam_Smith_The_Muir_portrait.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
     "Adele": {
       "Blurb": "English singer and songwriter achieving widespread commercial success.",
       "Date": "(born 1988)",
       "Elo": 1000,
       "Image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Adele_for_Vogue_in_2021.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Adin Ross": {
+      "Blurb": "American Twitch and YouTube streamer best known for streaming NBA 2K and GTA V.",
+      "Date": "(born 2000)",
+      "Elo": 1000,
+      "Image": "https://cdn1.dotesports.com/wp-content/uploads/2022/06/14162222/adin-ross-streamer-1024x713.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
@@ -25,6 +70,87 @@
       "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/440px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
       "Losses": 0,
       "Recent": "W",
+      "Wins": 0
+    },
+    "Alexander the Great": {
+      "Blurb": "King of the ancient Greek kingdom of Macedon. By the age of thirty, he had created one of the largest empires in history, stretching from Greece to northwestern India. He was undefeated in battle.",
+      "Date": "(356 BC-323 BC)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Alexander_Mosaic-high_res_fragment.jpg/440px-Alexander_Mosaic-high_res_fragment.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Ali-A": {
+      "Blurb": "British YouTuber known for Call of Duty and Fortnite commentaries and vlogs. He is one of the highest-paid professional online gamers.",
+      "Date": "(born 1993)",
+      "Elo": 1000,
+      "Image": "https://scufgaming.com/media/wysiwyg/affiliates_v2/ali-a/affiliate_detail_alia2022_gallery_1_1.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Amelia Earhart": {
+      "Blurb": "American aviation pioneer and writer, and was the first female aviator to fly solo across the Atlantic Ocean.",
+      "Date": "(1897-1937)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small.jpg/375px-Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Andrew Tate": {
+      "Blurb": "American-British Internet personality and former professional kickboxer. Following his kickboxing career, Tate began offering paid courses and memberships through his website and later rose to fame as an online influencer",
+      "Date": "(born 1986)",
+      "Elo": 1000,
+      "Image": "https://cdn.siasat.com/wp-content/uploads/2022/08/aNDREW-tATE.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Archimedes": {
+      "Blurb": "Greek mathematician, physicist, engineer, astronomer, and inventor who was one of the first people to apply mathematics to physical phenomena.",
+      "Date": "(287 BC-212 BC)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Domenico-Fetti_Archimedes_1620.jpg/330px-Domenico-Fetti_Archimedes_1620.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Ariana Grande": {
+      "Blurb": "American singer, songwriter, and actress. Her four-octave vocal range has received critical acclaim, and her personal life has been the subject of widespread media attention.",
+      "Date": "(born 1993)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Ariana_Grande_Grammys_Red_Carpet_2020.png/440px-Ariana_Grande_Grammys_Red_Carpet_2020.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Aristotle": {
+      "Blurb": "Greek philosopher and polymath during the Classical period in Ancient Greece, whose writings have influenced nearly every form of knowledge in the West.",
+      "Date": "(384 BC-322 BC)",
+      "Elo": 1000,
+      "Image": "https://www.aplustopper.com/wp-content/uploads/2020/08/Aristotle-Biography.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Arnold Schwarzenegger": {
+      "Blurb": "Austrian and American actor, film producer, businessman, retired professional bodybuilder and politician who served as the 38th governor of California between 2003 and 2011. He is well known for his seven Mr. Olympia wins.",
+      "Date": "(born 1947)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Arnold_Schwarzenegger_by_Gage_Skidmore_4.jpg/440px-Arnold_Schwarzenegger_by_Gage_Skidmore_4.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Augustus": {
+      "Blurb": "First Roman emperor; he reigned from 27 BC until his death in AD 14. Known for being the founder of the Roman Principate, which is the first phase of the Roman Empire.",
+      "Date": "(63 BC-14 AD)",
+      "Elo": 1000,
+      "Image": "https://i.natgeofe.com/n/2d51af41-fe81-4c5d-9ebe-bb97b713bab6/augustus-caesar-1428596_2x3.jpg",
+      "Losses": 0,
+      "Recent": "",
       "Wins": 0
     },
     "Barack Obama": {
@@ -54,11 +180,200 @@
       "Recent": "",
       "Wins": 0
     },
+    "Bill Gates": {
+      "Blurb": "American business magnate, software developer, investor, author, and philanthropist, as well as a co-founder of Microsoft.",
+      "Date": "(born 1955)",
+      "Elo": 1000,
+      "Image": "https://imageio.forbes.com/specials-images/imageserve/62d599ede3ff49f348f9b9b4/0x0.jpg?format=jpg&crop=821,821,x155,y340,safe&height=416&width=416&fit=bounds",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Brad Pitt": {
+      "Blurb": "American actor and film producer. He is the recipient of various accolades, including two Academy Awards, a British Academy Film Award, two Golden Globe Awards, and a Primetime Emmy Award.",
+      "Date": "(born 1963)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brad_Pitt_2019_by_Glenn_Francis.jpg/440px-Brad_Pitt_2019_by_Glenn_Francis.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Bruno Mars": {
+      "Blurb": "American singer, songwriter, and record producer. He is known for his stage performances, retro showmanship, and for performing in a wide range of musical styles, including pop, R&B, funk, soul, reggae, disco, and rock.",
+      "Date": "(born 1985)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/BrunoMars24KMagicWorldTourLive_%28cropped%29.jpg/440px-BrunoMars24KMagicWorldTourLive_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Brutus": {
+      "Blurb": "Roman politician, orator, and the most famous of the assassins of Julius Caesar. ",
+      "Date": "(85 BC-42 BC)",
+      "Elo": 1000,
+      "Image": "https://cdn.britannica.com/75/226675-050-A990BC2E/Marcus-Junius-Brutus-marble-bust.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Buzz Aldrin": {
+      "Blurb": "American former astronaut, engineer and fighter pilot. One of the first two people to land on the Moon, and made three spacewalks as pilot of the 1966 Gemini 12 mission.",
+      "Date": "(born 1930)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Buzz_Aldrin.jpg/330px-Buzz_Aldrin.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Calvin Harris": {
+      "Blurb": "Scottish DJ, record producer, singer, and songwriter. After his vocal performance on his records, Harris rose to international prominence after producing songs for other artists, in 2011 and in 2012. ",
+      "Date": "(born 1984)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Calvin_Harris_-_Rock_in_Rio_Madrid_2012_-_09.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "CaptainSparklez": {
+      "Blurb": "American YouTuber, Twitch streamer, gamer, and musician, primarily known for playing the video game Minecraft, along with his popular parody songs relating to the game.",
+      "Date": "(born 1992)",
+      "Elo": 1000,
+      "Image": "https://s.yimg.com/ny/api/res/1.2/HmgeYPXQDoWa_wARLi1gRA--/YXBwaWQ9aGlnaGxhbmRlcjtoPTY2Ng--/https://o.aolcdn.com/images/dar/5845cadfecd996e0372f/983e917e240477fcbe89de1981def804364e1028/aHR0cDovL28uYW9sY2RuLmNvbS9oc3Mvc3RvcmFnZS9taWRhcy80YTI2MTIzYWIxMWQ3ODkyNDk5MTQ2Y2UwMGI1MDQzNi8yMDIyODkxODIvY2Fwbi5qcGc=",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Charles Darwin": {
+      "Blurb": "English naturalist, geologist, and biologist, widely known for contributing to the understanding of evolutionary biology, namely his proposition that all species of life descended from a common ancestor.",
+      "Date": "(1809-1882)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/1878_Darwin_photo_by_Leonard_from_Woodall_1884_-_cropped_grayed_partially_cleaned.jpg/330px-1878_Darwin_photo_by_Leonard_from_Woodall_1884_-_cropped_grayed_partially_cleaned.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Charli DAmelio": {
+      "Blurb": "American social media personality. She was a competitive dancer for over 10 years before starting her social media career in 2019, when she started posting dance videos on the video-sharing platform TikTok.",
+      "Date": "(born 2004)",
+      "Elo": 1000,
+      "Image": "https://yt3.ggpht.com/uXdwBrA5fi_5RFAvd3BLjfON1xZ1sTeiJt3r_m98B9DitiQWpaJfvgi6V37MAFwuixivFvKuRg=s900-c-k-c0x00ffffff-no-rj",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Chester Bennington": {
+      "Blurb": "American singer and songwriter who was best known as the lead vocalist of rock band Linkin Park. He was also the lead vocalist of the bands Grey Daze, Dead by Sunrise, and Stone Temple Pilots.",
+      "Date": "(1976-2017)",
+      "Elo": 1000,
+      "Image": "https://www.rollingstone.com/wp-content/uploads/2018/06/chester-bennington-linkin-park-obit-a53cd0a0-c57a-484e-b0f6-e52173634d93.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Chris Bumstead": {
+      "Blurb": "Canadian IFBB professional bodybuilder best known for his three consecutive Mr. Olympia Classic Physique wins.",
+      "Date": "(born 1995)",
+      "Elo": 1000,
+      "Image": "https://ucarecdn.com/13eb17a7-355f-4535-9380-cdaf4c3c5036/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Chris Hadfield": {
+      "Blurb": "Canadian retired astronaut, engineer, fighter pilot, and musician. First Canadian to perform extravehicular activity in outer space, has flown two Space Shuttle missions, and has served as commander of the International Space Station.",
+      "Date": "(born 1959)",
+      "Elo": 1000,
+      "Image": "https://www.sarniahistoricalsociety.com/wp-content/uploads/2015/06/Chris-Hadfield-Sarnias-Man-in-Space.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Chris Pratt": {
+      "Blurb": "American actor. He rose to prominence for playing Andy Dwyer in the NBC sitcom Parks and Recreation (2009-2015). He is well known for his roles in the Marvel Cinematic Universe.",
+      "Date": "(born 1979)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chris_Pratt_2018.jpg/440px-Chris_Pratt_2018.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Chris Rock": {
+      "Blurb": "American stand-up comedian, actor, and filmmaker. Known for his work in comic film, television and stage, he has received three Grammy Awards for best comedy album and four Primetime Emmy Awards as well as a Golden Globe Award nomination.",
+      "Date": "(born 1965)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Chris_Rock_2014.jpg/440px-Chris_Rock_2014.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Christopher Columbus": {
+      "Blurb": "Italian explorer and navigator who completed four voyages across the Atlantic Ocean sponsored by the Catholic Monarchs of Spain, opening the way for the widespread European exploration and colonization of the Americas.",
+      "Date": "(1451-1506)",
+      "Elo": 1000,
+      "Image": "https://bri-wp-images.s3.amazonaws.com/wp-content/uploads/AP-133-Christopher-Columbus-1-780x698.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Confucius": {
+      "Blurb": "Chinese philosopher and politician of the Spring and Autumn period who is traditionally considered the paragon of Chinese sages. His teachings and philosophy underpin East Asian culture and society, remaining influential across Asia to this day.",
+      "Date": "(551 BC-479 BC)",
+      "Elo": 1000,
+      "Image": "https://assets.theschooloflife.com/wp-content/uploads/2022/01/26215842/8482-004-7D9CC6B2-17.59.37.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Conor McGregor": {
+      "Blurb": "Irish professional mixed martial artist. He is a former Ultimate Fighting Championship (UFC) featherweight and lightweight double-champion. He is the first UFC fighter to hold UFC championships in two weight classes simultaneously.",
+      "Date": "(born 1988)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Conor_McGregor_2018.jpg/440px-Conor_McGregor_2018.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
     "Cristiano Ronaldo": {
       "Blurb": "Portuguese professional footballer who plays as a forward for Premier League club Manchester United and captains the Portugal national team.",
       "Date": "(born 1985)",
       "Elo": 1000,
       "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/440px-Cristiano_Ronaldo_2018.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "DaBaby": {
+      "Blurb": "American rapper. After releasing several mixtapes between 2014 and 2018, he rose to mainstream prominence in 2019.",
+      "Date": "(born 1991)",
+      "Elo": 1000,
+      "Image": "https://i.kym-cdn.com/photos/images/newsfeed/002/043/165/0ee.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "DanTDM": {
+      "Blurb": "British YouTuber and gamer known for his video game commentaries. His online video channels have covered many video games including Minecraft, Roblox, and Pokemon.",
+      "Date": "(born 1991)",
+      "Elo": 1000,
+      "Image": "https://nasacademy.com/blog/wp-content/uploads/dantdm-thumbnail-.jpeg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Daniel Radcliffe": {
+      "Blurb": "English actor. He rose to fame at age twelve, when he began portraying Harry Potter in the film series of the same name; and has held various other film and theatre roles. Over his career, Radcliffe has received various awards and nominations.",
+      "Date": "(born 1989)",
+      "Elo": 1000,
+      "Image": "https://pyxis.nymag.com/v1/imgs/d25/0c4/0454583bbb2dc68582e3fe3e9b89a16045-danielradcliffe.rsquare.w330.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Doja Cat": {
+      "Blurb": "American rapper and singer. Born and raised in Los Angeles, California, she began making and releasing music on SoundCloud as a teenager.",
+      "Date": "(born 1995)",
+      "Elo": 1000,
+      "Image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/10FFC/production/_112482696_doja-cat-1392x1044.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
@@ -72,6 +387,24 @@
       "Recent": "",
       "Wins": 0
     },
+    "Dr Seuss": {
+      "Blurb": "American children's author and cartoonist. He is known for his work writing and illustrating more than 60 books. His work includes many of the most popular children's books of all time, selling over 600 million copies.",
+      "Date": "(1904-1991)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Theodor_Seuss_Geisel_%2801037v%29.jpg/440px-Theodor_Seuss_Geisel_%2801037v%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Drake": {
+      "Blurb": "Canadian rapper, singer, and actor, credited for popularizing singing and R&B sensibilities in hip hop.",
+      "Date": "(born 1986)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Drake_July_2016.jpg/440px-Drake_July_2016.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
     "Dream": {
       "Blurb": "American Minecraft YouTuber and Twitch streamer, best known for speedrunning, Minecraft Manhunt, and Dream SMP.",
       "Date": "(born 1999)",
@@ -81,11 +414,38 @@
       "Recent": "",
       "Wins": 0
     },
+    "Dua Lipa": {
+      "Blurb": "English singer and songwriter. Possessing a mezzo-soprano vocal range, she is known for her signature disco-pop sound.",
+      "Date": "(born 1995)",
+      "Elo": 1000,
+      "Image": "https://pbs.twimg.com/profile_images/1243465670454632449/Gm06laC1_400x400.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Dwayne Johnson": {
+      "Blurb": "Also known by his ring name The Rock, Dwayne is an American actor and former professional wrestler. His films have grossed over $3.5 billion in North America and over $10.5 billion worldwide, making him one of the world's highest-grossing actors.",
+      "Date": "(born 1972)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Dwayne_Johnson_2014_%28cropped%29.jpg/440px-Dwayne_Johnson_2014_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
     "Ed Sheeran": {
       "Blurb": "English singer-songwriter, best known for his folk-pop sound.",
       "Date": "(born 1991)",
       "Elo": 1000,
       "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/440px-Ed_Sheeran-6886_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Elon Musk": {
+      "Blurb": "Business magnate and investor - founder or CEO of several companies including SpaceX, Tesla, and Twitter. Wealthiest person in the world as of November 2022.",
+      "Date": "(born 1971)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/330px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
@@ -117,11 +477,209 @@
       "Recent": "",
       "Wins": 0
     },
+    "Emma Watson": {
+      "Blurb": "French-born British actress and activist. She is known for her roles in both blockbusters and independent films, primarily for playing Hermione in Harry Potter. She is also known for her women's rights work and has received a selection of accolades.",
+      "Date": "(born 1990)",
+      "Elo": 1000,
+      "Image": "https://m.media-amazon.com/images/M/MV5BMTQ3ODE2NTMxMV5BMl5BanBnXkFtZTgwOTIzOTQzMjE@._V1_.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Faker": {
+      "Blurb": "South Korean professional League of Legends player for T1. He was picked up by T1 (SK Telecom T1 at the time) in 2013 and has played as the team's mid-laner since.",
+      "Date": "(born 1996)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Faker_at_the_2015.10.02_S5_Paris_day2.jpeg/440px-Faker_at_the_2015.10.02_S5_Paris_day2.jpeg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Fidel Castro": {
+      "Blurb": "Cuban revolutionary and politician who was the leader of Cuba from 1959 to 2008, serving as the prime minister of Cuba from 1959 to 1976 and president from 1976 to 2008.",
+      "Date": "(1926-2016)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Fidel_Castro_1950s.jpg/440px-Fidel_Castro_1950s.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Floyd Mayweather": {
+      "Blurb": "American boxing promoter and former professional boxer. As a professional boxer he competed between 1996 and 2017, retiring with an undefeated record and winning 15 major world championships from super featherweight to light middleweight.",
+      "Date": "(born 1977)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Floyd_Mayweather%2C_Jr._at_DeWalt_event_%285888721735%29_%28rotated_4%29.jpg/440px-Floyd_Mayweather%2C_Jr._at_DeWalt_event_%285888721735%29_%28rotated_4%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Frank Ocean": {
+      "Blurb": "American singer, songwriter, and rapper, known for his avant-garde styles and introspective, elliptical lyrics.",
+      "Date": "(born 1987)",
+      "Elo": 1000,
+      "Image": "https://www.rollingstone.com/wp-content/uploads/2019/09/frank-ocean-next-album-lie.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Frank Sinatra": {
+      "Blurb": "American singer and actor. Nicknamed the \"Chairman of the Board\" and later called Ole 'Blue Eyes, Sinatra was a very popular entertainer in the 1940s, 1950s, and 1960s.",
+      "Date": "(1915-1998)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Frank_Sinatra_%281957_studio_portrait_close-up%29.jpg/440px-Frank_Sinatra_%281957_studio_portrait_close-up%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Franklin D~ Roosevelt": {
+      "Blurb": "American politician who served as the 32nd president of the United States from 1933 until his death in 1945. As the leader of the Democratic Party, he won a record four presidential elections and directed the government through the Great Depression.",
+      "Date": "(1882-1945)",
+      "Elo": 1000,
+      "Image": "https://www.nps.gov/common/uploads/people/nri/20200325/people/B9ADD805-F088-6CA6-3564C2F77DF3421F/B9ADD805-F088-6CA6-3564C2F77DF3421F.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Freddie Mercury": {
+      "Blurb": "British singer and songwriter who achieved worldwide fame as the lead vocalist of the rock band Queen.",
+      "Date": "(1946-1991)",
+      "Elo": 1000,
+      "Image": "https://media.npr.org/assets/music/specials/50greatvoices/freddie_mercury/freddiemercury_wide-87fe276170b66db0ecec2002ea623a037ee6ecb2-s1100-c50.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Friedrich Nietzsche": {
+      "Blurb": "German philosopher, cultural critic and philologist whose work has exerted a profound influence on modern intellectual history. He began his career as a classical philologist before turning to philosophy.",
+      "Date": "(1844-1900)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/440px-Nietzsche187a.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Genghis Khan": {
+      "Blurb": "Founder and first Great Khan (Emperor) of the Mongol Empire, which became the largest contiguous empire in history after his death.",
+      "Date": "(1162-1227)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/330px-YuanEmperorAlbumGenghisPortrait.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "George Orwell": {
+      "Blurb": "English novelist, essayist, journalist, and critic. His work is characterised by lucid prose, social criticism, opposition to totalitarianism, and support of democratic socialism.",
+      "Date": "(1903-1950)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/440px-George_Orwell_press_photo.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "George Washington": {
+      "Blurb": "American military officer and statesman who served as the first president of the United States from 1789 to 1797, and commanded the Continental Army during the American Revolutionary War.",
+      "Date": "(1732-1799)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/330px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "GeorgeNotFound": {
+      "Blurb": "British Minecraft player and YouTube creator who gained popularity for his appearances on fellow creator Dream's channel, along with his contributions to the Dream SMP.",
+      "Date": "(born 1996)",
+      "Elo": 1000,
+      "Image": "https://staticg.sportskeeda.com/editor/2020/08/658e5-15983564951971-800.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Hannibal": {
+      "Blurb": "Carthaginian general and statesman who commanded the forces of Carthage in their battle against the Roman Republic during the Second Punic War.",
+      "Date": "(247-182 BC)",
+      "Elo": 1000,
+      "Image": "https://www.thefamouspeople.com/profiles/images/hannibal-barca-2.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Hans Niemann": {
+      "Blurb": "American chess grandmaster and Twitch streamer. FIDE awarded him the Grandmaster title on January 22, 2021.",
+      "Date": "(born 2003)",
+      "Elo": 1000,
+      "Image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/chansen64/phpfqm1YV.jpeg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Harry Styles": {
+      "Blurb": "English singer, songwriter and actor. His musical career began in 2010 as a solo contestant on the British music competition series The X Factor, and following his elimination, he was brought back to join the boy band One Direction. ",
+      "Date": "(born 1994)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Harry_Styles_Wembley_June_2022_%28cropped%29.jpg/440px-Harry_Styles_Wembley_June_2022_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Hikaru Nakamura": {
+      "Blurb": "Japanese-American chess grandmaster, Twitch streamer, five-time U.S. Chess Champion, and the reigning World Fischer Random Chess Champion.",
+      "Date": "(born 1987)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Nakamura_Hikaru_%2829290269410%29_%28cropped%29_%28cropped%29.jpg/440px-Nakamura_Hikaru_%2829290269410%29_%28cropped%29_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Hillary Clinton": {
+      "Blurb": "American politician, diplomat, and former lawyer who served as the 67th Secretary of State from 2009 to 2013, and as a senator representing New York from 2001 to 2009. She was the Democratic presidential nominee for the 2016 election.",
+      "Date": "(born 1947)",
+      "Elo": 1000,
+      "Image": "https://imageio.forbes.com/specials-images/imageserve/573615ada7ea4353698df3ec/0x0.jpg?format=jpg&crop=465,465,x176,y64,safe&height=416&width=416&fit=bounds",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Hirohito": {
+      "Blurb": "124th emperor of Japan, ruling from 25 December 1926 until his death in 1989. He was the longest-reigning historical Japanese emperor and one of the longest-reigning monarchs in the world.",
+      "Date": "(1901-1989)",
+      "Elo": 1000,
+      "Image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTgxMjY5NjMxNTk4NjAxNTc2/gettyimages-514975318.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "IShowSpeed": {
+      "Blurb": "American gaming Youtuber, streamer, and musician, known for his unrestrained, unusual, reckless, and over-the-top personality.",
+      "Date": "(born 2005)",
+      "Elo": 1000,
+      "Image": "https://www.thesun.co.uk/wp-content/uploads/2022/07/www-instagram-com-ishowspeed-753059710.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
     "Isaac Newton": {
       "Blurb": "English mathematician, physicist, astronomer, alchemist, theologian, and author, key figure in the Enlightenment, established classical mechanics, shares credit for developing infinitesimal calculus.",
       "Date": "(1642-1727)",
       "Elo": 1000,
       "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/440px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Jack Black": {
+      "Blurb": "American actor, comedian, and musician, the lead vocalist of the Tenacious D. He is well known for multiple roles, including starring Po from Kung-Fu Panda. He also received Golden Globe nominations for his work in School of Rock and Bernie.",
+      "Date": "(born 1969)",
+      "Elo": 1000,
+      "Image": "https://www.biography.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkyMzgyODYzNzcxOTY5MDYz/jack-black-gettyimages-1193008127.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Jacksepticeye": {
+      "Blurb": "Irish YouTuber, best known for his vlogs and comedic Let's Play series. Co-founder of the clothing brand Cloak, and the founder and owner of the Top of The Mornin' Coffee company.",
+      "Date": "(born 1990)",
+      "Elo": 1000,
+      "Image": "https://www.independent.ie/incoming/982cd/36150475.ece/AUTOCROP/w1240h700/jack%20septic%20eye.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
@@ -135,11 +693,155 @@
       "Recent": "",
       "Wins": 0
     },
+    "Jeff Bezos": {
+      "Blurb": "American entrepreneur, computer engineer, and commercial astronaut. He is the founder and executive chairman of Amazon, and was the wealthiest person in the world from 2017 to 2021.",
+      "Date": "(born 1964)",
+      "Elo": 1000,
+      "Image": "https://assets.change.org/photos/3/rh/bh/VWrhBhlKyGVOeyG-400x400-noPad.jpg?1528862483",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Jeffery Dahmer": {
+      "Blurb": "American serial killer and sex offender who committed multiple acts of murder (17 confirmed), dismemberment, necrophilia, and cannibalism. He is known as one of the most depraved killers of all time.",
+      "Date": "(1960-1994)",
+      "Elo": 1000,
+      "Image": "https://cdn2.excelsior.com.mx/media/styles/image800x600/public/pictures/2022/09/25/2828830.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Jeffrey Epstein": {
+      "Blurb": "American sex offender and financier. Epstein developed an elite social circle and procured many women and children; he and his associates then sexually abused them.",
+      "Date": "(1953-2019)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Epstein_Final_Mugshot.png/360px-Epstein_Final_Mugshot.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Jennette McCurdy": {
+      "Blurb": "American writer, director, podcaster, singer, and former actress. Her breakthrough role as Sam Puckett in the Nickelodeon sitcom iCarly earned her various awards, including four Nickelodeon Kids' Choice Awards.",
+      "Date": "(born 1992)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Jennette_McCurdy_2012.jpg/440px-Jennette_McCurdy_2012.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Jesus Christ": {
+      "Blurb": "First-century Jewish preacher and religious leader. He is the central figure of Christianity, the world's largest religion. Most Christians believe he is the incarnation of God the Son and the awaited Messiah prophesied in the Hebrew Bible.",
+      "Date": "(4 BC-33 AD)",
+      "Elo": 1000,
+      "Image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg1NjUzODgwMjU4ODk3NTM2/jesuschrist.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Joe Biden": {
+      "Blurb": "American politician who is the 46th and current president of the United States. A member of the Democratic Party, he previously served as the 47th vice president from 2009 to 2017 under President Barack Obama.",
+      "Date": "(born 1942)",
+      "Elo": 1000,
+      "Image": "https://image.cnbcfm.com/api/v1/image/106878527-1620223837055-106748412-1602881184740-biden.jpg?v=1620224062",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Johann Sebastian Bach": {
+      "Blurb": "German composer and musician of the late Baroque period, known for a wide variety of orchestral music, instrumental compositions, keyboard works, organ works, vocal music, and more.",
+      "Date": "(1685-1750)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Johann_Sebastian_Bach.jpg/440px-Johann_Sebastian_Bach.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
     "Johannes Gutenberg": {
       "Blurb": " German inventor, printer, publisher, and goldsmith who introduced printing to Europe with his mechanical movable-type printing press.",
       "Date": "(1400-1468)",
       "Elo": 1000,
       "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Gutenberg.jpg/440px-Gutenberg.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "John A~ Macdonald": {
+      "Blurb": "First prime minister of Canada, serving from 1867 to 1873 and from 1878 to 1891. The dominant figure of Canadian Confederation, he had a political career that spanned almost half a century.",
+      "Date": "(1815-1891)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/John_A_Macdonald_%28ca._1875%29.jpg/440px-John_A_Macdonald_%28ca._1875%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "John F~ Kennedy": {
+      "Blurb": "American politician who served as the 35th president of the United States from 1961 until his assassination near the end of his third year in office, during the height of the Cold War.",
+      "Date": "(1917-1963)",
+      "Elo": 1000,
+      "Image": "https://s.hdnux.com/photos/01/25/63/03/22491350/7/rawImage.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "John Lennon": {
+      "Blurb": "English singer, songwriter, musician and peace activist who achieved worldwide fame as founder, co-songwriter, co-lead vocalist and rhythm guitarist of the Beatles.",
+      "Date": "(1940-1980)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/John_Lennon_1969_%28cropped%29.jpg/440px-John_Lennon_1969_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "John Locke": {
+      "Blurb": "English philosopher and physician, a very important Enlightenment thinker and commonly known as the \"father of liberalism\".",
+      "Date": "(1632-1704)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/John_Locke.jpg/440px-John_Locke.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "John Maynard Keynes": {
+      "Blurb": "English economist whose ideas fundamentally changed the theory and practice of macroeconomics and the economic policies of governments. His ideas, reformulated as New Keynesianism, are fundamental to mainstream macroeconomics.",
+      "Date": "(1883-1946)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Keynes_1933.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Joji": {
+      "Blurb": "Japanese singer-songwriter, rapper, comedian, and former YouTuber, who creates music which has been described as a mix between R&B, lo-fi, and trip hop.",
+      "Date": "(born 1992)",
+      "Elo": 1000,
+      "Image": "https://external-preview.redd.it/T93a9fmD8Jsg11galhGn4ZwtDQ3XzkmGqTjTbDLpw9M.jpg?auto=webp&s=b6c52e8242932b17b6489630f8796bbaca637379",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Joseph Stalin": {
+      "Blurb": "Georgian-born revolutionary and Soviet political leader who led the Soviet Union from 1924 until his death in 1953. Initially governing the country as part of a collective leadership, he consolidated power to become a dictator by the 1930s.",
+      "Date": "(1878-1953)",
+      "Elo": 1000,
+      "Image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=http://www.washingtonpost.com/news/retropolis/wp-content/uploads/sites/62/2018/01/stalin.jpg&w=1200",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Juice WRLD": {
+      "Blurb": "American rapper, singer, and songwriter. A well-known figure in the emo rap and SoundCloud rap genres which garnered mainstream attention during the mid-late 2010s.",
+      "Date": "(1998-2019)",
+      "Elo": 1000,
+      "Image": "https://imagez.tmz.com/image/e7/4by3/2019/12/08/e7d6d436f2794f6cbe077473f7fbf21e_md.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Julius Caesar": {
+      "Blurb": "Roman general and statesman who led the Roman armies in the Gallic Wars before defeating his political rival Pompey in a civil war, He subsequently became dictator from 49 BC until his assassination in 44 BC.",
+      "Date": "(100 BC-44 AD)",
+      "Elo": 1000,
+      "Image": "https://img.populis.id/articles/archive_20220304/julius-caesar-20220304-162003.webp",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
@@ -162,11 +864,56 @@
       "Recent": "",
       "Wins": 0
     },
+    "J~ Cole": {
+      "Blurb": "American rapper, singer, songwriter, and record producer who initially gained recognition as a rapper following the release of his debut mixtape, The Come Up, in early 2007.",
+      "Date": "(born 1985)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/JCole2018.png/440px-JCole2018.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "J~K~ Rowling": {
+      "Blurb": "British author and philanthropist known for writing Harry Potter, a seven-volume children's fantasy series published from 1997 to 2007. The series has sold over 500 million copies, and spawned a global media franchise including films and games.",
+      "Date": "(born 1965)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/440px-J._K._Rowling_2010.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "J~R~R~ Tolkien": {
+      "Blurb": "English writer and philologist. He was the author of the high fantasy works The Hobbit and The Lord of the Rings.",
+      "Date": "(1892-1973)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/440px-J._R._R._Tolkien%2C_ca._1925.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
     "KSI": {
       "Blurb": "English YouTuber and rapper, co-founder and member of the British YouTube group known as the Sidemen.",
       "Date": "(born 1993)",
       "Elo": 1000,
       "Image": "https://upload.wikimedia.org/wikipedia/commons/9/94/JJ_Olatunji_%28KSI%29_6.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Kai Cenat": {
+      "Blurb": "American YouTuber and Twitch streamer known for his vlogging and prank videos. He is noted for coining the term \"unspoken rizz\", and is a founding member of the content-creation brand AMP.",
+      "Date": "(born 2001)",
+      "Elo": 1000,
+      "Image": "https://yt3.ggpht.com/8CTOa1-yV6UdYgZaqVipH2zNP55Ilt_PTrwEJri9sz1ZnqwQsFtQuVYOrI74t9HtyB6uPetp=s900-c-k-c0x00ffffff-no-rj",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Kamala Harris": {
+      "Blurb": "American politician and attorney who is the 49th vice president of the United States. She is the first female vice president and the highest-ranking female official in U.S. history.",
+      "Date": "(born 1964)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Kamala_Harris_Vice_Presidential_Portrait.jpg/330px-Kamala_Harris_Vice_Presidential_Portrait.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
@@ -180,6 +927,69 @@
       "Recent": "",
       "Wins": 0
     },
+    "Katy Perry": {
+      "Blurb": "American singer, songwriter, and television personality, recognized for her influence on modern pop music and her campy style.",
+      "Date": "(born 1984)",
+      "Elo": 1000,
+      "Image": "https://akamai.sscdn.co/uploadfile/letras/fotos/1/c/8/f/1c8fd7ba5598d14c83c830b785c09145.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Kendrick Lamar": {
+      "Blurb": "American rapper and songwriter known for his progressive musical styles and socially conscious songwriting, ",
+      "Date": "(born 1987)",
+      "Elo": 1000,
+      "Image": "https://usa.sehatmitra.com/wp-content/uploads/2022/05/kendrick-lamar7.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Kevin Hart": {
+      "Blurb": "American comedian and actor. Originally known as a stand-up comedian, he has since starred in Hollywood films and on TV. He has also released several well-received comedy albums.",
+      "Date": "(born 1979)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kevin_Hart_2014_%28cropped_2%29.jpg/440px-Kevin_Hart_2014_%28cropped_2%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Kim Jong-un": {
+      "Blurb": "North Korean politician who has been Supreme Leader of North Korea since 2011.",
+      "Date": "(born 1982)",
+      "Elo": 1000,
+      "Image": "https://images.wsj.net/im-236521/OR",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Kim Kardashian": {
+      "Blurb": "American media personality, socialite, and businesswoman. She first gained media attention as a friend and stylist of Paris Hilton, and further gained fame through starring in the reality television series \"Keeping Up With The Kardashians\".",
+      "Date": "(born 1980)",
+      "Elo": 1000,
+      "Image": "https://cdn.britannica.com/42/184142-050-5B50BDC2/Kim-Kardashian-2008.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "King Henry VIII": {
+      "Blurb": "King of England from 22 April 1509 until his death in 1547. He is best known for his six marriages, and his efforts to have his first marriage annulled. His disagreement with the pope about the annulment led him to initiate the English Reformation.",
+      "Date": "(1491-1547)",
+      "Elo": 1000,
+      "Image": "https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY5NDkwOTI4MzM0MDIxOTIx/henry-viii-gettyimages-164081255.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Kylie Jenner": {
+      "Blurb": "American media personality, socialite, and businesswoman. She starred in the E! reality television series Keeping Up with the Kardashians from 2007 to 2021 and is the founder and owner of cosmetic company Kylie Cosmetics.",
+      "Date": "(born 1997)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Kylie_Jenner_in_2021.jpg/440px-Kylie_Jenner_in_2021.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
     "Lebron James": {
       "Blurb": "American professional basketball player for the Los Angeles Lakers of the National Basketball Association (NBA).",
       "Date": "(born 1984)",
@@ -189,11 +999,38 @@
       "Recent": "L",
       "Wins": 0
     },
+    "Leo Tolstoy": {
+      "Blurb": "Russian writer who received nominations for the Nobel Prize in Literature every year from 1902 to 1906 and for the Nobel Peace Prize in 1901, 1902, and 1909.",
+      "Date": "(1828-1910)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg/440px-L.N.Tolstoy_Prokudin-Gorsky.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
     "Leonardo da Vinci": {
       "Blurb": "Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect.",
       "Date": "(1452-1519)",
       "Elo": 1000,
       "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Francesco_Melzi_-_Portrait_of_Leonardo.png/440px-Francesco_Melzi_-_Portrait_of_Leonardo.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Leonhard Euler": {
+      "Blurb": "Swiss mathematician, physicist, astronomer, geographer, logician and engineer who founded the studies of graph theory and topology. He introduced much of modern mathematical terminology and notation.",
+      "Date": "(1707-1783)",
+      "Elo": 1000,
+      "Image": "https://dl0.creation.com/articles/p123/c12305/Leonhard-Euler.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Lil Uzi Vert": {
+      "Blurb": "American rapper and singer. They are characterized by facial tattoos, piercings, eccentric hairstyles and androgynous fashion, and imagery built on a melodic emo approach to trap.",
+      "Date": "(born 1995)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Lil_Uzi_Vert.jpg/440px-Lil_Uzi_Vert.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
@@ -216,6 +1053,15 @@
       "Recent": "",
       "Wins": 0
     },
+    "Machiavelli": {
+      "Blurb": "Italian diplomat, author, philosopher and historian who lived during the Renaissance. He is best known for his political treatise The Prince (Il Principe).",
+      "Date": "(1469-1527)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg/440px-Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
     "Madonna": {
       "Blurb": "American singer, songwriter, and actress, noted for her continual reinvention and versatility in music production, songwriting, and visual presentation.",
       "Date": "(born 1958)",
@@ -223,6 +1069,15 @@
       "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Madonna_Rebel_Heart_Tour_2015_-_Stockholm_%2823051472299%29_%28cropped%29.jpg/440px-Madonna_Rebel_Heart_Tour_2015_-_Stockholm_%2823051472299%29_%28cropped%29.jpg",
       "Losses": 0,
       "Recent": "L",
+      "Wins": 0
+    },
+    "Magnus Carlsen": {
+      "Blurb": "Norwegian chess grandmaster who is the reigning five-time World Chess Champion. He is also a three-time World Rapid Chess Champion and five-time World Blitz Chess Champion.",
+      "Date": "(born 1990)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/World_Chess_Championship_2021%2C_game_07%2C_Magnus_Carlsen_%28cropped%29.jpg/440px-World_Chess_Championship_2021%2C_game_07%2C_Magnus_Carlsen_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
       "Wins": 0
     },
     "Mahatma Gandhi": {
@@ -233,6 +1088,51 @@
       "Losses": 0,
       "Recent": "W",
       "Wins": 1
+    },
+    "Malala Yousafzai": {
+      "Blurb": "Pakistani female education activist and the 2014 Nobel Peace Prize laureate. She is known for human rights advocacy, especially the education of women and children, and her advocacy has grown into an international movement.",
+      "Date": "(born 1997)",
+      "Elo": 1000,
+      "Image": "https://cdn.britannica.com/71/179071-050-CF95982C/Malala-Yousafzai-2013.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Mao Zedong": {
+      "Blurb": "Chinese communist revolutionary who was the founder of the People's Republic of China, which he led as the chairman of the Chinese Communist Party from 1949 until his death in 1976.",
+      "Date": "(1893-1976)",
+      "Elo": 1000,
+      "Image": "https://mronline.org/wp-content/uploads/2022/08/mao.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Marie Curie": {
+      "Blurb": "Polish/French physicist and chemist who conducted pioneering research on radioactivity. First woman to win a Nobel Prize, first person and only woman to win a Nobel Prize twice, and only person to win a Nobel Prize in two fields.",
+      "Date": "(1867-1934)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marie_Curie_c._1920s.jpg/330px-Marie_Curie_c._1920s.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Markiplier": {
+      "Blurb": "American YouTuber. In addition to uploading videos on his main YouTube channel, he is a co-founder of the clothing company Cloak, co-host of the Distractible podcast, and also co-hosted the now defunct Unus Annus channel.",
+      "Date": "(born 1989)",
+      "Elo": 1000,
+      "Image": "https://www.kotaku.com.au/wp-content/uploads/sites/3/2022/10/18/unnamed-file.jpg?quality=80&resize=1280,720",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Markus 'Notch' Persson": {
+      "Blurb": "Swedish video game programmer and designer. He is best known for creating the sandbox video game \"Minecraft\" and for founding the video game company Mojang in 2009.",
+      "Date": "(born 1979)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Notch_receives_the_Pioneer_Award_at_GDC_2016_%28cropped%29.jpg/330px-Notch_receives_the_Pioneer_Award_at_GDC_2016_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
     },
     "Michael Jackson": {
       "Blurb": "American singer, songwriter, dancer, and philanthropist, well known for his influence on the Pop genre.",
@@ -261,6 +1161,33 @@
       "Recent": "",
       "Wins": 0
     },
+    "Michelangelo": {
+      "Blurb": "Italian sculptor, painter, architect, and poet of the High Renaissance. Born in the Republic of Florence, his work was inspired by models from classical antiquity and had a lasting influence on Western art.",
+      "Date": "(1475-1564)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg/440px-Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Mike Tyson": {
+      "Blurb": "American former professional boxer who competed from 1985 to 2005. He reigned as the undisputed world heavyweight champion from 1987 to 1990. Tyson won his first 19 professional fights by knockout, 12 of them in the first round.",
+      "Date": "(born 1966)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Mike_Tyson_2019_by_Glenn_Francis.jpg/440px-Mike_Tyson_2019_by_Glenn_Francis.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Miranda Cosgrove": {
+      "Blurb": "American actress and singer. She was the highest-paid child actor in 2012 and is known for her career on television, particularly for her work while starring as Carly Shay in the teen sitcom iCarly (2007-2012).",
+      "Date": "(born 1993)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Miranda_Cosgrove_NickRewind_2022.jpg/440px-Miranda_Cosgrove_NickRewind_2022.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
     "Mozart": {
       "Blurb": "A prolific and influential composer of the Classical period, explored a wide variety of genres in his time.",
       "Date": "(1756-1791)",
@@ -279,956 +1206,11 @@
       "Recent": "",
       "Wins": 0
     },
-    "PewDiePie": {
-      "Blurb": "Swedish YouTuber known for his Let's Play videos and comedic formatted videos and shows.",
-      "Date": "(born 1989)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pewdiepie_head_shot.jpg/440px-Pewdiepie_head_shot.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Rihanna": {
-      "Blurb": "Barbadian singer, actress, and businesswoman, known for her distinctive musical style and fashion sense.",
-      "Date": "(born 1988)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rihanna_Fenty_2018.png/440px-Rihanna_Fenty_2018.png",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Sal Khan": {
-      "Blurb": "American educator and the founder of Khan Academy, a free online non-profit educational platform.",
-      "Date": "(born 1976)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Salman_Khan_TED_2011.jpg/440px-Salman_Khan_TED_2011.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Usain Bolt": {
-      "Blurb": "Jamaican sprinter, world record holder in the 100 metres, 200 metres, and 4 x 100 metres relay.",
-      "Date": "(born 1986)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Usain_Bolt_after_4_%C3%97_100_m_Rio_2016.jpg/440px-Usain_Bolt_after_4_%C3%97_100_m_Rio_2016.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "William Shakespeare": {
-      "Blurb": "English playwright, poet and actor, renowned for his plays exploring comedy, tragedy, history, and romance.",
-      "Date": "(1564-1616)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/440px-Shakespeare.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Rick Astley": {
-      "Blurb": "English singer, songwriter and radio personality known for his hit song \"Never Gonna Give You Up\".",
-      "Date": "(born 1966)",
-      "Elo": 1000,
-      "Image": "https://media.tenor.com/SSY2V0RrU3IAAAAd/rick-roll-rick-rolled.gif",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Drake": {
-      "Blurb": "Canadian rapper, singer, and actor, credited for popularizing singing and R&B sensibilities in hip hop.",
-      "Date": "(born 1986)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Drake_July_2016.jpg/440px-Drake_July_2016.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Kendrick Lamar": {
-      "Blurb": "American rapper and songwriter known for his progressive musical styles and socially conscious songwriting, ",
-      "Date": "(born 1987)",
-      "Elo": 1000,
-      "Image": "https://usa.sehatmitra.com/wp-content/uploads/2022/05/kendrick-lamar7.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "The Weeknd": {
-      "Blurb": "Canadian singer, songwriter, and record producer. Known for his sonic versatility and dark lyricism, his music explores escapism, romance, and melancholia, and is often inspired by personal experiences.",
-      "Date": "(born 1990)",
-      "Elo": 1000,
-      "Image": "https://i.iheart.com/v3/catalog/artist/744880?ops=fit(720%2C720)",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "YoungBoy Never Broke Again": {
-      "Blurb": "American rapper who released six independent mixtapes between 2015 and 2017 and steadily garnered a cult following through his work.",
-      "Date": "(born 1999)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/NBA_YOUNGBOY_2018.png/440px-NBA_YOUNGBOY_2018.png",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Freddie Mercury": {
-      "Blurb": "British singer and songwriter who achieved worldwide fame as the lead vocalist of the rock band Queen.",
-      "Date": "(1946-1991)",
-      "Elo": 1000,
-      "Image": "https://media.npr.org/assets/music/specials/50greatvoices/freddie_mercury/freddiemercury_wide-87fe276170b66db0ecec2002ea623a037ee6ecb2-s1100-c50.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Yeat": {
-      "Blurb": "American rapper, singer, songwriter, and music producer who gained recognition in mid-2021 after the release of his mixtape 4L and debut studio album Up 2 Me.",
-      "Date": "(born 2000)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Yeat.png/440px-Yeat.png",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "John Lennon": {
-      "Blurb": "English singer, songwriter, musician and peace activist who achieved worldwide fame as founder, co-songwriter, co-lead vocalist and rhythm guitarist of the Beatles.",
-      "Date": "(1940-1980)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/John_Lennon_1969_%28cropped%29.jpg/440px-John_Lennon_1969_%28cropped%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Juice WRLD": {
-      "Blurb": "American rapper, singer, and songwriter. A well-known figure in the emo rap and SoundCloud rap genres which garnered mainstream attention during the mid-late 2010s.",
-      "Date": "(1998-2019)",
-      "Elo": 1000,
-      "Image": "https://imagez.tmz.com/image/e7/4by3/2019/12/08/e7d6d436f2794f6cbe077473f7fbf21e_md.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Dua Lipa": {
-      "Blurb": "English singer and songwriter. Possessing a mezzo-soprano vocal range, she is known for her signature disco-pop sound.",
-      "Date": "(born 1995)",
-      "Elo": 1000,
-      "Image": "https://pbs.twimg.com/profile_images/1243465670454632449/Gm06laC1_400x400.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Frank Sinatra": {
-      "Blurb": "American singer and actor. Nicknamed the \"Chairman of the Board\" and later called Ole 'Blue Eyes, Sinatra was a very popular entertainer in the 1940s, 1950s, and 1960s.",
-      "Date": "(1915-1998)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Frank_Sinatra_%281957_studio_portrait_close-up%29.jpg/440px-Frank_Sinatra_%281957_studio_portrait_close-up%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Harry Styles": {
-      "Blurb": "English singer, songwriter and actor. His musical career began in 2010 as a solo contestant on the British music competition series The X Factor, and following his elimination, he was brought back to join the boy band One Direction. ",
-      "Date": "(born 1994)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Harry_Styles_Wembley_June_2022_%28cropped%29.jpg/440px-Harry_Styles_Wembley_June_2022_%28cropped%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "XXXTentacion": {
-      "Blurb": "American rapper and singer-songwriter who gained a cult following among his young fanbase during his short career with his depression- and alienation-themed music. ",
-      "Date": "(1998-2018)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Xxxtentacion_%28cropped%29.jpg/440px-Xxxtentacion_%28cropped%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Post Malone": {
-      "Blurb": "American rapper, singer, songwriter, and record producer. Known for his variegated vocals, he has gained acclaim for blending genres and subgenres of hip hop, pop, R&B, and trap.",
-      "Date": "(born 1995)",
-      "Elo": 1000,
-      "Image": "https://pyxis.nymag.com/v1/imgs/86b/2d8/1e9d1d2fd5919a507e3779ef4790205a95-post-malone.1x.rsquare.w1400.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Joji": {
-      "Blurb": "Japanese singer-songwriter, rapper, comedian, and former YouTuber, who creates music which has been described as a mix between R&B, lo-fi, and trip hop.",
-      "Date": "(born 1992)",
-      "Elo": 1000,
-      "Image": "https://external-preview.redd.it/T93a9fmD8Jsg11galhGn4ZwtDQ3XzkmGqTjTbDLpw9M.jpg?auto=webp&s=b6c52e8242932b17b6489630f8796bbaca637379",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Lil Uzi Vert": {
-      "Blurb": "American rapper and singer. They are characterized by facial tattoos, piercings, eccentric hairstyles and androgynous fashion, and imagery built on a melodic emo approach to trap.",
-      "Date": "(born 1995)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Lil_Uzi_Vert.jpg/440px-Lil_Uzi_Vert.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Ariana Grande": {
-      "Blurb": "American singer, songwriter, and actress. Her four-octave vocal range has received critical acclaim, and her personal life has been the subject of widespread media attention.",
-      "Date": "(born 1993)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Ariana_Grande_Grammys_Red_Carpet_2020.png/440px-Ariana_Grande_Grammys_Red_Carpet_2020.png",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Calvin Harris": {
-      "Blurb": "Scottish DJ, record producer, singer, and songwriter. After his vocal performance on his records, Harris rose to international prominence after producing songs for other artists, in 2011 and in 2012. ",
-      "Date": "(born 1984)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Calvin_Harris_-_Rock_in_Rio_Madrid_2012_-_09.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Elon Musk": {
-      "Blurb": "Business magnate and investor - founder or CEO of several companies including SpaceX, Tesla, and Twitter. Wealthiest person in the world as of November 2022.",
-      "Date": "(born 1971)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/330px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Neil Diamond": {
-      "Blurb": "American singer-songwriter. Thirty-eight of his songs have reached the top 10 on the Billboard Adult Contemporary charts, including \"Sweet Caroline\".",
-      "Date": "(born 1941)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Neil_Diamond_HWOF_Aug_2012_other_%28levels_adjusted_and_cropped%29.jpg/440px-Neil_Diamond_HWOF_Aug_2012_other_%28levels_adjusted_and_cropped%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Doja Cat": {
-      "Blurb": "American rapper and singer. Born and raised in Los Angeles, California, she began making and releasing music on SoundCloud as a teenager.",
-      "Date": "(born 1995)",
-      "Elo": 1000,
-      "Image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/10FFC/production/_112482696_doja-cat-1392x1044.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Paul McCartney": {
-      "Blurb": "English singer, songwriter and musician who gained worldwide fame with the Beatles, for whom he played bass guitar and shared primary songwriting and lead vocal duties with John Lennon.",
-      "Date": "(born 1942)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Paul_McCartney_2021_%28cropped%29.jpg/440px-Paul_McCartney_2021_%28cropped%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Marie Curie": {
-      "Blurb": "Polish/French physicist and chemist who conducted pioneering research on radioactivity. First woman to win a Nobel Prize, first person and only woman to win a Nobel Prize twice, and only person to win a Nobel Prize in two fields.",
-      "Date": "(1867-1934)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marie_Curie_c._1920s.jpg/330px-Marie_Curie_c._1920s.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Olivia Rodrigo": {
-      "Blurb": "American singer-songwriter and actress, known for multiple best-selling songs on her album \"Sour\".",
-      "Date": "(born 2003)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Olivia_Rodrigo_at_Vice_President%27s_West_Wing_office_%282%29.jpg/440px-Olivia_Rodrigo_at_Vice_President%27s_West_Wing_office_%282%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Charles Darwin": {
-      "Blurb": "English naturalist, geologist, and biologist, widely known for contributing to the understanding of evolutionary biology, namely his proposition that all species of life descended from a common ancestor.",
-      "Date": "(1809-1882)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/1878_Darwin_photo_by_Leonard_from_Woodall_1884_-_cropped_grayed_partially_cleaned.jpg/330px-1878_Darwin_photo_by_Leonard_from_Woodall_1884_-_cropped_grayed_partially_cleaned.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Neil Armstrong": {
-      "Blurb": "American astronaut and aeronautical engineer who became the first person to walk on the Moon in 1969.",
-      "Date": "(1930-2012)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Neil_Armstrong_pose.jpg/330px-Neil_Armstrong_pose.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Selena Gomez": {
-      "Blurb": "American singer, actress and film producer, known for early acting roles such as on Barney & Friends or Wizards of Waverly Place, and for her extensive music career.",
-      "Date": "(born 1992)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Selena_Gomez_at_White_House.jpg/440px-Selena_Gomez_at_White_House.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Bruno Mars": {
-      "Blurb": "American singer, songwriter, and record producer. He is known for his stage performances, retro showmanship, and for performing in a wide range of musical styles, including pop, R&B, funk, soul, reggae, disco, and rock.",
-      "Date": "(born 1985)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/BrunoMars24KMagicWorldTourLive_%28cropped%29.jpg/440px-BrunoMars24KMagicWorldTourLive_%28cropped%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Travis Scott": {
-      "Blurb": "American rapper, singer, songwriter, and record producer. His stage name is the namesake of a favorite uncle combined with the first name of one of his inspirations, Kid Cudi (whose real name is Scott Mescudi).",
-      "Date": "(born 1991)",
-      "Elo": 1000,
-      "Image": "https://cdn.vox-cdn.com/thumbor/fPdmLc06btnsh1DQhblsGyVuEIw=/0x0:950x709/1200x800/filters:focal(262x248:414x400)/cdn.vox-cdn.com/uploads/chorus_image/image/67411647/travisscott.0.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Nicki Minaj": {
-      "Blurb": "Trinidadian-born rapper, singer, and songwriter based in the United States. She is known for her musical versatility, animated flow in her rapping, alter egos, and accents.",
-      "Date": "(born 1982)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Nicki_Minaj_Realize_NBA_Awards_2017.png/440px-Nicki_Minaj_Realize_NBA_Awards_2017.png",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "J Cole": {
-      "Blurb": "American rapper, singer, songwriter, and record producer who initially gained recognition as a rapper following the release of his debut mixtape, The Come Up, in early 2007.",
-      "Date": "(born 1985)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/JCole2018.png/440px-JCole2018.png",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Chester Bennington": {
-      "Blurb": "American singer and songwriter who was best known as the lead vocalist of rock band Linkin Park. He was also the lead vocalist of the bands Grey Daze, Dead by Sunrise, and Stone Temple Pilots.",
-      "Date": "(1976-2017)",
-      "Elo": 1000,
-      "Image": "https://www.rollingstone.com/wp-content/uploads/2018/06/chester-bennington-linkin-park-obit-a53cd0a0-c57a-484e-b0f6-e52173634d93.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Sigmund Freud": {
-      "Blurb": "Austrian neurologist and the founder of psychoanalysis, a clinical method for evaluating and treating pathologies in the psyche through dialogue between a patient and a psychoanalyst.",
-      "Date": "(1856-1939)",
-      "Elo": 1000,
-      "Image": "https://www.biography.com/.image/t_share/MTgwNzU5NDcxMzU2NjUwODU2/gettyimages-613470752jpg-13-31-39-121.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "DaBaby": {
-      "Blurb": "American rapper. After releasing several mixtapes between 2014 and 2018, he rose to mainstream prominence in 2019.",
-      "Date": "(born 1991)",
-      "Elo": 1000,
-      "Image": "https://i.kym-cdn.com/photos/images/newsfeed/002/043/165/0ee.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Johann Sebastian Bach": {
-      "Blurb": "German composer and musician of the late Baroque period, known for a wide variety of orchestral music, instrumental compositions, keyboard works, organ works, vocal music, and more.",
-      "Date": "(1685-1750)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Johann_Sebastian_Bach.jpg/440px-Johann_Sebastian_Bach.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Amelia Earhart": {
-      "Blurb": "American aviation pioneer and writer, and was the first female aviator to fly solo across the Atlantic Ocean.",
-      "Date": "(1897-1937)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small.jpg/375px-Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Walt Disney": {
-      "Blurb": "American animator, film producer, and entrepreneur. A pioneer of the American animation industry, he introduced several developments in the production of cartoons.",
-      "Date": "(1901-1966)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Walt_Disney_1946.JPG/440px-Walt_Disney_1946.JPG",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Frank Ocean": {
-      "Blurb": "American singer, songwriter, and rapper, known for his avant-garde styles and introspective, elliptical lyrics.",
-      "Date": "(born 1987)",
-      "Elo": 1000,
-      "Image": "https://www.rollingstone.com/wp-content/uploads/2019/09/frank-ocean-next-album-lie.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Taylor Swift": {
-      "Blurb": "American singer-songwriter. Her discography spans multiple genres and her narrative songwriting is often inspired by her personal life.",
-      "Date": "(born 1989)",
-      "Elo": 1000,
-      "Image": "https://media1.popsugar-assets.com/files/thumbor/hnVKqXE-xPM5bi3w8RQLqFCDw_E/475x60:1974x1559/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/09/09/023/n/1922398/9f849ffa5d76e13d154137.01128738_/i/Taylor-Swift.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Ada Lovelace": {
-      "Blurb": "English mathematician and writer, chiefly known for her work creating the first algorithm intended to be carried out by such a machine. Often regarded as the first computer programmer.",
-      "Date": "(1815-1852)",
-      "Elo": 1000,
-      "Image": "https://images.newscientist.com/wp-content/uploads/2021/05/11162637/ada-lovelace-htkrgb_web.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Katy Perry": {
-      "Blurb": "American singer, songwriter, and television personality, recognized for her influence on modern pop music and her campy style.",
-      "Date": "(born 1984)",
-      "Elo": 1000,
-      "Image": "https://akamai.sscdn.co/uploadfile/letras/fotos/1/c/8/f/1c8fd7ba5598d14c83c830b785c09145.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Michelangelo": {
-      "Blurb": "Italian sculptor, painter, architect, and poet of the High Renaissance. Born in the Republic of Florence, his work was inspired by models from classical antiquity and had a lasting influence on Western art.",
-      "Date": "(1475-1564)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg/440px-Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Vincent Van Gogh": {
-      "Blurb": "Dutch Post-Impressionist painter who posthumously became a very influential figure in Western art history. In a decade, he created about 2,100 artworks.",
-      "Date": "(1853-1890)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/440px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Pablo Picasso": {
-      "Blurb": "Spanish painter, sculptor, printmaker, ceramicist and theatre designer who spent most of his adult life in France. Known for developing and exploring a wide variety of styles.",
-      "Date": "(1881-1973)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Portrait_de_Picasso%2C_1908.jpg/440px-Portrait_de_Picasso%2C_1908.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Steve Jobs": {
-      "Blurb": "American entrepreneur, industrial designer, and investor. Co-founder/chairman of Apple, chairman of Pixar, and a member of the Walt Disney Company's board of directors. Recognized as a pioneer of the personal computer revolution.",
-      "Date": "(1955-2011)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/330px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Weird Al": {
-      "Blurb": "American singer, musician, songwriter, record producer, actor, and author. He is best known for creating comedy songs that make light of pop culture and often parody specific songs by contemporary musicians.",
-      "Date": "(born 1959)",
-      "Elo": 1000,
-      "Image": "https://static01.nyt.com/images/2020/04/11/magazine/11mag-weirdal-01/11mag-weirdal-01-videoSixteenByNineJumbo1600-v3.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Bill Gates": {
-      "Blurb": "American business magnate, software developer, investor, author, and philanthropist, as well as a co-founder of Microsoft.",
-      "Date": "(born 1955)",
-      "Elo": 1000,
-      "Image": "https://imageio.forbes.com/specials-images/imageserve/62d599ede3ff49f348f9b9b4/0x0.jpg?format=jpg&crop=821,821,x155,y340,safe&height=416&width=416&fit=bounds",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Technoblade": {
-      "Blurb": "American YouTuber and internet personality known for his Minecraft videos and livestreams on his YouTube channel and his involvement in the Dream SMP. ",
-      "Date": "(1999-2022)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/en/2/27/Technoblade.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Hikaru Nakamura": {
-      "Blurb": "Japanese-American chess grandmaster, Twitch streamer, five-time U.S. Chess Champion, and the reigning World Fischer Random Chess Champion.",
-      "Date": "(born 1987)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Nakamura_Hikaru_%2829290269410%29_%28cropped%29_%28cropped%29.jpg/440px-Nakamura_Hikaru_%2829290269410%29_%28cropped%29_%28cropped%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Magnus Carlsen": {
-      "Blurb": "Norwegian chess grandmaster who is the reigning five-time World Chess Champion. He is also a three-time World Rapid Chess Champion and five-time World Blitz Chess Champion.",
-      "Date": "(born 1990)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/World_Chess_Championship_2021%2C_game_07%2C_Magnus_Carlsen_%28cropped%29.jpg/440px-World_Chess_Championship_2021%2C_game_07%2C_Magnus_Carlsen_%28cropped%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Hans Niemann": {
-      "Blurb": "American chess grandmaster and Twitch streamer. FIDE awarded him the Grandmaster title on January 22, 2021.",
-      "Date": "(born 2003)",
-      "Elo": 1000,
-      "Image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/chansen64/phpfqm1YV.jpeg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Faker": {
-      "Blurb": "South Korean professional League of Legends player for T1. He was picked up by T1 (SK Telecom T1 at the time) in 2013 and has played as the team's mid-laner since.",
-      "Date": "(born 1996)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Faker_at_the_2015.10.02_S5_Paris_day2.jpeg/440px-Faker_at_the_2015.10.02_S5_Paris_day2.jpeg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Markus 'Notch' Persson": {
-      "Blurb": "Swedish video game programmer and designer. He is best known for creating the sandbox video game \"Minecraft\" and for founding the video game company Mojang in 2009.",
-      "Date": "(born 1979)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Notch_receives_the_Pioneer_Award_at_GDC_2016_%28cropped%29.jpg/330px-Notch_receives_the_Pioneer_Award_at_GDC_2016_%28cropped%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Ninja": {
-      "Blurb": "American Twitch streamer, YouTuber, and professional gamer. He began streaming by participating in several esports teams in competitive play for Halo 3, and picked up fame for playing Fortnite: Battle Royale in late 2017.",
-      "Date": "(born 1991)",
-      "Elo": 1000,
-      "Image": "https://a.espncdn.com/photo/2018/0917/r432464_1600x800cc.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Markiplier": {
-      "Blurb": "American YouTuber. In addition to uploading videos on his main YouTube channel, he is a co-founder of the clothing company Cloak, co-host of the Distractible podcast, and also co-hosted the now defunct Unus Annus channel.",
-      "Date": "(born 1989)",
-      "Elo": 1000,
-      "Image": "https://www.kotaku.com.au/wp-content/uploads/sites/3/2022/10/18/unnamed-file.jpg?quality=80&resize=1280,720",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Jacksepticeye": {
-      "Blurb": "Irish YouTuber, best known for his vlogs and comedic Let's Play series. Co-founder of the clothing brand Cloak, and the founder and owner of the Top of The Mornin' Coffee company.",
-      "Date": "(born 1990)",
-      "Elo": 1000,
-      "Image": "https://www.independent.ie/incoming/982cd/36150475.ece/AUTOCROP/w1240h700/jack%20septic%20eye.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Jeff Bezos": {
-      "Blurb": "American entrepreneur, computer engineer, and commercial astronaut. He is the founder and executive chairman of Amazon, and was the wealthiest person in the world from 2017 to 2021.",
-      "Date": "(born 1964)",
-      "Elo": 1000,
-      "Image": "https://assets.change.org/photos/3/rh/bh/VWrhBhlKyGVOeyG-400x400-noPad.jpg?1528862483",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Tim Cook": {
-      "Blurb": "American business executive who has been the CEO of Apple since 2011.",
-      "Date": "(born 1960)",
-      "Elo": 1000,
-      "Image": "https://images.macrumors.com/t/ICHhqs7DRUx1jmewLPd3mt1xPuw=/400x400/smart/article-new/2021/03/tim-cook-apple-park.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Leonhard Euler": {
-      "Blurb": "Swiss mathematician, physicist, astronomer, geographer, logician and engineer who founded the studies of graph theory and topology. He introduced much of modern mathematical terminology and notation.",
-      "Date": "(1707-1783)",
-      "Elo": 1000,
-      "Image": "https://dl0.creation.com/articles/p123/c12305/Leonhard-Euler.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Oprah Winfrey": {
-      "Blurb": "American talk show host, television producer, actress, author, and philanthropist. She is best known for her talk show, The Oprah Winfrey Show, broadcast from Chicago, which ran in national syndication for 25 years, from 1986 to 2011.",
-      "Date": "(born 1954)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Oprah_in_2014.jpg/440px-Oprah_in_2014.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Chris Hadfield": {
-      "Blurb": "Canadian retired astronaut, engineer, fighter pilot, and musician. First Canadian to perform extravehicular activity in outer space, has flown two Space Shuttle missions, and has served as commander of the International Space Station.",
-      "Date": "(born 1959)",
-      "Elo": 1000,
-      "Image": "https://www.sarniahistoricalsociety.com/wp-content/uploads/2015/06/Chris-Hadfield-Sarnias-Man-in-Space.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Ali-A": {
-      "Blurb": "British YouTuber known for Call of Duty and Fortnite commentaries and vlogs. He is one of the highest-paid professional online gamers.",
-      "Date": "(born 1993)",
-      "Elo": 1000,
-      "Image": "https://scufgaming.com/media/wysiwyg/affiliates_v2/ali-a/affiliate_detail_alia2022_gallery_1_1.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Nick Eh 30": {
-      "Blurb": "Canadian YouTube gamer, live-streamer, and professional Fortnite player who currently resides in Halifax, Nova Scotia, Canada.",
-      "Date": "(born 1995)",
-      "Elo": 1000,
-      "Image": "https://pbs.twimg.com/profile_images/1567555410424381443/9AsPQTfn_400x400.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Buzz Aldrin": {
-      "Blurb": "American former astronaut, engineer and fighter pilot. One of the first two people to land on the Moon, and made three spacewalks as pilot of the 1966 Gemini 12 mission.",
-      "Date": "(born 1930)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Buzz_Aldrin.jpg/330px-Buzz_Aldrin.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Shigeru Miyamoto": {
-      "Blurb": "Japanese video game designer, producer and game director at Nintendo. Known for creating the Super Mario franchise, The Legend of Zelda, Donkey Kong, Star Fox, and Pikmin.",
-      "Date": "(born 1952)",
-      "Elo": 1000,
-      "Image": "https://elmcip.net/sites/default/files/media/person/images/shigeru_miyamoto.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "PROD": {
-      "Blurb": "American Valorant player commonly referred to as NA's Last Hope. He gained popularity after repeatedly appearing on fellow player Sinatraa's stream, with a unique and flashy playstyle on the character Jett.",
-      "Date": "(born 2001)",
-      "Elo": 1000,
-      "Image": "https://cdn1.dotesports.com/wp-content/uploads/2022/08/15173326/PROD.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Sid Meier": {
-      "Blurb": "Canadian-American programmer, designer, and producer of several strategy video games and simulation video games, including the Civilization series.",
-      "Date": "(born 1954)",
-      "Elo": 1000,
-      "Image": "https://static.independent.co.uk/2020/09/07/15/Sid%20Meier%20author%20photo%20%28c.%20Tom%20Bass2K%29.jpg?width=512",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Sinatraa": {
-      "Blurb": " American professional Valorant player for Sentinels, who previously won the Overwatch League Grand Finals with the San Francisco Shock. He is often credited with pioneering and popularizing the \"Valorant Accent\".",
-      "Date": "(born 2000)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Sinatraa_at_OWWC_2018_-_cropped.jpg/440px-Sinatraa_at_OWWC_2018_-_cropped.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "GeorgeNotFound": {
-      "Blurb": "British Minecraft player and YouTube creator who gained popularity for his appearances on fellow creator Dream's channel, along with his contributions to the Dream SMP.",
-      "Date": "(born 1996)",
-      "Elo": 1000,
-      "Image": "https://staticg.sportskeeda.com/editor/2020/08/658e5-15983564951971-800.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Sapnap": {
-      "Blurb": "American YouTuber and Minecraft player who gained popularity for his appearances on fellow creator Dream's channel ",
-      "Date": "(born 2001)",
-      "Elo": 1000,
-      "Image": "https://i.pinimg.com/736x/21/74/ce/2174cea3e0430e2df8ab93c43bee212c.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Vladimir Putin": {
-      "Blurb": "Russian politician and former intelligence officer who has served as the as the president of Russia from 2000-2008 and 2012-present, and prime minister from 1999 to 2000 and again from 2008-2012.",
-      "Date": "(born 1952)",
-      "Elo": 1000,
-      "Image": "https://www.history.com/.image/t_share/MTU3ODc5MDgyNjcxODEwMjcx/12188042_h24262930.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "CaptainSparklez": {
-      "Blurb": "American YouTuber, Twitch streamer, gamer, and musician, primarily known for playing the video game Minecraft, along with his popular parody songs relating to the game.",
-      "Date": "(born 1992)",
-      "Elo": 1000,
-      "Image": "https://s.yimg.com/ny/api/res/1.2/HmgeYPXQDoWa_wARLi1gRA--/YXBwaWQ9aGlnaGxhbmRlcjtoPTY2Ng--/https://o.aolcdn.com/images/dar/5845cadfecd996e0372f/983e917e240477fcbe89de1981def804364e1028/aHR0cDovL28uYW9sY2RuLmNvbS9oc3Mvc3RvcmFnZS9taWRhcy80YTI2MTIzYWIxMWQ3ODkyNDk5MTQ2Y2UwMGI1MDQzNi8yMDIyODkxODIvY2Fwbi5qcGc=",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "DanTDM": {
-      "Blurb": "British YouTuber and gamer known for his video game commentaries. His online video channels have covered many video games including Minecraft, Roblox, and Pokemon.",
-      "Date": "(born 1991)",
-      "Elo": 1000,
-      "Image": "https://nasacademy.com/blog/wp-content/uploads/dantdm-thumbnail-.jpeg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "George Washington": {
-      "Blurb": "American military officer and statesman who served as the first president of the United States from 1789 to 1797, and commanded the Continental Army during the American Revolutionary War.",
-      "Date": "(1732-1799)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/330px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Stampy": {
-      "Blurb": "English YouTuber, gamer, author, and filmmaker known for his video game commentaries including Minecraft, and for playing the character of Stampy Cat. He runs one of the most popular Let's Play series on the game, his \"Lovely World\".",
-      "Date": "(born 1990)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Joseph_Garrett_Minecon_2015.jpg/440px-Joseph_Garrett_Minecon_2015.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Adin Ross": {
-      "Blurb": "American Twitch and YouTube streamer best known for streaming NBA 2K and GTA V.",
-      "Date": "(born 2000)",
-      "Elo": 1000,
-      "Image": "https://cdn1.dotesports.com/wp-content/uploads/2022/06/14162222/adin-ross-streamer-1024x713.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Kai Cenat": {
-      "Blurb": "American YouTuber and Twitch streamer known for his vlogging and prank videos. He is noted for coining the term \"unspoken rizz\", and is a founding member of the content-creation brand AMP.",
-      "Date": "(born 2001)",
-      "Elo": 1000,
-      "Image": "https://yt3.ggpht.com/8CTOa1-yV6UdYgZaqVipH2zNP55Ilt_PTrwEJri9sz1ZnqwQsFtQuVYOrI74t9HtyB6uPetp=s900-c-k-c0x00ffffff-no-rj",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Queen Elizabeth II": {
-      "Blurb": "Queen of the UK and the Commonwealth from 6 February 1952 until her death in 2022, the longest reign of any British monarch and any female monarch in history.",
-      "Date": "(1926-2022)",
-      "Elo": 1000,
-      "Image": "https://assets.vogue.com/photos/6327939f06377e01c5304296/master/pass/Fc9-RcUXgAEgljY.jpeg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "IShowSpeed": {
-      "Blurb": "American gaming Youtuber, streamer, and musician, known for his unrestrained, unusual, reckless, and over-the-top personality.",
-      "Date": "(born 2005)",
-      "Elo": 1000,
-      "Image": "https://www.thesun.co.uk/wp-content/uploads/2022/07/www-instagram-com-ishowspeed-753059710.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "xQc": {
-      "Blurb": "Canadian Twitch streamer, internet personality, and former professional Overwatch player, known for being the most watched streamer on Twitch. He now additionally hosts the game show Juiced.",
-      "Date": "(born 1995)",
-      "Elo": 1000,
-      "Image": "https://cdn-images.win.gg/resize/w/500/format/webp/type/progressive/fit/cover/path/wp/uploads/2021/08/xqc-is-done-streaming-for-sentinels-pursue-new-opportunities.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Andrew Tate": {
-      "Blurb": "American-British Internet personality and former professional kickboxer. Following his kickboxing career, Tate began offering paid courses and memberships through his website and later rose to fame as an online influencer",
-      "Date": "(born 1986)",
-      "Elo": 1000,
-      "Image": "https://cdn.siasat.com/wp-content/uploads/2022/08/aNDREW-tATE.png",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Kim Kardashian": {
-      "Blurb": "American media personality, socialite, and businesswoman. She first gained media attention as a friend and stylist of Paris Hilton, and further gained fame through starring in the reality television series \"Keeping Up With The Kardashians\".",
-      "Date": "(born 1980)",
-      "Elo": 1000,
-      "Image": "https://cdn.britannica.com/42/184142-050-5B50BDC2/Kim-Kardashian-2008.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Saint Teresa of Calcutta (Mother Teresa)": {
-      "Blurb": "Indian-Albanian Catholic nun who founded the Missionaries of Charity in 1950, an organization that operates homes for the dying, as well as orphanages and schools. She received the Nobel Peace Prize for her charitable work.",
-      "Date": "(1910-1997)",
-      "Elo": 1000,
-      "Image": "https://parabolaorg-4jzhg7c.stackpathdns.com/wp-content/uploads/2016/10/Mother-Teresa.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Kylie Jenner": {
-      "Blurb": "American media personality, socialite, and businesswoman. She starred in the E! reality television series Keeping Up with the Kardashians from 2007 to 2021 and is the founder and owner of cosmetic company Kylie Cosmetics.",
-      "Date": "(born 1997)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Kylie_Jenner_in_2021.jpg/440px-Kylie_Jenner_in_2021.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Charli DAmelio": {
-      "Blurb": "American social media personality. She was a competitive dancer for over 10 years before starting her social media career in 2019, when she started posting dance videos on the video-sharing platform TikTok.",
-      "Date": "(born 2004)",
-      "Elo": 1000,
-      "Image": "https://yt3.ggpht.com/uXdwBrA5fi_5RFAvd3BLjfON1xZ1sTeiJt3r_m98B9DitiQWpaJfvgi6V37MAFwuixivFvKuRg=s900-c-k-c0x00ffffff-no-rj",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Tom Scott": {
-      "Blurb": "British YouTuber and web developer. He is best known for producing online videos for his self-titled YouTube channel, which mainly offers educational videos across a range of topics including history, geography, science, technology, and linguistics.",
-      "Date": "(born 1984)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Tom_Scott_avatar_by_Matt_Gray_%28cropped%29.jpg/440px-Tom_Scott_avatar_by_Matt_Gray_%28cropped%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Winston Churchill": {
-      "Blurb": "British statesman, soldier, and writer who served as Prime Minister of the United Kingdom from 1940 to 1945 (during the Second World War), and again from 1951 to 1955.",
-      "Date": "(1874-1965)",
-      "Elo": 1000,
-      "Image": "https://www.investors.com/wp-content/uploads/2021/02/LSMAIN-churchill-020521-wiki.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Socrates": {
-      "Blurb": "Greek philosopher from Athens who is credited as the founder of Western philosophy and among the first moral philosophers of the ethical tradition of thought.",
-      "Date": "(470 BC-399 BC)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/UWASocrates_gobeirne_cropped.jpg/375px-UWASocrates_gobeirne_cropped.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Chris Bumstead": {
-      "Blurb": "Canadian IFBB professional bodybuilder best known for his three consecutive Mr. Olympia Classic Physique wins.",
-      "Date": "(born 1995)",
-      "Elo": 1000,
-      "Image": "https://ucarecdn.com/13eb17a7-355f-4535-9380-cdaf4c3c5036/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Arnold Schwarzenegger": {
-      "Blurb": "Austrian and American actor, film producer, businessman, retired professional bodybuilder and politician who served as the 38th governor of California between 2003 and 2011. He is well known for his seven Mr. Olympia wins.",
-      "Date": "(born 1947)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Arnold_Schwarzenegger_by_Gage_Skidmore_4.jpg/440px-Arnold_Schwarzenegger_by_Gage_Skidmore_4.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Ronnie Coleman": {
-      "Blurb": "American retired professional bodybuilder and the winner of the Mr. Olympia title for eight consecutive years. He is renowned for his combination of size and conditioning, dominant body-parts, and extremely heavy workouts.",
-      "Date": "(born 1964)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Ronnie_Coleman_Invited_Guest.jpg/440px-Ronnie_Coleman_Invited_Guest.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Plato": {
-      "Blurb": "Greek philosopher born in Athens during the Classical period in Ancient Greece. He founded the Platonist school of thought and the Academy, the first institution of higher learning on the European continent.",
-      "Date": "(428 BC-328 BC)",
-      "Elo": 1000,
-      "Image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTgxMjczNDQwMTYwODUxMDQ3/gettyimages-113631148.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Shaquille ONeal": {
-      "Blurb": "American former professional basketball player who is a sports analyst on the television program Inside the NBA. He is a 7-foot-1 and 325-pound center who played for six teams over his 19-year career in the NBA, and is a 4-time champion.",
-      "Date": "(born 1972)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Shaquille_O%27Neal_October_2017_%28cropped%29.jpg/440px-Shaquille_O%27Neal_October_2017_%28cropped%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Wayne Gretzky": {
-      "Blurb": "Canadian former professional ice hockey player and former head coach. He played 20 seasons in the National Hockey League (NHL) for four teams from 1979 to 1999. He is the leading goal scorer, assist producer, and point scorer in NHL history.",
-      "Date": "(born 1961)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Wayne_Gretzky_2006-02-18_Turin_001.jpg/440px-Wayne_Gretzky_2006-02-18_Turin_001.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Tiger Woods": {
-      "Blurb": "American professional golfer. He is tied for first in PGA Tour wins, ranks second in men's major championships, and holds numerous golf records.",
-      "Date": "(born 1975)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Tiger_Woods_in_May_2019.jpg/440px-Tiger_Woods_in_May_2019.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Sidney Crosby": {
-      "Blurb": "Canadian professional ice hockey centre and captain of the Pittsburgh Penguins of the National Hockey League (NHL). Nicknamed \"Sid the Kid\" and dubbed \"The Next One\", he was selected first overall by the Penguins in the 2005 NHL Entry Draft.",
-      "Date": "(born 1987)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Sidney_Crosby_2019-01-06_1.jpg/460px-Sidney_Crosby_2019-01-06_1.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Kim Jong-un": {
-      "Blurb": "North Korean politician who has been Supreme Leader of North Korea since 2011.",
-      "Date": "(born 1982)",
-      "Elo": 1000,
-      "Image": "https://images.wsj.net/im-236521/OR",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Stephen Curry": {
-      "Blurb": "American professional basketball player for the Golden State Warriors of the National Basketball Association (NBA). Curry is credited with revolutionizing the sport by inspiring teams and players to take more three-point shots.",
-      "Date": "(born 1988)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/TechCrunch_Disrupt_2019_%2848834853256%29_%281%29.jpg/440px-TechCrunch_Disrupt_2019_%2848834853256%29_%281%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Abraham Lincoln": {
-      "Blurb": "American lawyer and statesman who served as the 16th president of the United States from 1861 until his assassination in 1865, leading the country during the American Civil War.",
-      "Date": "(1809-1865)",
-      "Elo": 1000,
-      "Image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/16_abraham_lincoln.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Roger Federer": {
-      "Blurb": "Swiss former professional tennis player. He was ranked world No. 1 by the Association of Tennis Professionals (ATP) for 310 weeks, including a record 237 consecutive weeks, and finished as the year-end No. 1 five times.",
-      "Date": "(born 1981)",
-      "Elo": 1000,
-      "Image": "https://cdn.britannica.com/57/183257-050-0BA11B4B/Roger-Federer-2012.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Novak Djokovic": {
-      "Blurb": "Serbian professional tennis player. He has been ranked world No. 1 for a record total of 373 weeks and has finished as the year-end No. 1 a record seven times.",
-      "Date": "(born 1987)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Novak_Djokovi%C4%87_Trophy_Wimbledon_2019-croped_and_edited.jpg",
+    "Muhammad": {
+      "Blurb": "Arab religious, social, and political leader and the founder of the world religion of Islam. According to Islamic doctrine, he was a prophet divinely inspired to preach and confirm the teachings of Adam, Abraham, Moses, Jesus, and other prophets.",
+      "Date": "(570-632)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Dark_vignette_Al-Masjid_AL-Nabawi_Door800x600x300.jpg/440px-Dark_vignette_Al-Masjid_AL-Nabawi_Door800x600x300.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
@@ -1242,74 +1224,20 @@
       "Recent": "",
       "Wins": 0
     },
-    "Rafael Nadal": {
-      "Blurb": "Spanish professional tennis player. He is currently ranked world No. 2 in singles by the Association of Tennis Professionals (ATP). He has been ranked world No. 1 for 209 weeks and has finished as the year-end No. 1 five times.",
-      "Date": "(born 1986)",
+    "Neil Armstrong": {
+      "Blurb": "American astronaut and aeronautical engineer who became the first person to walk on the Moon in 1969.",
+      "Date": "(1930-2012)",
       "Elo": 1000,
-      "Image": "https://imageio.forbes.com/specials-images/imageserve/5ece8a5c938ec500060aae37/0x0.jpg?format=jpg&crop=2462,2460,x503,y156,safe&height=416&width=416&fit=bounds",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Neil_Armstrong_pose.jpg/330px-Neil_Armstrong_pose.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "Joe Biden": {
-      "Blurb": "American politician who is the 46th and current president of the United States. A member of the Democratic Party, he previously served as the 47th vice president from 2009 to 2017 under President Barack Obama.",
-      "Date": "(born 1942)",
+    "Neil Diamond": {
+      "Blurb": "American singer-songwriter. Thirty-eight of his songs have reached the top 10 on the Billboard Adult Contemporary charts, including \"Sweet Caroline\".",
+      "Date": "(born 1941)",
       "Elo": 1000,
-      "Image": "https://image.cnbcfm.com/api/v1/image/106878527-1620223837055-106748412-1602881184740-biden.jpg?v=1620224062",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Floyd Mayweather": {
-      "Blurb": "American boxing promoter and former professional boxer. As a professional boxer he competed between 1996 and 2017, retiring with an undefeated record and winning 15 major world championships from super featherweight to light middleweight.",
-      "Date": "(born 1977)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Floyd_Mayweather%2C_Jr._at_DeWalt_event_%285888721735%29_%28rotated_4%29.jpg/440px-Floyd_Mayweather%2C_Jr._at_DeWalt_event_%285888721735%29_%28rotated_4%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Mike Tyson": {
-      "Blurb": "American former professional boxer who competed from 1985 to 2005. He reigned as the undisputed world heavyweight champion from 1987 to 1990. Tyson won his first 19 professional fights by knockout, 12 of them in the first round.",
-      "Date": "(born 1966)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Mike_Tyson_2019_by_Glenn_Francis.jpg/440px-Mike_Tyson_2019_by_Glenn_Francis.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Conor McGregor": {
-      "Blurb": "Irish professional mixed martial artist. He is a former Ultimate Fighting Championship (UFC) featherweight and lightweight double-champion. He is the first UFC fighter to hold UFC championships in two weight classes simultaneously.",
-      "Date": "(born 1988)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Conor_McGregor_2018.jpg/440px-Conor_McGregor_2018.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Theodore 'Teddy' Roosevelt": {
-      "Blurb": "American politician, statesman, soldier, conservationist, naturalist, historian, and writer who served as the 26th president of the United States from 1901 to 1909, and as the 25th vice president under President William McKinley.",
-      "Date": "(1858-1919)",
-      "Elo": 1000,
-      "Image": "https://helios-i.mashable.com/imagery/articles/02JO4CkW4vlPov9vtmi8oGI/hero-image.fill.size_1248x702.v1611610295.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "JK Rowling": {
-      "Blurb": "British author and philanthropist known for writing Harry Potter, a seven-volume children's fantasy series published from 1997 to 2007. The series has sold over 500 million copies, and spawned a global media franchise including films and games.",
-      "Date": "(born 1965)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/440px-J._K._Rowling_2010.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Roald Dahl": {
-      "Blurb": "British novelist, short-story writer, poet, screenwriter, and wartime fighter ace of Norwegian descent. His books have sold more than 250 million copies worldwide.",
-      "Date": "(1916-1990)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Roald_Dahl.jpg/440px-Roald_Dahl.jpg",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Neil_Diamond_HWOF_Aug_2012_other_%28levels_adjusted_and_cropped%29.jpg/440px-Neil_Diamond_HWOF_Aug_2012_other_%28levels_adjusted_and_cropped%29.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
@@ -1323,74 +1251,56 @@
       "Recent": "",
       "Wins": 0
     },
-    "Stephen King": {
-      "Blurb": "American author of horror, supernatural fiction, suspense, crime, science-fiction, and fantasy novels. His books have sold more than 350 million copies,[3] and many have been adapted into films, television series, miniseries, and comic books.",
-      "Date": "(born 1947)",
+    "Nick Eh 30": {
+      "Blurb": "Canadian YouTube gamer, live-streamer, and professional Fortnite player who currently resides in Halifax, Nova Scotia, Canada.",
+      "Date": "(born 1995)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Stephen_King%2C_Comicon.jpg/440px-Stephen_King%2C_Comicon.jpg",
+      "Image": "https://pbs.twimg.com/profile_images/1567555410424381443/9AsPQTfn_400x400.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "JRR Tolkien": {
-      "Blurb": "English writer and philologist. He was the author of the high fantasy works The Hobbit and The Lord of the Rings.",
-      "Date": "(1892-1973)",
+    "Nicki Minaj": {
+      "Blurb": "Trinidadian-born rapper, singer, and songwriter based in the United States. She is known for her musical versatility, animated flow in her rapping, alter egos, and accents.",
+      "Date": "(born 1982)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/440px-J._R._R._Tolkien%2C_ca._1925.jpg",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Nicki_Minaj_Realize_NBA_Awards_2017.png/440px-Nicki_Minaj_Realize_NBA_Awards_2017.png",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "Dr Seuss": {
-      "Blurb": "American children's author and cartoonist. He is known for his work writing and illustrating more than 60 books. His work includes many of the most popular children's books of all time, selling over 600 million copies.",
-      "Date": "(1904-1991)",
+    "Ninja": {
+      "Blurb": "American Twitch streamer, YouTuber, and professional gamer. He began streaming by participating in several esports teams in competitive play for Halo 3, and picked up fame for playing Fortnite: Battle Royale in late 2017.",
+      "Date": "(born 1991)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Theodor_Seuss_Geisel_%2801037v%29.jpg/440px-Theodor_Seuss_Geisel_%2801037v%29.jpg",
+      "Image": "https://a.espncdn.com/photo/2018/0917/r432464_1600x800cc.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "Leo Tolstoy": {
-      "Blurb": "Russian writer who received nominations for the Nobel Prize in Literature every year from 1902 to 1906 and for the Nobel Peace Prize in 1901, 1902, and 1909.",
-      "Date": "(1828-1910)",
+    "Novak Djokovic": {
+      "Blurb": "Serbian professional tennis player. He has been ranked world No. 1 for a record total of 373 weeks and has finished as the year-end No. 1 a record seven times.",
+      "Date": "(born 1987)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg/440px-L.N.Tolstoy_Prokudin-Gorsky.jpg",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Novak_Djokovi%C4%87_Trophy_Wimbledon_2019-croped_and_edited.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "George Orwell": {
-      "Blurb": "English novelist, essayist, journalist, and critic. His work is characterised by lucid prose, social criticism, opposition to totalitarianism, and support of democratic socialism.",
-      "Date": "(1903-1950)",
+    "Olivia Rodrigo": {
+      "Blurb": "American singer-songwriter and actress, known for multiple best-selling songs on her album \"Sour\".",
+      "Date": "(born 2003)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/440px-George_Orwell_press_photo.jpg",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Olivia_Rodrigo_at_Vice_President%27s_West_Wing_office_%282%29.jpg/440px-Olivia_Rodrigo_at_Vice_President%27s_West_Wing_office_%282%29.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "Aristotle": {
-      "Blurb": "Greek philosopher and polymath during the Classical period in Ancient Greece, whose writings have influenced nearly every form of knowledge in the West.",
-      "Date": "(384 BC-322 BC)",
+    "Oprah Winfrey": {
+      "Blurb": "American talk show host, television producer, actress, author, and philanthropist. She is best known for her talk show, The Oprah Winfrey Show, broadcast from Chicago, which ran in national syndication for 25 years, from 1986 to 2011.",
+      "Date": "(born 1954)",
       "Elo": 1000,
-      "Image": "https://www.aplustopper.com/wp-content/uploads/2020/08/Aristotle-Biography.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Jesus Christ": {
-      "Blurb": "First-century Jewish preacher and religious leader. He is the central figure of Christianity, the world's largest religion. Most Christians believe he is the incarnation of God the Son and the awaited Messiah prophesied in the Hebrew Bible.",
-      "Date": "(4 BC-33 AD)",
-      "Elo": 1000,
-      "Image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg1NjUzODgwMjU4ODk3NTM2/jesuschrist.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "The Buddha": {
-      "Blurb": "Wandering ascetic and religious teacher who lived in South Asia during the 6th or 5th century BCE and founded Buddhism. His title, Buddha, means \"Awakened One\" or \"Enlightened One\".",
-      "Date": "(563 BC-483 BC)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg/440px-Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Oprah_in_2014.jpg/440px-Oprah_in_2014.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
@@ -1404,353 +1314,11 @@
       "Recent": "",
       "Wins": 0
     },
-    "Muhammad": {
-      "Blurb": "Arab religious, social, and political leader and the founder of the world religion of Islam. According to Islamic doctrine, he was a prophet divinely inspired to preach and confirm the teachings of Adam, Abraham, Moses, Jesus, and other prophets.",
-      "Date": "(570-632)",
+    "PROD": {
+      "Blurb": "American Valorant player commonly referred to as NA's Last Hope. He gained popularity after repeatedly appearing on fellow player Sinatraa's stream, with a unique and flashy playstyle on the character Jett.",
+      "Date": "(born 2001)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Dark_vignette_Al-Masjid_AL-Nabawi_Door800x600x300.jpg/440px-Dark_vignette_Al-Masjid_AL-Nabawi_Door800x600x300.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Genghis Khan": {
-      "Blurb": "Founder and first Great Khan (Emperor) of the Mongol Empire, which became the largest contiguous empire in history after his death.",
-      "Date": "(1162-1227)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/330px-YuanEmperorAlbumGenghisPortrait.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Pope Francis": {
-      "Blurb": "Current pope and head of the Catholic Church. He has been sovereign of the Vatican City State since 13 March 2013.",
-      "Date": "(born 1936)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Portrait_of_Pope_Francis_%282021%29.jpg/440px-Portrait_of_Pope_Francis_%282021%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Rosa Parks": {
-      "Blurb": "American activist in the civil rights movement best known for her pivotal role in the Montgomery bus boycott. The United States Congress has honored her as \"the first lady of civil rights\" and \"the mother of the freedom movement\".",
-      "Date": "(1913-2005)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Rosaparks.jpg/330px-Rosaparks.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Jennette McCurdy": {
-      "Blurb": "American writer, director, podcaster, singer, and former actress. Her breakthrough role as Sam Puckett in the Nickelodeon sitcom iCarly earned her various awards, including four Nickelodeon Kids' Choice Awards.",
-      "Date": "(born 1992)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Jennette_McCurdy_2012.jpg/440px-Jennette_McCurdy_2012.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Hannibal": {
-      "Blurb": "Carthaginian general and statesman who commanded the forces of Carthage in their battle against the Roman Republic during the Second Punic War.",
-      "Date": "(247-182 BC)",
-      "Elo": 1000,
-      "Image": "https://www.thefamouspeople.com/profiles/images/hannibal-barca-2.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Miranda Cosgrove": {
-      "Blurb": "American actress and singer. She was the highest-paid child actor in 2012 and is known for her career on television, particularly for her work while starring as Carly Shay in the teen sitcom iCarly (2007-2012).",
-      "Date": "(born 1993)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Miranda_Cosgrove_NickRewind_2022.jpg/440px-Miranda_Cosgrove_NickRewind_2022.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Dwayne Johnson": {
-      "Blurb": "Also known by his ring name The Rock, Dwayne is an American actor and former professional wrestler. His films have grossed over $3.5 billion in North America and over $10.5 billion worldwide, making him one of the world's highest-grossing actors.",
-      "Date": "(born 1972)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Dwayne_Johnson_2014_%28cropped%29.jpg/440px-Dwayne_Johnson_2014_%28cropped%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Julius Caesar": {
-      "Blurb": "Roman general and statesman who led the Roman armies in the Gallic Wars before defeating his political rival Pompey in a civil war, He subsequently became dictator from 49 BC until his assassination in 44 BC.",
-      "Date": "(100 BC-44 AD)",
-      "Elo": 1000,
-      "Image": "https://img.populis.id/articles/archive_20220304/julius-caesar-20220304-162003.webp",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "videogamedunkey": {
-      "Blurb": "American YouTuber known for his YouTube skits and video essays that blend dry humor with video game criticism.",
-      "Date": "(born 1991)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/en/c/c9/VideoGameDunkeyProfileLogo.jpeg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Kevin Hart": {
-      "Blurb": "American comedian and actor. Originally known as a stand-up comedian, he has since starred in Hollywood films and on TV. He has also released several well-received comedy albums.",
-      "Date": "(born 1979)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kevin_Hart_2014_%28cropped_2%29.jpg/440px-Kevin_Hart_2014_%28cropped_2%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Chris Rock": {
-      "Blurb": "American stand-up comedian, actor, and filmmaker. Known for his work in comic film, television and stage, he has received three Grammy Awards for best comedy album and four Primetime Emmy Awards as well as a Golden Globe Award nomination.",
-      "Date": "(born 1965)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Chris_Rock_2014.jpg/440px-Chris_Rock_2014.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Will Smith": {
-      "Blurb": "American actor and rapper. He began his career starring as a fictionalized version of himself on the NBC sitcom The Fresh Prince Of Bel-Air (1990-1996). Noted for his work in film, television, and music, he has received multiple accolades.",
-      "Date": "(born 1968)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/TechCrunch_Disrupt_2019_%2848834434641%29_%28cropped%29.jpg/440px-TechCrunch_Disrupt_2019_%2848834434641%29_%28cropped%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Brad Pitt": {
-      "Blurb": "American actor and film producer. He is the recipient of various accolades, including two Academy Awards, a British Academy Film Award, two Golden Globe Awards, and a Primetime Emmy Award.",
-      "Date": "(born 1963)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brad_Pitt_2019_by_Glenn_Francis.jpg/440px-Brad_Pitt_2019_by_Glenn_Francis.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Simon Cowell": {
-      "Blurb": "English television personality, entrepreneur, and record executive. He is the creator of The X Factor and Got Talent franchises which have been sold around the world.",
-      "Date": "(born 1959)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Simon_Cowell_in_December_2011.jpg/440px-Simon_Cowell_in_December_2011.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Archimedes": {
-      "Blurb": "Greek mathematician, physicist, engineer, astronomer, and inventor who was one of the first people to apply mathematics to physical phenomena.",
-      "Date": "(287 BC-212 BC)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Domenico-Fetti_Archimedes_1620.jpg/330px-Domenico-Fetti_Archimedes_1620.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Ryan Reynolds": {
-      "Blurb": "Canadian-American actor. He is one of the highest-grossing film actors of all time, with a worldwide box-office gross of over $5 billion. His biggest commercial success came with playing the title character in Deadpool (2016) and Deadpool 2 (2018).",
-      "Date": "(born 1976)",
-      "Elo": 1000,
-      "Image": "https://pbs.twimg.com/profile_images/1299844050208555008/7wMQaJRA_400x400.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Tom Holland": {
-      "Blurb": "English actor who achieved international fame for his work playing Spider-Man/Peter Parker. His accolades include a British Academy Film Award, three Saturn Awards, a Guinness World Record and an appearance on the Forbes 30 Under 30 Europe list. ",
-      "Date": "(born 1996)",
-      "Elo": 1000,
-      "Image": "https://www.biography.com/.image/t_share/MTQ4MTUwOTQyMDE1OTU2Nzk4/tom-holland-photo-jason-kempin-getty-images-801510482-profile.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Tom Cruise": {
-      "Blurb": "American actor and producer. One of the world's highest-paid actors, he has received various accolades, including an Honorary Palme d'Or and three Golden Globe Awards, in addition to nominations for three Academy Awards.",
-      "Date": "(born 1962)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tom_Cruise_by_Gage_Skidmore_2.jpg/440px-Tom_Cruise_by_Gage_Skidmore_2.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Mao Zedong": {
-      "Blurb": "Chinese communist revolutionary who was the founder of the People's Republic of China, which he led as the chairman of the Chinese Communist Party from 1949 until his death in 1976.",
-      "Date": "(1893-1976)",
-      "Elo": 1000,
-      "Image": "https://mronline.org/wp-content/uploads/2022/08/mao.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Zendaya": {
-      "Blurb": "American actress and singer. She began her career as a child model and backup dancer before gaining prominence for her role as Rocky Blue on the Disney Channel sitcom Shake It Up (2010-2013).",
-      "Date": "(born 1996)",
-      "Elo": 1000,
-      "Image": "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/Zendaya_1663051297.webp",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Thomas Hobbes": {
-      "Blurb": "English philosopher, considered to be one of the founders of modern political philosophy. Hobbes is best known for his 1651 book Leviathan, in which he presents the idea of social contract theory.",
-      "Date": "(1588-1679)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Thomas_Hobbes_by_John_Michael_Wright_%282%29.jpg/330px-Thomas_Hobbes_by_John_Michael_Wright_%282%29.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Chris Pratt": {
-      "Blurb": "American actor. He rose to prominence for playing Andy Dwyer in the NBC sitcom Parks and Recreation (2009-2015). He is well known for his roles in the Marvel Cinematic Universe.",
-      "Date": "(born 1979)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chris_Pratt_2018.jpg/440px-Chris_Pratt_2018.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Jack Black": {
-      "Blurb": "American actor, comedian, and musician, the lead vocalist of the Tenacious D. He is well known for multiple roles, including starring Po from Kung-Fu Panda. He also received Golden Globe nominations for his work in School of Rock and Bernie.",
-      "Date": "(born 1969)",
-      "Elo": 1000,
-      "Image": "https://www.biography.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkyMzgyODYzNzcxOTY5MDYz/jack-black-gettyimages-1193008127.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Daniel Radcliffe": {
-      "Blurb": "English actor. He rose to fame at age twelve, when he began portraying Harry Potter in the film series of the same name; and has held various other film and theatre roles. Over his career, Radcliffe has received various awards and nominations.",
-      "Date": "(born 1989)",
-      "Elo": 1000,
-      "Image": "https://pyxis.nymag.com/v1/imgs/d25/0c4/0454583bbb2dc68582e3fe3e9b89a16045-danielradcliffe.rsquare.w330.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Emma Watson": {
-      "Blurb": "French-born British actress and activist. She is known for her roles in both blockbusters and independent films, primarily for playing Hermione in Harry Potter. She is also known for her women's rights work and has received a selection of accolades.",
-      "Date": "(born 1990)",
-      "Elo": 1000,
-      "Image": "https://m.media-amazon.com/images/M/MV5BMTQ3ODE2NTMxMV5BMl5BanBnXkFtZTgwOTIzOTQzMjE@._V1_.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "John F~ Kennedy": {
-      "Blurb": "American politician who served as the 35th president of the United States from 1961 until his assassination near the end of his third year in office, during the height of the Cold War.",
-      "Date": "(1917-1963)",
-      "Elo": 1000,
-      "Image": "https://s.hdnux.com/photos/01/25/63/03/22491350/7/rawImage.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Pompey": {
-      "Blurb": "Leading Roman general and statesman. He played a significant role in the transformation of Rome from republic to empire. He was (for a time) a student of Roman general Sulla as well as the political ally, and later enemy, of Julius Caesar.",
-      "Date": "(106 BC-48 BC)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ritratto_di_pompeo_magno%2C_20_a.C._circa.jpg/500px-Ritratto_di_pompeo_magno%2C_20_a.C._circa.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Alexander the Great": {
-      "Blurb": "King of the ancient Greek kingdom of Macedon. By the age of thirty, he had created one of the largest empires in history, stretching from Greece to northwestern India. He was undefeated in battle.",
-      "Date": "(356 BC-323 BC)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Alexander_Mosaic-high_res_fragment.jpg/440px-Alexander_Mosaic-high_res_fragment.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Brutus": {
-      "Blurb": "Roman politician, orator, and the most famous of the assassins of Julius Caesar. ",
-      "Date": "(85 BC-42 BC)",
-      "Elo": 1000,
-      "Image": "https://cdn.britannica.com/75/226675-050-A990BC2E/Marcus-Junius-Brutus-marble-bust.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Malala Yousafzai": {
-      "Blurb": "Pakistani female education activist and the 2014 Nobel Peace Prize laureate. She is known for human rights advocacy, especially the education of women and children, and her advocacy has grown into an international movement.",
-      "Date": "(born 1997)",
-      "Elo": 1000,
-      "Image": "https://cdn.britannica.com/71/179071-050-CF95982C/Malala-Yousafzai-2013.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Vladimir Lenin": {
-      "Blurb": "Russian revolutionary, politician, and political theorist. He served as the first and founding head of government of Soviet Russia from 1917 to 1924 and of the Soviet Union from 1922 to 1924.",
-      "Date": "(1870-1924)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Vladimir_Lenin.jpg/440px-Vladimir_Lenin.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Christopher Columbus": {
-      "Blurb": "Italian explorer and navigator who completed four voyages across the Atlantic Ocean sponsored by the Catholic Monarchs of Spain, opening the way for the widespread European exploration and colonization of the Americas.",
-      "Date": "(1451-1506)",
-      "Elo": 1000,
-      "Image": "https://bri-wp-images.s3.amazonaws.com/wp-content/uploads/AP-133-Christopher-Columbus-1-780x698.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Jeffery Dahmer": {
-      "Blurb": "American serial killer and sex offender who committed multiple acts of murder (17 confirmed), dismemberment, necrophilia, and cannibalism. He is known as one of the most depraved killers of all time.",
-      "Date": "(1960-1994)",
-      "Elo": 1000,
-      "Image": "https://cdn2.excelsior.com.mx/media/styles/image800x600/public/pictures/2022/09/25/2828830.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Ted Bundy": {
-      "Blurb": "American serial killer who kidnapped, raped and murdered numerous young women and girls during the 1970s and possibly earlier. He confessed to 30 murders committed in seven states between 1974 and 1978.",
-      "Date": "(1946-1989)",
-      "Elo": 1000,
-      "Image": "https://cdn.britannica.com/41/199641-050-02FC5B1D/Ted-Bundy-trial-Florida-Tallahassee-1979.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Sun Tzu": {
-      "Blurb": "Chinese military general, strategist, philosopher, and writer who lived during the Eastern Zhou period. Sun Tzu is credited as the author of The Art of War, a work of military strategy that has influenced both Asian philosophy and military thinking.",
-      "Date": "(544 BC-496 BC)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Augustus": {
-      "Blurb": "First Roman emperor; he reigned from 27 BC until his death in AD 14. Known for being the founder of the Roman Principate, which is the first phase of the Roman Empire.",
-      "Date": "(63 BC-14 AD)",
-      "Elo": 1000,
-      "Image": "https://i.natgeofe.com/n/2d51af41-fe81-4c5d-9ebe-bb97b713bab6/augustus-caesar-1428596_2x3.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Queen Victoria": {
-      "Blurb": "Queen of the United Kingdom from 20 June 1837 until her death in 1901. Her reign was a period of industrial, political, scientific, and military change within the United Kingdom, and was marked by a great expansion of the British Empire.",
-      "Date": "(1819-1901)",
-      "Elo": 1000,
-      "Image": "https://www.history.com/.image/t_share/MTU3ODc4NjAyOTkzMTgyMDI1/hith-5-things-you-may-not-know-about-queen-victoria-2.jpg",
-      "Losses": 0,
-      "Recent": "",
-      "Wins": 0
-    },
-    "Fidel Castro": {
-      "Blurb": "Cuban revolutionary and politician who was the leader of Cuba from 1959 to 2008, serving as the prime minister of Cuba from 1959 to 1976 and president from 1976 to 2008.",
-      "Date": "(1926-2016)",
-      "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Fidel_Castro_1950s.jpg/440px-Fidel_Castro_1950s.jpg",
+      "Image": "https://cdn1.dotesports.com/wp-content/uploads/2022/08/15173326/PROD.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
@@ -1764,83 +1332,155 @@
       "Recent": "",
       "Wins": 0
     },
-    "Confucius": {
-      "Blurb": "Chinese philosopher and politician of the Spring and Autumn period who is traditionally considered the paragon of Chinese sages. His teachings and philosophy underpin East Asian culture and society, remaining influential across Asia to this day.",
-      "Date": "(551 BC-479 BC)",
+    "Pablo Picasso": {
+      "Blurb": "Spanish painter, sculptor, printmaker, ceramicist and theatre designer who spent most of his adult life in France. Known for developing and exploring a wide variety of styles.",
+      "Date": "(1881-1973)",
       "Elo": 1000,
-      "Image": "https://assets.theschooloflife.com/wp-content/uploads/2022/01/26215842/8482-004-7D9CC6B2-17.59.37.jpg",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Portrait_de_Picasso%2C_1908.jpg/440px-Portrait_de_Picasso%2C_1908.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "King Henry VIII": {
-      "Blurb": "King of England from 22 April 1509 until his death in 1547. He is best known for his six marriages, and his efforts to have his first marriage annulled. His disagreement with the pope about the annulment led him to initiate the English Reformation.",
-      "Date": "(1491-1547)",
+    "Paul McCartney": {
+      "Blurb": "English singer, songwriter and musician who gained worldwide fame with the Beatles, for whom he played bass guitar and shared primary songwriting and lead vocal duties with John Lennon.",
+      "Date": "(born 1942)",
       "Elo": 1000,
-      "Image": "https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY5NDkwOTI4MzM0MDIxOTIx/henry-viii-gettyimages-164081255.jpg",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Paul_McCartney_2021_%28cropped%29.jpg/440px-Paul_McCartney_2021_%28cropped%29.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "Jeffrey Epstein": {
-      "Blurb": "American sex offender and financier. Epstein developed an elite social circle and procured many women and children; he and his associates then sexually abused them.",
-      "Date": "(1953-2019)",
+    "PewDiePie": {
+      "Blurb": "Swedish YouTuber known for his Let's Play videos and comedic formatted videos and shows.",
+      "Date": "(born 1989)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Epstein_Final_Mugshot.png/360px-Epstein_Final_Mugshot.png",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pewdiepie_head_shot.jpg/440px-Pewdiepie_head_shot.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "Friedrich Nietzsche": {
-      "Blurb": "German philosopher, cultural critic and philologist whose work has exerted a profound influence on modern intellectual history. He began his career as a classical philologist before turning to philosophy.",
-      "Date": "(1844-1900)",
+    "Plato": {
+      "Blurb": "Greek philosopher born in Athens during the Classical period in Ancient Greece. He founded the Platonist school of thought and the Academy, the first institution of higher learning on the European continent.",
+      "Date": "(428 BC-328 BC)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/440px-Nietzsche187a.jpg",
+      "Image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTgxMjczNDQwMTYwODUxMDQ3/gettyimages-113631148.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "John Locke": {
-      "Blurb": "English philosopher and physician, a very important Enlightenment thinker and commonly known as the \"father of liberalism\".",
-      "Date": "(1632-1704)",
+    "Pompey": {
+      "Blurb": "Leading Roman general and statesman. He played a significant role in the transformation of Rome from republic to empire. He was (for a time) a student of Roman general Sulla as well as the political ally, and later enemy, of Julius Caesar.",
+      "Date": "(106 BC-48 BC)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/John_Locke.jpg/440px-John_Locke.jpg",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ritratto_di_pompeo_magno%2C_20_a.C._circa.jpg/500px-Ritratto_di_pompeo_magno%2C_20_a.C._circa.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "Machiavelli": {
-      "Blurb": "Italian diplomat, author, philosopher and historian who lived during the Renaissance. He is best known for his political treatise The Prince (Il Principe).",
-      "Date": "(1469-1527)",
+    "Pope Francis": {
+      "Blurb": "Current pope and head of the Catholic Church. He has been sovereign of the Vatican City State since 13 March 2013.",
+      "Date": "(born 1936)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg/440px-Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Portrait_of_Pope_Francis_%282021%29.jpg/440px-Portrait_of_Pope_Francis_%282021%29.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "Franklin D~ Roosevelt": {
-      "Blurb": "American politician who served as the 32nd president of the United States from 1933 until his death in 1945. As the leader of the Democratic Party, he won a record four presidential elections and directed the government through the Great Depression.",
-      "Date": "(1882-1945)",
+    "Post Malone": {
+      "Blurb": "American rapper, singer, songwriter, and record producer. Known for his variegated vocals, he has gained acclaim for blending genres and subgenres of hip hop, pop, R&B, and trap.",
+      "Date": "(born 1995)",
       "Elo": 1000,
-      "Image": "https://www.nps.gov/common/uploads/people/nri/20200325/people/B9ADD805-F088-6CA6-3564C2F77DF3421F/B9ADD805-F088-6CA6-3564C2F77DF3421F.jpg",
+      "Image": "https://pyxis.nymag.com/v1/imgs/86b/2d8/1e9d1d2fd5919a507e3779ef4790205a95-post-malone.1x.rsquare.w1400.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "Adam Smith": {
-      "Blurb": "Scottish economist and philosopher who was a pioneer in the thinking of political economy and key figure during the Scottish Enlightenment. Commonly seen as \"The Father of Economics\" or \"The Father of Capitalism\".",
-      "Date": "(1723-1790)",
+    "Queen Elizabeth II": {
+      "Blurb": "Queen of the UK and the Commonwealth from 6 February 1952 until her death in 2022, the longest reign of any British monarch and any female monarch in history.",
+      "Date": "(1926-2022)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Adam_Smith_The_Muir_portrait.jpg/440px-Adam_Smith_The_Muir_portrait.jpg",
+      "Image": "https://assets.vogue.com/photos/6327939f06377e01c5304296/master/pass/Fc9-RcUXgAEgljY.jpeg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "Kamala Harris": {
-      "Blurb": "American politician and attorney who is the 49th vice president of the United States. She is the first female vice president and the highest-ranking female official in U.S. history.",
+    "Queen Victoria": {
+      "Blurb": "Queen of the United Kingdom from 20 June 1837 until her death in 1901. Her reign was a period of industrial, political, scientific, and military change within the United Kingdom, and was marked by a great expansion of the British Empire.",
+      "Date": "(1819-1901)",
+      "Elo": 1000,
+      "Image": "https://www.history.com/.image/t_share/MTU3ODc4NjAyOTkzMTgyMDI1/hith-5-things-you-may-not-know-about-queen-victoria-2.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Rafael Nadal": {
+      "Blurb": "Spanish professional tennis player. He is currently ranked world No. 2 in singles by the Association of Tennis Professionals (ATP). He has been ranked world No. 1 for 209 weeks and has finished as the year-end No. 1 five times.",
+      "Date": "(born 1986)",
+      "Elo": 1000,
+      "Image": "https://imageio.forbes.com/specials-images/imageserve/5ece8a5c938ec500060aae37/0x0.jpg?format=jpg&crop=2462,2460,x503,y156,safe&height=416&width=416&fit=bounds",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Rick Astley": {
+      "Blurb": "English singer, songwriter and radio personality known for his hit song \"Never Gonna Give You Up\".",
+      "Date": "(born 1966)",
+      "Elo": 1000,
+      "Image": "https://media.tenor.com/SSY2V0RrU3IAAAAd/rick-roll-rick-rolled.gif",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Rihanna": {
+      "Blurb": "Barbadian singer, actress, and businesswoman, known for her distinctive musical style and fashion sense.",
+      "Date": "(born 1988)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rihanna_Fenty_2018.png/440px-Rihanna_Fenty_2018.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Roald Dahl": {
+      "Blurb": "British novelist, short-story writer, poet, screenwriter, and wartime fighter ace of Norwegian descent. His books have sold more than 250 million copies worldwide.",
+      "Date": "(1916-1990)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Roald_Dahl.jpg/440px-Roald_Dahl.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Roger Federer": {
+      "Blurb": "Swiss former professional tennis player. He was ranked world No. 1 by the Association of Tennis Professionals (ATP) for 310 weeks, including a record 237 consecutive weeks, and finished as the year-end No. 1 five times.",
+      "Date": "(born 1981)",
+      "Elo": 1000,
+      "Image": "https://cdn.britannica.com/57/183257-050-0BA11B4B/Roger-Federer-2012.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Ronnie Coleman": {
+      "Blurb": "American retired professional bodybuilder and the winner of the Mr. Olympia title for eight consecutive years. He is renowned for his combination of size and conditioning, dominant body-parts, and extremely heavy workouts.",
       "Date": "(born 1964)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Kamala_Harris_Vice_Presidential_Portrait.jpg/330px-Kamala_Harris_Vice_Presidential_Portrait.jpg",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Ronnie_Coleman_Invited_Guest.jpg/440px-Ronnie_Coleman_Invited_Guest.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Rosa Parks": {
+      "Blurb": "American activist in the civil rights movement best known for her pivotal role in the Montgomery bus boycott. The United States Congress has honored her as \"the first lady of civil rights\" and \"the mother of the freedom movement\".",
+      "Date": "(1913-2005)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Rosaparks.jpg/330px-Rosaparks.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Ryan Reynolds": {
+      "Blurb": "Canadian-American actor. He is one of the highest-grossing film actors of all time, with a worldwide box-office gross of over $5 billion. His biggest commercial success came with playing the title character in Deadpool (2016) and Deadpool 2 (2018).",
+      "Date": "(born 1976)",
+      "Elo": 1000,
+      "Image": "https://pbs.twimg.com/profile_images/1299844050208555008/7wMQaJRA_400x400.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
@@ -1854,47 +1494,407 @@
       "Recent": "",
       "Wins": 0
     },
-    "Hillary Clinton": {
-      "Blurb": "American politician, diplomat, and former lawyer who served as the 67th Secretary of State from 2009 to 2013, and as a senator representing New York from 2001 to 2009. She was the Democratic presidential nominee for the 2016 election.",
+    "Saint Teresa of Calcutta (Mother Teresa)": {
+      "Blurb": "Indian-Albanian Catholic nun who founded the Missionaries of Charity in 1950, an organization that operates homes for the dying, as well as orphanages and schools. She received the Nobel Peace Prize for her charitable work.",
+      "Date": "(1910-1997)",
+      "Elo": 1000,
+      "Image": "https://parabolaorg-4jzhg7c.stackpathdns.com/wp-content/uploads/2016/10/Mother-Teresa.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Sal Khan": {
+      "Blurb": "American educator and the founder of Khan Academy, a free online non-profit educational platform.",
+      "Date": "(born 1976)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Salman_Khan_TED_2011.jpg/440px-Salman_Khan_TED_2011.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Sapnap": {
+      "Blurb": "American YouTuber and Minecraft player who gained popularity for his appearances on fellow creator Dream's channel ",
+      "Date": "(born 2001)",
+      "Elo": 1000,
+      "Image": "https://i.pinimg.com/736x/21/74/ce/2174cea3e0430e2df8ab93c43bee212c.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Selena Gomez": {
+      "Blurb": "American singer, actress and film producer, known for early acting roles such as on Barney & Friends or Wizards of Waverly Place, and for her extensive music career.",
+      "Date": "(born 1992)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Selena_Gomez_at_White_House.jpg/440px-Selena_Gomez_at_White_House.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Shaquille ONeal": {
+      "Blurb": "American former professional basketball player who is a sports analyst on the television program Inside the NBA. He is a 7-foot-1 and 325-pound center who played for six teams over his 19-year career in the NBA, and is a 4-time champion.",
+      "Date": "(born 1972)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Shaquille_O%27Neal_October_2017_%28cropped%29.jpg/440px-Shaquille_O%27Neal_October_2017_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Shigeru Miyamoto": {
+      "Blurb": "Japanese video game designer, producer and game director at Nintendo. Known for creating the Super Mario franchise, The Legend of Zelda, Donkey Kong, Star Fox, and Pikmin.",
+      "Date": "(born 1952)",
+      "Elo": 1000,
+      "Image": "https://elmcip.net/sites/default/files/media/person/images/shigeru_miyamoto.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Sid Meier": {
+      "Blurb": "Canadian-American programmer, designer, and producer of several strategy video games and simulation video games, including the Civilization series.",
+      "Date": "(born 1954)",
+      "Elo": 1000,
+      "Image": "https://static.independent.co.uk/2020/09/07/15/Sid%20Meier%20author%20photo%20%28c.%20Tom%20Bass2K%29.jpg?width=512",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Sidney Crosby": {
+      "Blurb": "Canadian professional ice hockey centre and captain of the Pittsburgh Penguins of the National Hockey League (NHL). Nicknamed \"Sid the Kid\" and dubbed \"The Next One\", he was selected first overall by the Penguins in the 2005 NHL Entry Draft.",
+      "Date": "(born 1987)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Sidney_Crosby_2019-01-06_1.jpg/460px-Sidney_Crosby_2019-01-06_1.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Sigmund Freud": {
+      "Blurb": "Austrian neurologist and the founder of psychoanalysis, a clinical method for evaluating and treating pathologies in the psyche through dialogue between a patient and a psychoanalyst.",
+      "Date": "(1856-1939)",
+      "Elo": 1000,
+      "Image": "https://www.biography.com/.image/t_share/MTgwNzU5NDcxMzU2NjUwODU2/gettyimages-613470752jpg-13-31-39-121.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Simon Cowell": {
+      "Blurb": "English television personality, entrepreneur, and record executive. He is the creator of The X Factor and Got Talent franchises which have been sold around the world.",
+      "Date": "(born 1959)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Simon_Cowell_in_December_2011.jpg/440px-Simon_Cowell_in_December_2011.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Sinatraa": {
+      "Blurb": " American professional Valorant player for Sentinels, who previously won the Overwatch League Grand Finals with the San Francisco Shock. He is often credited with pioneering and popularizing the \"Valorant Accent\".",
+      "Date": "(born 2000)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Sinatraa_at_OWWC_2018_-_cropped.jpg/440px-Sinatraa_at_OWWC_2018_-_cropped.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Socrates": {
+      "Blurb": "Greek philosopher from Athens who is credited as the founder of Western philosophy and among the first moral philosophers of the ethical tradition of thought.",
+      "Date": "(470 BC-399 BC)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/UWASocrates_gobeirne_cropped.jpg/375px-UWASocrates_gobeirne_cropped.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Stampy": {
+      "Blurb": "English YouTuber, gamer, author, and filmmaker known for his video game commentaries including Minecraft, and for playing the character of Stampy Cat. He runs one of the most popular Let's Play series on the game, his \"Lovely World\".",
+      "Date": "(born 1990)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Joseph_Garrett_Minecon_2015.jpg/440px-Joseph_Garrett_Minecon_2015.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Stephen Curry": {
+      "Blurb": "American professional basketball player for the Golden State Warriors of the National Basketball Association (NBA). Curry is credited with revolutionizing the sport by inspiring teams and players to take more three-point shots.",
+      "Date": "(born 1988)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/TechCrunch_Disrupt_2019_%2848834853256%29_%281%29.jpg/440px-TechCrunch_Disrupt_2019_%2848834853256%29_%281%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Stephen King": {
+      "Blurb": "American author of horror, supernatural fiction, suspense, crime, science-fiction, and fantasy novels. His books have sold more than 350 million copies,[3] and many have been adapted into films, television series, miniseries, and comic books.",
       "Date": "(born 1947)",
       "Elo": 1000,
-      "Image": "https://imageio.forbes.com/specials-images/imageserve/573615ada7ea4353698df3ec/0x0.jpg?format=jpg&crop=465,465,x176,y64,safe&height=416&width=416&fit=bounds",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Stephen_King%2C_Comicon.jpg/440px-Stephen_King%2C_Comicon.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "John Maynard Keynes": {
-      "Blurb": "English economist whose ideas fundamentally changed the theory and practice of macroeconomics and the economic policies of governments. His ideas, reformulated as New Keynesianism, are fundamental to mainstream macroeconomics.",
-      "Date": "(1883-1946)",
+    "Steve Jobs": {
+      "Blurb": "American entrepreneur, industrial designer, and investor. Co-founder/chairman of Apple, chairman of Pixar, and a member of the Walt Disney Company's board of directors. Recognized as a pioneer of the personal computer revolution.",
+      "Date": "(1955-2011)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Keynes_1933.jpg",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/330px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "John A~ Macdonald": {
-      "Blurb": "First prime minister of Canada, serving from 1867 to 1873 and from 1878 to 1891. The dominant figure of Canadian Confederation, he had a political career that spanned almost half a century.",
-      "Date": "(1815-1891)",
+    "Sun Tzu": {
+      "Blurb": "Chinese military general, strategist, philosopher, and writer who lived during the Eastern Zhou period. Sun Tzu is credited as the author of The Art of War, a work of military strategy that has influenced both Asian philosophy and military thinking.",
+      "Date": "(544 BC-496 BC)",
       "Elo": 1000,
-      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/John_A_Macdonald_%28ca._1875%29.jpg/440px-John_A_Macdonald_%28ca._1875%29.jpg",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "Joseph Stalin": {
-      "Blurb": "Georgian-born revolutionary and Soviet political leader who led the Soviet Union from 1924 until his death in 1953. Initially governing the country as part of a collective leadership, he consolidated power to become a dictator by the 1930s.",
-      "Date": "(1878-1953)",
+    "Taylor Swift": {
+      "Blurb": "American singer-songwriter. Her discography spans multiple genres and her narrative songwriting is often inspired by her personal life.",
+      "Date": "(born 1989)",
       "Elo": 1000,
-      "Image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=http://www.washingtonpost.com/news/retropolis/wp-content/uploads/sites/62/2018/01/stalin.jpg&w=1200",
+      "Image": "https://media1.popsugar-assets.com/files/thumbor/hnVKqXE-xPM5bi3w8RQLqFCDw_E/475x60:1974x1559/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/09/09/023/n/1922398/9f849ffa5d76e13d154137.01128738_/i/Taylor-Swift.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
     },
-    "Hirohito": {
-      "Blurb": "124th emperor of Japan, ruling from 25 December 1926 until his death in 1989. He was the longest-reigning historical Japanese emperor and one of the longest-reigning monarchs in the world.",
-      "Date": "(1901-1989)",
+    "Technoblade": {
+      "Blurb": "American YouTuber and internet personality known for his Minecraft videos and livestreams on his YouTube channel and his involvement in the Dream SMP. ",
+      "Date": "(1999-2022)",
       "Elo": 1000,
-      "Image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTgxMjY5NjMxNTk4NjAxNTc2/gettyimages-514975318.jpg",
+      "Image": "https://upload.wikimedia.org/wikipedia/en/2/27/Technoblade.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Ted Bundy": {
+      "Blurb": "American serial killer who kidnapped, raped and murdered numerous young women and girls during the 1970s and possibly earlier. He confessed to 30 murders committed in seven states between 1974 and 1978.",
+      "Date": "(1946-1989)",
+      "Elo": 1000,
+      "Image": "https://cdn.britannica.com/41/199641-050-02FC5B1D/Ted-Bundy-trial-Florida-Tallahassee-1979.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "The Buddha": {
+      "Blurb": "Wandering ascetic and religious teacher who lived in South Asia during the 6th or 5th century BCE and founded Buddhism. His title, Buddha, means \"Awakened One\" or \"Enlightened One\".",
+      "Date": "(563 BC-483 BC)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg/440px-Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "The Weeknd": {
+      "Blurb": "Canadian singer, songwriter, and record producer. Known for his sonic versatility and dark lyricism, his music explores escapism, romance, and melancholia, and is often inspired by personal experiences.",
+      "Date": "(born 1990)",
+      "Elo": 1000,
+      "Image": "https://i.iheart.com/v3/catalog/artist/744880?ops=fit(720%2C720)",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Theodore 'Teddy' Roosevelt": {
+      "Blurb": "American politician, statesman, soldier, conservationist, naturalist, historian, and writer who served as the 26th president of the United States from 1901 to 1909, and as the 25th vice president under President William McKinley.",
+      "Date": "(1858-1919)",
+      "Elo": 1000,
+      "Image": "https://helios-i.mashable.com/imagery/articles/02JO4CkW4vlPov9vtmi8oGI/hero-image.fill.size_1248x702.v1611610295.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Thomas Hobbes": {
+      "Blurb": "English philosopher, considered to be one of the founders of modern political philosophy. Hobbes is best known for his 1651 book Leviathan, in which he presents the idea of social contract theory.",
+      "Date": "(1588-1679)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Thomas_Hobbes_by_John_Michael_Wright_%282%29.jpg/330px-Thomas_Hobbes_by_John_Michael_Wright_%282%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Tiger Woods": {
+      "Blurb": "American professional golfer. He is tied for first in PGA Tour wins, ranks second in men's major championships, and holds numerous golf records.",
+      "Date": "(born 1975)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Tiger_Woods_in_May_2019.jpg/440px-Tiger_Woods_in_May_2019.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Tim Cook": {
+      "Blurb": "American business executive who has been the CEO of Apple since 2011.",
+      "Date": "(born 1960)",
+      "Elo": 1000,
+      "Image": "https://images.macrumors.com/t/ICHhqs7DRUx1jmewLPd3mt1xPuw=/400x400/smart/article-new/2021/03/tim-cook-apple-park.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Tom Cruise": {
+      "Blurb": "American actor and producer. One of the world's highest-paid actors, he has received various accolades, including an Honorary Palme d'Or and three Golden Globe Awards, in addition to nominations for three Academy Awards.",
+      "Date": "(born 1962)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tom_Cruise_by_Gage_Skidmore_2.jpg/440px-Tom_Cruise_by_Gage_Skidmore_2.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Tom Holland": {
+      "Blurb": "English actor who achieved international fame for his work playing Spider-Man/Peter Parker. His accolades include a British Academy Film Award, three Saturn Awards, a Guinness World Record and an appearance on the Forbes 30 Under 30 Europe list. ",
+      "Date": "(born 1996)",
+      "Elo": 1000,
+      "Image": "https://www.biography.com/.image/t_share/MTQ4MTUwOTQyMDE1OTU2Nzk4/tom-holland-photo-jason-kempin-getty-images-801510482-profile.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Tom Scott": {
+      "Blurb": "British YouTuber and web developer. He is best known for producing online videos for his self-titled YouTube channel, which mainly offers educational videos across a range of topics including history, geography, science, technology, and linguistics.",
+      "Date": "(born 1984)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Tom_Scott_avatar_by_Matt_Gray_%28cropped%29.jpg/440px-Tom_Scott_avatar_by_Matt_Gray_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Travis Scott": {
+      "Blurb": "American rapper, singer, songwriter, and record producer. His stage name is the namesake of a favorite uncle combined with the first name of one of his inspirations, Kid Cudi (whose real name is Scott Mescudi).",
+      "Date": "(born 1991)",
+      "Elo": 1000,
+      "Image": "https://cdn.vox-cdn.com/thumbor/fPdmLc06btnsh1DQhblsGyVuEIw=/0x0:950x709/1200x800/filters:focal(262x248:414x400)/cdn.vox-cdn.com/uploads/chorus_image/image/67411647/travisscott.0.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Usain Bolt": {
+      "Blurb": "Jamaican sprinter, world record holder in the 100 metres, 200 metres, and 4 x 100 metres relay.",
+      "Date": "(born 1986)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Usain_Bolt_after_4_%C3%97_100_m_Rio_2016.jpg/440px-Usain_Bolt_after_4_%C3%97_100_m_Rio_2016.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Vincent Van Gogh": {
+      "Blurb": "Dutch Post-Impressionist painter who posthumously became a very influential figure in Western art history. In a decade, he created about 2,100 artworks.",
+      "Date": "(1853-1890)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/440px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Vladimir Lenin": {
+      "Blurb": "Russian revolutionary, politician, and political theorist. He served as the first and founding head of government of Soviet Russia from 1917 to 1924 and of the Soviet Union from 1922 to 1924.",
+      "Date": "(1870-1924)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Vladimir_Lenin.jpg/440px-Vladimir_Lenin.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Vladimir Putin": {
+      "Blurb": "Russian politician and former intelligence officer who has served as the as the president of Russia from 2000-2008 and 2012-present, and prime minister from 1999 to 2000 and again from 2008-2012.",
+      "Date": "(born 1952)",
+      "Elo": 1000,
+      "Image": "https://www.history.com/.image/t_share/MTU3ODc5MDgyNjcxODEwMjcx/12188042_h24262930.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Walt Disney": {
+      "Blurb": "American animator, film producer, and entrepreneur. A pioneer of the American animation industry, he introduced several developments in the production of cartoons.",
+      "Date": "(1901-1966)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Walt_Disney_1946.JPG/440px-Walt_Disney_1946.JPG",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Wayne Gretzky": {
+      "Blurb": "Canadian former professional ice hockey player and former head coach. He played 20 seasons in the National Hockey League (NHL) for four teams from 1979 to 1999. He is the leading goal scorer, assist producer, and point scorer in NHL history.",
+      "Date": "(born 1961)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Wayne_Gretzky_2006-02-18_Turin_001.jpg/440px-Wayne_Gretzky_2006-02-18_Turin_001.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Will Smith": {
+      "Blurb": "American actor and rapper. He began his career starring as a fictionalized version of himself on the NBC sitcom The Fresh Prince Of Bel-Air (1990-1996). Noted for his work in film, television, and music, he has received multiple accolades.",
+      "Date": "(born 1968)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/TechCrunch_Disrupt_2019_%2848834434641%29_%28cropped%29.jpg/440px-TechCrunch_Disrupt_2019_%2848834434641%29_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "William Shakespeare": {
+      "Blurb": "English playwright, poet and actor, renowned for his plays exploring comedy, tragedy, history, and romance.",
+      "Date": "(1564-1616)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/440px-Shakespeare.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Winston Churchill": {
+      "Blurb": "British statesman, soldier, and writer who served as Prime Minister of the United Kingdom from 1940 to 1945 (during the Second World War), and again from 1951 to 1955.",
+      "Date": "(1874-1965)",
+      "Elo": 1000,
+      "Image": "https://www.investors.com/wp-content/uploads/2021/02/LSMAIN-churchill-020521-wiki.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "XXXTentacion": {
+      "Blurb": "American rapper and singer-songwriter who gained a cult following among his young fanbase during his short career with his depression- and alienation-themed music. ",
+      "Date": "(1998-2018)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Xxxtentacion_%28cropped%29.jpg/440px-Xxxtentacion_%28cropped%29.jpg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Yeat": {
+      "Blurb": "American rapper, singer, songwriter, and music producer who gained recognition in mid-2021 after the release of his mixtape 4L and debut studio album Up 2 Me.",
+      "Date": "(born 2000)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Yeat.png/440px-Yeat.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "YoungBoy Never Broke Again": {
+      "Blurb": "American rapper who released six independent mixtapes between 2015 and 2017 and steadily garnered a cult following through his work.",
+      "Date": "(born 1999)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/NBA_YOUNGBOY_2018.png/440px-NBA_YOUNGBOY_2018.png",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "Zendaya": {
+      "Blurb": "American actress and singer. She began her career as a child model and backup dancer before gaining prominence for her role as Rocky Blue on the Disney Channel sitcom Shake It Up (2010-2013).",
+      "Date": "(born 1996)",
+      "Elo": 1000,
+      "Image": "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/Zendaya_1663051297.webp",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "videogamedunkey": {
+      "Blurb": "American YouTuber known for his YouTube skits and video essays that blend dry humor with video game criticism.",
+      "Date": "(born 1991)",
+      "Elo": 1000,
+      "Image": "https://upload.wikimedia.org/wikipedia/en/c/c9/VideoGameDunkeyProfileLogo.jpeg",
+      "Losses": 0,
+      "Recent": "",
+      "Wins": 0
+    },
+    "xQc": {
+      "Blurb": "Canadian Twitch streamer, internet personality, and former professional Overwatch player, known for being the most watched streamer on Twitch. He now additionally hosts the game show Juiced.",
+      "Date": "(born 1995)",
+      "Elo": 1000,
+      "Image": "https://cdn-images.win.gg/resize/w/500/format/webp/type/progressive/fit/cover/path/wp/uploads/2021/08/xqc-is-done-streaming-for-sentinels-pursue-new-opportunities.jpg",
       "Losses": 0,
       "Recent": "",
       "Wins": 0
