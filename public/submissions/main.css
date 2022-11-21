@@ -218,9 +218,26 @@ select:focus {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 60vw;
+        width: calc(100vw - 10vh);
         grid-column: 2;
         height: 10vh;
+    }
+    #topBar {
+        display: flex;
+    }
+    #topButtons {
+        width: 10vh;
+    }
+    #topButtons > a {
+        display: block;
+        float: right;
+        background-repeat: no-repeat no-repeat;
+        background-position: center center;
+        background-size: cover;
+        margin: 2vh min(2vh, calc((40vw - 12vh) / 4));
+        width: 6vh;
+        height: 6vh;
+        filter: brightness(0) invert();
     }
     #mainContainer {
         display: none;
