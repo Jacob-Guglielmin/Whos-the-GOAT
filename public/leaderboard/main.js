@@ -140,7 +140,7 @@ function secretEvent() {
 
 setInterval(() => {
     let random = Math.floor(Math.random() * 100);
-    if (random < 50 && document.hasFocus()) {
+    if (random < 20 && document.hasFocus()) {
         secretEvent();
     }
 }, 60000);
