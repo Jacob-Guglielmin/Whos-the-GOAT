@@ -134,7 +134,7 @@ function imageURLValid() {
 }
 
 function validateImageLink() {
-    if (imageURL === "") {
+    if (imageURL === "" || imageURL.substring(imageURL.length - 3) == "gif") {
         mostRecentImageChecked = ++mostRecentImage;
         mostRecentImageChecked = mostRecentImage;
         mostRecentValidImageURL = "";
