@@ -118,7 +118,7 @@ function validateInput() {
 }
 
 function nameValid() {
-    return personName !== "" && personName.match(/^[a-zA-Z0-9 \.\-\(\)]+$/) != null;
+    return personName !== "" && personName.match(/^[a-zA-Z0-9 \.\-\(\)']+$/) != null;
 }
 
 function dateValid() {
