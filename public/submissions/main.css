@@ -140,7 +140,6 @@ select:focus {
     display: grid;
     border-radius: 12px;
     border: 2px solid #ffffff;
-    cursor: pointer;
     grid-template-rows: 10% 50% 1% 11% 28%;
     grid-template-columns: 10% 80% 10%;
     width: 28vw;
