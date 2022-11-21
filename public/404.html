@@ -148,7 +148,7 @@
             for (let child of bigGoatChildren) {
                 child.addEventListener("click", () => {
                     let thisID = ++curPlayID;
-                    goatSound.goatSound.play();
+                    goatSound.play();
                     bigGoat.classList.add("shaking");
                     setTimeout(() => {
                         if (thisID == curPlayID) {
