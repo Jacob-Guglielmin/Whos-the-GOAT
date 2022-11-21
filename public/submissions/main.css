@@ -222,20 +222,22 @@ select:focus {
         grid-column: 2;
         height: 10vh;
     }
-    #form {
+    #mainContainer {
+        display: none;
+    }   
+    .mobileOnly {
+        position: absolute;
+        height: 90vh;
+        left: 0;
+        top: 10vh;
+        width: 100vw;
         display: flex;
-        flex-direction: column;
         align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
-    .choice {
-        display: grid;
-        border-radius: 12px;
-        border: 2px solid #ffffff;
-        cursor: pointer;
-        grid-template-rows: 10% 50% 1% 11% 28%;
-        grid-template-columns: 10% 80% 10%;
-        width: 40vw;
-        height: 60vh;
-        margin: 0 auto;
+    .mobileOnlyText {
+        display: flex;
+        font: 3vw Rubik-Light;
     }
 }
