@@ -2,8 +2,22 @@
     "rules": {
         "people": {
             ".read": true,
-            ".write": true,
-            ".indexOn": "Elo"
+            ".write": false,
+            ".indexOn": "Elo",
+            "$person": {
+                "Elo": {
+                    ".write": true
+                },
+                "Wins": {
+                    ".write": true
+                },
+                "Losses": {
+                    ".write": true
+                },
+                "Recent": {
+                    ".write": true
+                }
+            }
         },
         "submissions": {
             ".read": false,
