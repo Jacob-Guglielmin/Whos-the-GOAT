@@ -31,10 +31,22 @@ function createLeaderboardEntry(name, data, rank) {
     entry.querySelector(".leaderboardElo").innerText = Math.round(data.Elo);
     entry.querySelector(".leaderboardWinrate").innerText = ((data.Wins / (data.Wins + data.Losses || 1)) * 100).toFixed(2) + "%";
     entry.querySelector(".leaderboardImage").src = data.Image;
-    let recentWins = data.Recent.split("")
-        .map((x) => (x == "W" ? 1 : 0))
-        .reduce((a, b) => a + b, 0);
-    entry.querySelector(".recentIndicator").classList.add(recentWins > data.Recent.toString().length / 2 ? "upArrow" : recentWins < data.Recent.toString().length / 2 ? "downArrow" : "noChange");
+
+    
+    let Ws = 0;
+    let Ls = 0;
+    for (let i = 0; i < data.Recent.length; i++) {
+        if (data.Recent[i] == "W") {
+            Ws++;
+        } else if (data.Recent[i] == "L") {
+            Ls++;
+        }
+    }
+
+    let recentWinrate = (Ws / (Ws + Ls || 1)) * 100;
+    let fullWinrate = (data.Wins / (data.Wins + data.Losses || 1)) * 100;
+    
+    entry.querySelector(".recentIndicator").classList.add(recentWinrate > fullWinrate + 2.5 ? "upArrow" : recentWinrate < fullWinrate - 2.5 ? "downArrow" : "noChange");
 
     entry.querySelector(".leaderboardEntry").addEventListener("mouseenter", slideUp.bind(entry.querySelector(".leaderboardPersonInfo")));
     entry.querySelector(".leaderboardEntry").addEventListener("mouseleave", slideDown.bind(entry.querySelector(".leaderboardPersonInfo")));
