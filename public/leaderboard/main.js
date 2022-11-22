@@ -119,6 +119,14 @@ function sortElo() {
     mainContainer.innerHTML = "";
     currentlyDisplayed = 0;
     displayMore();
+
+    let goat = document.querySelector(".shakeOnHover");
+    if (goat) {
+        goat.innerHTML = "";
+        let goatImage = document.createElement("img");
+        goatImage.src = "../assets/goat.png";
+        goat.appendChild(goatImage);
+    }
 }
 
 function sortInverseElo() {
@@ -126,6 +134,11 @@ function sortInverseElo() {
     mainContainer.innerHTML = "";
     currentlyDisplayed = 0;
     displayMore();
+
+    let goat = document.querySelector(".shakeOnHover");
+    if (goat) {
+        goat.querySelector("img").src = "assets/evilGoat.png";
+    }
 }
 
 function sortWinrate() {
@@ -138,6 +151,14 @@ function sortWinrate() {
     mainContainer.innerHTML = "";
     currentlyDisplayed = 0;
     displayMore();
+
+    let goat = document.querySelector(".shakeOnHover");
+    if (goat) {
+        goat.innerHTML = "";
+        let goatImage = document.createElement("img");
+        goatImage.src = "../assets/goat.png";
+        goat.appendChild(goatImage);
+    }
 }
 
 function sortInverseWinrate() {
@@ -150,6 +171,11 @@ function sortInverseWinrate() {
     mainContainer.innerHTML = "";
     currentlyDisplayed = 0;
     displayMore();
+    
+    let goat = document.querySelector(".shakeOnHover");
+    if (goat) {
+        goat.querySelector("img").src = "assets/evilGoat.png";
+    }
 }
 
 eloFlip.addEventListener("click", () => {
