@@ -27,26 +27,26 @@ function elo(winner, loser) {
     // Determines kfactor for matchup (essentially volatility) based on average skill of players
     let kfactor;
     if ((winner + loser) / 2 < 1000) {
-        kfactor = 40;
+        kfactor = 50;
     } else if ((winner + loser) / 2 < 1500) {
-        kfactor = 35;
+        kfactor = 45;
     } else if ((winner + loser) / 2 < 2000) {
-        kfactor = 30;
+        kfactor = 40;
     } else if ((winner + loser) / 2 < 2500) {
-        kfactor = 25;
+        kfactor = 35;
     } else if ((winner + loser) / 2 < 3000) {
-        kfactor = 20;
+        kfactor = 30;
     } else if ((winner + loser) / 2 < 3500) {
-        kfactor = 15;
+        kfactor = 25;
     } else if ((winner + loser) / 2 < 4000) {
-        kfactor = 10;
+        kfactor = 20;
     } else {
-        kfactor = 5;
+        kfactor = 10;
     }
 
     // Calculates change (bigger difference = bigger change)
     // Change should then be added to winner and subtracted from loser
-    let expected = 1 / (1 + Math.pow(10, (loser - winner) / 400));
+    let expected = 1 / (1 + Math.pow(10, (loser - winner) / 1000));
     return kfactor * (1 - expected);
 }
 
