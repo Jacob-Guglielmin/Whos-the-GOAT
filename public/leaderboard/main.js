@@ -32,7 +32,6 @@ function createLeaderboardEntry(name, data, rank) {
     entry.querySelector(".leaderboardWinrate").innerText = ((data.Wins / (data.Wins + data.Losses || 1)) * 100).toFixed(2) + "%";
     entry.querySelector(".leaderboardImage").src = data.Image;
 
-    
     let Ws = 0;
     let Ls = 0;
     for (let i = 0; i < data.Recent.length; i++) {
@@ -45,7 +44,7 @@ function createLeaderboardEntry(name, data, rank) {
 
     let recentWinrate = (Ws / (Ws + Ls || 1)) * 100;
     let fullWinrate = (data.Wins / (data.Wins + data.Losses || 1)) * 100;
-    
+
     entry.querySelector(".recentIndicator").classList.add(recentWinrate > fullWinrate + 2.5 ? "upArrow" : recentWinrate < fullWinrate - 2.5 ? "downArrow" : "noChange");
 
     entry.querySelector(".leaderboardEntry").addEventListener("mouseenter", slideUp.bind(entry.querySelector(".leaderboardPersonInfo")));
@@ -53,7 +52,6 @@ function createLeaderboardEntry(name, data, rank) {
 
     return entry;
 }
-
 
 function slideUp() {
     if (window.innerWidth > 700) {
@@ -146,8 +144,7 @@ function sortWinrate() {
         let aWinrate = people[a].Wins / (people[a].Wins + people[a].Losses || 1);
         let bWinrate = people[b].Wins / (people[b].Wins + people[b].Losses || 1);
         return bWinrate - aWinrate;
-    }
-    );
+    });
     mainContainer.innerHTML = "";
     currentlyDisplayed = 0;
     displayMore();
@@ -166,12 +163,11 @@ function sortInverseWinrate() {
         let aWinrate = people[a].Wins / (people[a].Wins + people[a].Losses || 1);
         let bWinrate = people[b].Wins / (people[b].Wins + people[b].Losses || 1);
         return aWinrate - bWinrate;
-    }
-    );
+    });
     mainContainer.innerHTML = "";
     currentlyDisplayed = 0;
     displayMore();
-    
+
     let goat = document.querySelector(".shakeOnHover");
     if (goat) {
         goat.querySelector("img").src = "assets/evilGoat.png";
