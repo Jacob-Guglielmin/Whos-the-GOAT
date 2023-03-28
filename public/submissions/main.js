@@ -26,7 +26,6 @@ function submit() {
         submission[personName.replace(/\./g, "~")] = {
             Blurb: blurb,
             Date: date,
-            Elo: 1000,
             Image: mostRecentValidImageURL,
             Losses: 0,
             Recent: "",

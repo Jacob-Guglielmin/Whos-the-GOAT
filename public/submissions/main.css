@@ -167,6 +167,7 @@ select:focus {
     height: 100%;
     object-fit: cover;
     display: none;
+    border-radius: 5px;
 }
 
 .choiceName {

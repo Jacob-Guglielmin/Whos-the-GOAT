@@ -28,7 +28,7 @@ function createLeaderboardEntry(name, data, rank) {
     entry.querySelector(".leaderboardName").innerText = name.replace(/~/g, ".");
     entry.querySelector(".leaderboardDate").innerText = data.Date;
     entry.querySelector(".leaderboardBlurb").innerText = data.Blurb;
-    entry.querySelector(".leaderboardElo").innerText = Math.round(data.Elo);
+    entry.querySelector(".leaderboardScore").innerText = Math.round(score(data.Wins + data.Losses, data.Wins));
     entry.querySelector(".leaderboardWinrate").innerText = ((data.Wins / (data.Wins + data.Losses || 1)) * 100).toFixed(2) + "%";
     entry.querySelector(".leaderboardImage").src = data.Image;
 
@@ -71,6 +71,17 @@ function slideDown() {
     }
 }
 
+// Consumes total matchups and matchups won, produces score as lower bound of Wilson score interval, multiplied by 10000 to adjust range to look nice
+function score(totalMatchups, matchupsWon) {
+    if (totalMatchups == 0) {
+        return 0;
+    }
+
+    let z = 1.96;
+    let pHat = matchupsWon / totalMatchups;
+    return ((pHat + (z * z) / (2 * totalMatchups) - z * Math.sqrt((pHat * (1 - pHat) + (z * z) / (4 * totalMatchups)) / totalMatchups)) / (1 + (z * z) / totalMatchups)) * 10000;
+}
+
 function displayMore() {
     for (let i = 0; i < 10; i++) {
         if (currentlyDisplayed == 0) {
@@ -79,6 +90,8 @@ function displayMore() {
         if (currentlyDisplayed >= sortedPeople.length) {
             bottomBar.style.display = "none";
             break;
+        } else {
+            bottomBar.style.display = "flex";
         }
         let name = sortedPeople[currentlyDisplayed];
         let data = people[name];
@@ -87,22 +100,18 @@ function displayMore() {
     }
 }
 
-async function getSortedPeople() {
+async function storePeople() {
     let peopleSnapshot = await getPeople();
     if (peopleSnapshot.exists()) {
         people = peopleSnapshot.val();
         sortedPeople = Object.keys(people);
-        sortedPeople.sort((a, b) => people[b].Elo - people[a].Elo);
     } else {
         throw new Error("Failed to get people from database");
     }
 }
 
-getSortedPeople()
-    .then(() => {
-        displayMore();
-        bottomBar.style.display = "flex";
-    })
+storePeople()
+    .then(sortScore)
     .catch((err) => {
         console.error(err);
         let errorElement = document.createElement("h1");
@@ -112,8 +121,8 @@ getSortedPeople()
         midBar.style.display = "none";
     });
 
-function sortElo() {
-    sortedPeople.sort((a, b) => people[b].Elo - people[a].Elo);
+function sortScore() {
+    sortedPeople.sort((a, b) => score(people[b].Wins + people[b].Losses, people[b].Wins) - score(people[a].Wins + people[a].Losses, people[a].Wins));
     mainContainer.innerHTML = "";
     currentlyDisplayed = 0;
     displayMore();
@@ -127,8 +136,8 @@ function sortElo() {
     }
 }
 
-function sortInverseElo() {
-    sortedPeople.reverse();
+function sortInverseScore() {
+    sortedPeople.sort((a, b) => score(people[a].Wins + people[a].Losses, people[a].Wins) - score(people[b].Wins + people[b].Losses, people[b].Wins));
     mainContainer.innerHTML = "";
     currentlyDisplayed = 0;
     displayMore();
@@ -174,13 +183,13 @@ function sortInverseWinrate() {
     }
 }
 
-eloFlip.addEventListener("click", () => {
-    if (eloFlip.classList.contains("flipped")) {
-        eloFlip.classList.remove("flipped");
-        sortElo();
+scoreFlip.addEventListener("click", () => {
+    if (scoreFlip.classList.contains("flipped")) {
+        scoreFlip.classList.remove("flipped");
+        sortScore();
     } else {
-        eloFlip.classList.add("flipped");
-        sortInverseElo();
+        scoreFlip.classList.add("flipped");
+        sortInverseScore();
     }
 });
 

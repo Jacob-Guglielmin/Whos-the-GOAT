@@ -22,34 +22,6 @@ function updateRecent(past, outcome) {
     }
 }
 
-// Consumes winner rating and loser rating, produces change to be applied
-function elo(winner, loser) {
-    // Determines kfactor for matchup (essentially volatility) based on average skill of players
-    let kfactor;
-    if ((winner + loser) / 2 < 1000) {
-        kfactor = 50;
-    } else if ((winner + loser) / 2 < 1500) {
-        kfactor = 45;
-    } else if ((winner + loser) / 2 < 2000) {
-        kfactor = 40;
-    } else if ((winner + loser) / 2 < 2500) {
-        kfactor = 35;
-    } else if ((winner + loser) / 2 < 3000) {
-        kfactor = 30;
-    } else if ((winner + loser) / 2 < 3500) {
-        kfactor = 25;
-    } else if ((winner + loser) / 2 < 4000) {
-        kfactor = 20;
-    } else {
-        kfactor = 10;
-    }
-
-    // Calculates change (bigger difference = bigger change)
-    // Change should then be added to winner and subtracted from loser
-    let expected = 1 / (1 + Math.pow(10, (loser - winner) / 1000));
-    return kfactor * (1 - expected);
-}
-
 async function newMatchup() {
     currentMatchup = await getMatchup();
     displayMatchup();
@@ -227,10 +199,6 @@ function clickLeft(e) {
         right = currentMatchup.right.data;
 
     // Sets left side as winner, updates rating
-    let change = elo(left.Elo, right.Elo);
-    left.Elo += change;
-    right.Elo -= change;
-
     left.Wins += 1;
     right.Losses += 1;
 
@@ -239,13 +207,11 @@ function clickLeft(e) {
 
     // Update database
     updatePerson(currentMatchup.left.name, {
-        Elo: left.Elo,
         Wins: left.Wins,
         Losses: left.Losses,
         Recent: left.Recent
     });
     updatePerson(currentMatchup.right.name, {
-        Elo: right.Elo,
         Wins: right.Wins,
         Losses: right.Losses,
         Recent: right.Recent
@@ -267,10 +233,6 @@ function clickRight(e) {
         right = currentMatchup.right.data;
 
     // Sets right side as winner, updates rating
-    let change = elo(right.Elo, left.Elo);
-    right.Elo += change;
-    left.Elo -= change;
-
     right.Wins += 1;
     left.Losses += 1;
 
@@ -279,13 +241,11 @@ function clickRight(e) {
 
     // Update database
     updatePerson(currentMatchup.left.name, {
-        Elo: left.Elo,
         Wins: left.Wins,
         Losses: left.Losses,
         Recent: left.Recent
     });
     updatePerson(currentMatchup.right.name, {
-        Elo: right.Elo,
         Wins: right.Wins,
         Losses: right.Losses,
         Recent: right.Recent

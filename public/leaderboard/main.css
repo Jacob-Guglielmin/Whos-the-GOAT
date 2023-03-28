@@ -66,7 +66,7 @@ body {
     font: 3vh Rubik-Medium;
     background: transparent;
     border: none;
-    color:#ffffff;
+    color: #ffffff;
 }
 .midButton:hover {
     cursor: pointer;
@@ -76,7 +76,7 @@ body {
     grid-column: 2;
 }
 
-#eloLabel {
+#scoreLabel {
     grid-column: 3;
 }
 
@@ -147,6 +147,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 5px;
 }
 
 .leaderboardPersonInfo {
@@ -188,9 +189,10 @@ body {
     transition: transform 0.7s;
     left: 0;
     top: 20vh;
+    overflow: hidden;
 }
 
-.leaderboardElo {
+.leaderboardScore {
     font-family: Rubik-Medium;
     grid-column: 3;
     height: 20vh;
@@ -368,7 +370,7 @@ body {
         font: 3vw Rubik-Medium;
         background: transparent;
         border: none;
-        color:#ffffff;
+        color: #ffffff;
     }
     .midButton:hover {
         cursor: pointer;

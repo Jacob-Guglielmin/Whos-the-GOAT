@@ -3,11 +3,7 @@
         "people": {
             ".read": true,
             ".write": false,
-            ".indexOn": "Elo",
             "$person": {
-                "Elo": {
-                    ".write": true
-                },
                 "Wins": {
                     ".write": true
                 },
